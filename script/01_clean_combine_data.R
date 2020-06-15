@@ -147,5 +147,13 @@ for(i in seq_along(charpattern)) {
 
 rm(w, out, opt, nr, index, i, j, charpattern, b, bw, overall)
 
+# remove NAs in items names
+items <- paste0("item_", LETTERS[1:3])
+keep <- apply(dt[items], 1, is.na)
+keep <- as.vector(colSums(keep) <= 1)
+
+dt <- dt[keep,]
 
 summary(as.factor(dt$district))
+
+write.csv(dt, "data/sweetpotato_data.csv", row.names = FALSE)
