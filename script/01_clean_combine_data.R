@@ -12,26 +12,26 @@ library("janitor")
 list.files("data/raw/")
 
 # community tasting trial
-ct <- read_xls("data/raw/COMMUNITY Tasting COMPLETE DATA_Tricot study.xls",
+ctu <- read_xls("data/raw/uganda_community_tasting.xls",
                na = c("NA","Invalid response","99"))
 
-names(ct) <- make_clean_names(names(ct))
+names(ctu) <- make_clean_names(names(ctu))
 
-ct$trial <- "community"
+ctu$trial <- "community"
 
 
-ht <- read_xls("data/raw/Home tasting DATA_tricot study.xls",
+htu <- read_xls("data/raw/uganda_home_tasting.xls",
                na = c("NA","Invalid response","99"))
 
-names(ht) <- make_clean_names(names(ht))
+names(htu) <- make_clean_names(names(htu))
 
-ht <- ht[,-which(grepl("hh_id", names(ht)))]
+htu <- htu[,-which(grepl("hh_id", names(htu)))]
 
-ht$trial <- "home"
+htu$trial <- "home"
 
 # put both data together
-l <- list(ct, ht)
-nm <- union(names(ht), names(ct))
+l <- list(ctu, htu)
+nm <- union(names(htu), names(ctu))
 
 dt <- data.frame(matrix(NA, 
                         ncol = length(nm),
@@ -65,7 +65,7 @@ for (i in seq_along(l)) {
   # bind with the main data
   dt <- rbind(dt, x)
 }
-rm(ct, ht, l, x, miss, i, in_x, nm)
+rm(ctu, htu, l, x, miss, i, in_x, nm)
 
 dt <- as.data.frame(as.matrix(dt))
 
