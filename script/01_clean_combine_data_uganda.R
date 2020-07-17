@@ -12,26 +12,26 @@ library("janitor")
 list.files("data/raw/")
 
 # community tasting trial
-ctu <- read_xls("data/raw/uganda_community_tasting.xls",
+dt1 <- read_xls("data/raw/uganda_community_tasting.xls",
                na = c("NA","Invalid response","99"))
 
-names(ctu) <- make_clean_names(names(ctu))
+names(dt1) <- make_clean_names(names(dt1))
 
-ctu$trial <- "community"
+dt1$trial <- "community"
 
-
-htu <- read_xls("data/raw/uganda_home_tasting.xls",
+# home tasting 
+dt2 <- read_xls("data/raw/uganda_home_tasting.xls",
                na = c("NA","Invalid response","99"))
 
-names(htu) <- make_clean_names(names(htu))
+names(dt2) <- make_clean_names(names(dt2))
 
-htu <- htu[,-which(grepl("hh_id", names(htu)))]
+dt2 <- dt2[,-which(grepl("hh_id", names(dt2)))]
 
-htu$trial <- "home"
+dt2$trial <- "home"
 
 # put both data together
-l <- list(ctu, htu)
-nm <- union(names(htu), names(ctu))
+l <- list(dt1, dt2)
+nm <- union(names(dt2), names(dt1))
 
 dt <- data.frame(matrix(NA, 
                         ncol = length(nm),
@@ -65,9 +65,12 @@ for (i in seq_along(l)) {
   # bind with the main data
   dt <- rbind(dt, x)
 }
-rm(ctu, htu, l, x, miss, i, in_x, nm)
+
+rm(dt1, dt2, l, x, miss, i, in_x, nm)
 
 dt <- as.data.frame(as.matrix(dt))
+
+names(dt)
 
 # Organise colnames as required by ClimMob
 names(dt)[names(dt)=="best_code"] <- "best_overall"
@@ -93,10 +96,10 @@ sum(out, na.rm = TRUE)
 dt$best_overall[out] <- NA
 dt$worst_overall[out] <- NA
 
-
 # Now fix the answers as required by tricot 
-
-# They must have A, B or C
+# Here the answers are set as Yes/No based on the reference item selected as best/worst 
+# for overall appreciation
+# the answer should be A, B or C
 charpattern <- c("_color","_taste")
 
 for(i in seq_along(charpattern)) {
@@ -156,4 +159,13 @@ dt <- dt[keep,]
 
 summary(as.factor(dt$district))
 
-write.csv(dt, "data/sweetpotato_data.csv", row.names = FALSE)
+dt$country <- "Uganda"
+
+dt <- dt[,union(c("id","country","district","gender"), names(dt))]
+
+#...............................................
+#...............................................
+#...............................................
+# Clean Ghana data #####
+
+write.csv(dt, "data/spotato_data.csv", row.names = FALSE)
