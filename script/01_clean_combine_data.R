@@ -7,6 +7,12 @@ library("readxl")
 library("janitor")
 library("gosset")
 
+
+sessioninfo::session_info()
+# write session info
+capture.output(sessioninfo::session_info(),
+               file = "script/session_info/01_clean_combine_data.txt")
+
 # ..........................................
 # ..........................................
 # Read the Uganda data ####
