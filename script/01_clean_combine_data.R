@@ -305,6 +305,15 @@ unique(dt$geno_test)
 dt$geno_test <- ifelse(grepl("AT", dt$geno_test),
                        "advanced_trial","variety_trial")
 
+dt$country <- "Ghana"
+
+names(dt)
+names(uganda)
+
+
+# put Uganda and Ghana data together
+dt <- rowbind(uganda, dt)
+
 # remove NAs in items names
 items <- paste0("item_", LETTERS[1:3])
 keep <- apply(dt[items], 1, is.na)
@@ -318,14 +327,8 @@ dt <- dt[keep, ]
 dt <- dt[!is.na(dt$best_overall), ]
 dt <- dt[!is.na(dt$worst_overall), ]
 
-dt$country <- "Ghana"
-
-names(dt)
-names(uganda)
-
-
-# put Uganda and Ghana data together
-dt <- rowbind(uganda, dt)
+summary(as.factor(dt$best_overall))
+summary(as.factor(dt$worst_overall))
 
 dt$gender <- ifelse(dt$gender == "F", "Woman", 
                     ifelse(dt$gender == "M", "Man", 
