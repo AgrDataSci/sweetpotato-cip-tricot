@@ -10,7 +10,9 @@ library("gtools")
 library("ggparty")
 library("patchwork")
 library("ggplot2")
+library("egg")
 library("multcompView")
+
 
 # write session info
 sessioninfo::session_info()
@@ -123,16 +125,17 @@ a <- summarise_agreement(R[[1]],
                          compare.to = R[-1],
                          labels = c("Taste","Colour"))
 
-p <- plot(a, scales = 1) +
+p <- 
+  plot(a, scales = 1) +
   theme_bw() +
   theme(panel.grid.major = element_blank(),
         panel.background = element_blank(),
         axis.text = element_text(size = 11, face = "bold", color = "gray20"),
         strip.text.x = element_text(size = 12, color = "gray20", face = "bold"),
         strip.background = element_rect(fill = "#FFFFFF")) +
-  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9"))
+  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) 
 
-p
+p <- tag_facet(p)
 
 output <- "output/trait_correlation"
 dir.create(output, recursive = TRUE, showWarnings = FALSE)
@@ -298,40 +301,30 @@ write.csv(s, paste0("output/summary_tables/PL_coefficients_ghana.csv"))
 
 
 # put all together and plot the favourability score
+R <- rank_tricot(dt, 
+                 items = paste0("item_", LETTERS[1:3]),
+                 input = c("best_overall","worst_overall"))
 
+f <- summarise_favorite(R)
 
+p <- 
+  plot(f, abbreviate = FALSE) +
+  theme_bw() +
+  labs(x = "Genotype", y="Favourability score") +
+  theme(legend.position = "none",
+        panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        axis.text = element_text(size = 12, color = "grey30"),
+        axis.title = element_text(size = 12, color = "grey30"))
 
-# # check network for the entire dataset
-# a <- adjacency(R)
-# plot(graph_from_adjacency_matrix(a))
-# 
-# # only Uganda
-# a <- rank_tricot(dt[dt$country == "Uganda", ],
-#                  items = paste0("item_", LETTERS[1:3]),
-#                  input = c("best_overall","worst_overall"))
-# a <- adjacency(a)
-# plot(graph_from_adjacency_matrix(a))
-# 
-# # only Ghana
-# a <- rank_tricot(dt[dt$country == "Ghana", ],
-#                  items = paste0("item_", LETTERS[1:3]),
-#                  input = c("best_overall","worst_overall"))
-# a <- adjacency(a)
-# plot(graph_from_adjacency_matrix(a))
-# 
-# mod <- PlackettLuce(R)
-# summary(mod)
-# 
-# plot(qvcalc(mod))
-# 
-# f <- summarise_favorite(R)
-# plot(f) +
-#   theme_bw() +
-#   labs(x = "", y="") +
-#   theme(legend.position = "none", 
-#         panel.background = element_blank(),
-#         panel.grid.major = element_blank(),
-#         axis.text = element_text(size = 12, color = "grey30"))
+output <- "output/favourability"
+dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+ggsave(paste0(output, "/favourability_score.png"),
+       plot = p, 
+       width = 7,
+       height = 7,
+       dpi = 800)
 # 
 # # Check the agreement between rankings. Kendall should be read as kendall/100
 # summarise_agreement(G$overall, G[2:3], labels = char[2:3])
