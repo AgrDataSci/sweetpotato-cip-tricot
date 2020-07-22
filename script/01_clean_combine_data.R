@@ -3,7 +3,7 @@
 # ..........................................
 
 ## Packages ####
-library("readxl")
+library("tidyverse")
 library("janitor")
 library("gosset")
 
@@ -342,5 +342,26 @@ head(dt)
 summary(as.factor(dt$country))
 summary(as.factor(dt$community))
 summary(as.factor(dt$district))
+
+# Standardize the names of varieties
+
+vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
+
+vars 
+
+dt[, paste0("item_", LETTERS[1:3])] <- 
+  lapply(dt[, paste0("item_", LETTERS[1:3])], function(x){
+  x[x == "APOMUDEN"] <- "Apomuden"
+  x[x == "LIGRI"] <- "Ligri"
+  x[x == "NAN"] <- "Nan"
+  x[x == "OBARE"] <- "Obare"
+  x[x == "PURPLE"] <- "Tu-Purple (Diedi)"
+  x[x == "Naspot 10"] <- "Naspot 10 (Kabode)"
+  x
+})
+
+vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
+
+vars
 
 write.csv(dt, "data/spotato_data.csv", row.names = FALSE)
