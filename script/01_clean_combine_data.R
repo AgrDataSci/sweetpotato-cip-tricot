@@ -4,6 +4,7 @@
 
 ## Packages ####
 library("tidyverse")
+library("readxl")
 library("janitor")
 library("gosset")
 
@@ -363,5 +364,13 @@ dt[, paste0("item_", LETTERS[1:3])] <-
 vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
 
 vars
+
+
+dt$id <- paste0(dt$id, dt$item_A, dt$item_B, dt$item_C, dt$country, 
+                dt$district, dt$trial, dt$geno_test)
+dt$id <- as.integer(as.factor(dt$id))
+
+# remove duplicates
+dt <- dt[!(duplicated(dt$id) | duplicated(dt$id, fromLast = TRUE)), ]
 
 write.csv(dt, "data/spotato_data.csv", row.names = FALSE)

@@ -1,4 +1,4 @@
-"Genotype","Country","Freq","Relative freq","Man (n=644)","Woman (n=788)","Centralised (n=1041)","Home (n=394)"
+"Genotype","Country","Freq","Relative freq","Man (n=642)","Woman (n=788)","Centralised (n=1041)","Home (n=392)"
 "Apomuden","Ghana",237,"16.5%",108,129,208,29
 "CIP442162","Ghana",113,"7.9%",51,62,98,15
 "Ligri","Ghana",239,"16.7%",112,127,210,29
@@ -18,11 +18,11 @@
 "PGN16030-30","Ghana",118,"8.2%",58,60,105,13
 "PGN16092-6","Ghana",117,"8.2%",51,66,105,12
 "PGN16130-4","Ghana",113,"7.9%",53,60,105,8
-"PGN16203-18","Ghana",114,"7.9%",54,60,105,9
-"Tu-Purple (Diedi)","Ghana",236,"16.4%",109,127,209,27
+"PGN16203-18","Ghana",114,"8%",54,60,105,9
+"Tu-Purple (Diedi)","Ghana",236,"16.5%",109,127,209,27
 "Ejumula","Uganda",217,"15.1%",97,120,63,154
-"Kakamega","Uganda",226,"15.7%",96,130,79,147
-"Naspot 10 (Kabode)","Uganda",205,"14.3%",80,122,75,130
-"Naspot 12","Uganda",189,"13.2%",80,106,70,119
+"Kakamega","Uganda",224,"15.6%",94,130,79,145
+"Naspot 10 (Kabode)","Uganda",203,"14.2%",78,122,75,128
+"Naspot 12","Uganda",187,"13%",78,106,70,117
 "Naspot 13","Uganda",217,"15.1%",92,122,82,135
 "Naspot 8","Uganda",206,"14.4%",98,108,63,143

@@ -149,8 +149,6 @@ p <-
         strip.background = element_rect(fill = "#FFFFFF")) +
   scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) 
 
-p <- tag_facet(p)
-
 output <- "output/trait_correlation"
 dir.create(output, recursive = TRUE, showWarnings = FALSE)
 
@@ -209,7 +207,7 @@ ggsave(paste0(output, "/pltree_uganda.png"),
 # Post-hoc table from a PL model without covariates
 mod <- PlackettLuce(R[[1]], alpha = 0.05, ref = 3)
 
-ref <- "Naspot 12"
+ref <- "Naspot 8"
 
 summary(mod, ref = ref)
 
@@ -321,7 +319,7 @@ mod <- PlackettLuce(R, alpha = 0.05, ref = 3)
 
 summary(mod)
 
-ref <- "PG17140-N2"
+ref <- "Apomuden"
 
 s <- summary(mod, ref = ref)$coefficients
 
@@ -361,17 +359,85 @@ names(PLm)[3:4] <- c("ghana_community","ghana_home")
 
 # ..........................................
 # ..........................................
+# Compare methods ####
+
+# Uganda
+# get the probability of winning and than set back as log
+comp <- data.frame(centralised = log(coefficients(PLm[[1]], ref = "Naspot 8", log = FALSE)),
+                   home        = log(coefficients(PLm[[2]], ref = "Naspot 8", log = FALSE)))
+
+comp
+diff <- comp$centralised - comp$home
+aver <- rowMeans(comp[,c("centralised", "home")])
+
+r <- lm(centralised ~ home, data = comp)
+
+coef <- coefficients(r)
+
+# the mean of the difference
+d <- mean(diff)
+
+# the standard deviation of the difference
+s <- sd(diff)
+
+# limits of agreement
+llim <- d - (2 * s)
+ulim <- d + (2 * s)
+
+plot(aver, diff, ylim = c(-0.5, 0.5), xlim = c(-1.5, 0))
+abline(h = mean(diff), col = "red")
+abline(h = llim, lty = 2, lwd=2)
+abline(h = ulim, lty = 2, lwd=2)
+
+# get the exponential of the limits so we know
+# the proportion of difference in measuring 
+# in centralised and in home trials
+1 - (10 ^ llim)
+(10 ^ ulim) - 1
+
+# Ghana
+# get the probability of winning and than set back as log
+comp <- data.frame(centralised = log(coefficients(PLm[[3]], ref = "Naspot 8", log = FALSE)),
+                   home        = log(coefficients(PLm[[4]], ref = "Naspot 8", log = FALSE)))
+
+comp
+diff <- comp$centralised - comp$home
+aver <- rowMeans(comp[,c("centralised", "home")])
+
+# the mean of the difference
+d <- mean(diff)
+
+# the standard deviation of the difference
+s <- sd(diff)
+
+# limits of agreement
+llim <- d - (2 * s)
+ulim <- d + (2 * s)
+
+plot(aver, diff, xlim = c(-2, -.5), ylim = c(-0.6, 0.5))
+abline(h = mean(diff), col = "red")
+abline(h = llim, lty = 2, lwd=2)
+abline(h = ulim, lty = 2, lwd=2)
+
+# get the exponential of the limits so we know
+# the proportion of difference in measuring 
+# in centralised and in home trials
+1 - (10 ^ llim)
+(10 ^ ulim) - 1
+
+# ..........................................
+# ..........................................
 # Plot coefficients by country and trial ####
 multpl <- list()
-multpl[[1]] <- multcompPL(PLm[[1]], ref = "Naspot 12")
-multpl[[2]] <- multcompPL(PLm[[2]], ref = "Naspot 12")
-multpl[[3]] <- multcompPL(PLm[[3]], ref = "PG17140-N2")
-multpl[[4]] <- multcompPL(PLm[[4]], ref = "PG17140-N2")
+multpl[[1]] <- multcompPL(PLm[[1]], ref = "Naspot 8")
+multpl[[2]] <- multcompPL(PLm[[2]], ref = "Naspot 8")
+multpl[[3]] <- multcompPL(PLm[[3]], ref = "Apomuden")
+multpl[[4]] <- multcompPL(PLm[[4]], ref = "Apomuden")
 
 # this is to get the lims for each plot by country
 u <- rbind(multpl[[1]], multpl[[2]])
 umax <- round(max(u$estimate + qnorm(1 - (1 - 0.95) / 2) * u$quasiSE) * 100, -1) / 100 + 0.1
-umin <- round(min(u$estimate - qnorm(1 - (1 - 0.95) / 2) * u$quasiSE) * 100, -1) / 100
+umin <- round(min(u$estimate - qnorm(1 - (1 - 0.95) / 2) * u$quasiSE) * 100, -1) / 100 - 0.1
 
 g <- rbind(multpl[[3]], multpl[[4]])
 gmax <- round(max(g$estimate + qnorm(1 - (1 - 0.95) / 2) * g$quasiSE) * 100, -1) / 100 + 0.1
@@ -416,6 +482,9 @@ for (i in seq_along(multpl)){
              label = group, 
              xmax = estimate + qnorm(1 - (1 - 0.95) / 2) * quasiSE,
              xmin = estimate - qnorm(1 - (1 - 0.95) / 2) * quasiSE)) +
+    
+    geom_vline(xintercept = 0, 
+               colour = "#E5E7E9", size = 0.8) +
     geom_errorbar(width = 0.1, col = "grey30") +
     geom_point(col = "grey20") +
     labs(x = "", y = "") +
@@ -447,6 +516,16 @@ ggsave(paste0(output, "model_estimates.png"),
        width = 10,
        height = 10,
        dpi = 500)
+
+# compute the correlation between estimates
+# order the items so it will be the same 
+multpl <- lapply(multpl, function(x){
+  x$term <- as.character(x$term)
+  x[order(x$term),]
+})
+
+cor(multpl[[1]]$estimate, multpl[[2]]$estimate)
+cor(multpl[[3]]$estimate, multpl[[4]]$estimate)
 
 # ..........................................
 # ..........................................
