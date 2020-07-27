@@ -1,7 +1,6 @@
 # Analyse data with Plackett-Luce model
 # ..........................................
 # ..........................................
-
 ## Packages ####
 library("gosset")
 library("tidyverse")
@@ -25,6 +24,10 @@ capture.output(sessioninfo::session_info(),
 dt <- read.csv("data/spotato_data.csv")
 
 head(dt)
+
+# select the reference variety for each country
+refuga <- "Naspot 8"
+refgha <- "Obare"
 
 # ..........................................
 # ..........................................
@@ -96,6 +99,8 @@ it <- it[order(it$Country), ]
 # order the columns so genotype and country appears first
 it <- it[,union(c("Genotype", "Country"), names(it))]
 
+it
+
 write.csv(it, paste0(output, "/summary_tested_varieties_gender_trial.csv"), 
           row.names = FALSE)
 
@@ -149,6 +154,8 @@ p <-
         strip.background = element_rect(fill = "#FFFFFF")) +
   scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) 
 
+p
+
 output <- "output/trait_correlation"
 dir.create(output, recursive = TRUE, showWarnings = FALSE)
 
@@ -189,7 +196,7 @@ plt <- pltree(G ~ ., data = pld, alpha = 0.1)
 
 plot(plt)
 
-p <- gosset:::plot_tree(plt, add.letters = TRUE, threshold = 0.1)
+p <- gosset:::plot_tree(plt, add.letters = TRUE, threshold = 0.1, ref = refuga)
 
 p
 
@@ -202,23 +209,29 @@ ggsave(paste0(output, "/pltree_uganda.png"),
        height = 6,
        dpi = 500)
 
+# Compute the worst regret
+output <- "output/worst_regret/"
+dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+wr <- worst_regret(plt)
+
+write.csv(wr, paste0(output, "worst_regret_uganda.csv"), row.names = FALSE)
+
 # ..........................................
 # ..........................................
 # Post-hoc table from a PL model without covariates
 mod <- PlackettLuce(R[[1]], alpha = 0.05, ref = 3)
 
-ref <- "Naspot 8"
+summary(mod, ref = refuga)
 
-summary(mod, ref = ref)
-
-s <- summary(mod, ref = ref)$coefficients
+s <- summary(mod, ref = refuga)$coefficients
 
 s[,1:3] <- apply(s[,1:3], 2, function(x) {round(x, 4)})
 
 s[,4] <- paste(format.pval(s[,4], digits = 4),
                stars.pval(s[, 4]))
 
-mcomp <- gosset::multcompPL(mod, threshold = 0.05, ref = ref)
+mcomp <- gosset::multcompPL(mod, threshold = 0.05, ref = refuga)
 rownames(mcomp) <- mcomp$term
 mcomp <- mcomp[rownames(s), ]
 
@@ -312,6 +325,14 @@ ggsave(paste0(output, "/pltree_ghana.png"),
        height = 10,
        dpi = 900)
 
+# Compute the worst regret
+output <- "output/worst_regret/"
+dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+wr <- worst_regret(plt)
+
+write.csv(wr, paste0(output, "worst_regret_ghana.csv"), row.names = FALSE)
+
 # ..........................................
 # ..........................................
 # Post-hoc table from a PL model without covariates
@@ -319,9 +340,7 @@ mod <- PlackettLuce(R, alpha = 0.05, ref = 3)
 
 summary(mod)
 
-ref <- "Apomuden"
-
-s <- summary(mod, ref = ref)$coefficients
+s <- summary(mod, ref = refgha)$coefficients
 
 s[,1:3] <- apply(s[,1:3], 2, function(x) {round(x, 4)})
 
@@ -330,7 +349,7 @@ s
 s[,4] <- paste(format.pval(s[,4], digits = 4),
                stars.pval(s[, 4]))
 
-mcomp <- gosset::multcompPL(mod, threshold = 0.1, ref = ref)
+mcomp <- gosset::multcompPL(mod, threshold = 0.1, ref = refgha)
 rownames(mcomp) <- mcomp$term
 mcomp <- mcomp[rownames(s), ]
 
@@ -363,76 +382,106 @@ names(PLm)[3:4] <- c("ghana_community","ghana_home")
 
 # Uganda
 # get the probability of winning and than set back as log
-comp <- data.frame(centralised = log(coefficients(PLm[[1]], ref = "Naspot 8", log = FALSE)),
-                   home        = log(coefficients(PLm[[2]], ref = "Naspot 8", log = FALSE)))
+comp <- data.frame(centralised = log(coefficients(PLm[[1]], ref = refuga, log = FALSE)),
+                   home        = log(coefficients(PLm[[2]], ref = refuga, log = FALSE)))
+
+comp$diff <- comp$centralised - comp$home
+comp$aver <- rowMeans(comp[,c("centralised", "home")])
+comp$item <- rownames(comp)
 
 comp
-diff <- comp$centralised - comp$home
-aver <- rowMeans(comp[,c("centralised", "home")])
-
-r <- lm(centralised ~ home, data = comp)
-
-coef <- coefficients(r)
 
 # the mean of the difference
-d <- mean(diff)
+d <- mean(comp$diff)
 
 # the standard deviation of the difference
-s <- sd(diff)
+s <- sd(comp$diff)
 
 # limits of agreement
 llim <- d - (2 * s)
 ulim <- d + (2 * s)
 
-plot(aver, diff, ylim = c(-0.5, 0.5), xlim = c(-1.5, 0))
-abline(h = mean(diff), col = "red")
-abline(h = llim, lty = 2, lwd=2)
-abline(h = ulim, lty = 2, lwd=2)
+dworth_uga <- 
+  ggplot(comp,
+       aes(x = aver, y = diff, label = item)) +
+  geom_point() +
+    geom_text(hjust = 0, nudge_x = 0.02, size = 2.5) +
+  geom_hline(yintercept = llim, linetype = "dashed", col = "grey30") +
+  geom_hline(yintercept = ulim, linetype = "dashed", col = "grey30") +
+  geom_hline(yintercept = mean(comp$diff), col = "red") +
+  theme_bw() +
+  scale_x_continuous(limits = c(-2.7, -0.5)) + 
+  theme(panel.grid = element_blank(),
+        axis.text = element_text(size = 11, color = "grey20", face = 2),
+        axis.title = element_text(size = 10, color = "grey20", face = 2)) +
+  labs(x = "Average worth", 
+       y = "Difference in worth (centralised - home)")
+
+dworth_uga
 
 # get the exponential of the limits so we know
 # the proportion of difference in measuring 
 # in centralised and in home trials
-1 - (10 ^ llim)
-(10 ^ ulim) - 1
+1 - exp(llim)
+exp(ulim) - 1
+
+
+
+
 
 # Ghana
 # get the probability of winning and than set back as log
-comp <- data.frame(centralised = log(coefficients(PLm[[3]], ref = "Naspot 8", log = FALSE)),
-                   home        = log(coefficients(PLm[[4]], ref = "Naspot 8", log = FALSE)))
+comp <- data.frame(centralised = log(coefficients(PLm[[3]], ref = refgha, log = FALSE)),
+                   home        = log(coefficients(PLm[[4]], ref = refgha, log = FALSE)))
+
+comp$diff <- comp$centralised - comp$home
+comp$aver <- rowMeans(comp[,c("centralised", "home")])
+comp$item <- rownames(comp)
 
 comp
-diff <- comp$centralised - comp$home
-aver <- rowMeans(comp[,c("centralised", "home")])
 
 # the mean of the difference
-d <- mean(diff)
+d <- mean(comp$diff)
 
 # the standard deviation of the difference
-s <- sd(diff)
+s <- sd(comp$diff)
 
 # limits of agreement
 llim <- d - (2 * s)
 ulim <- d + (2 * s)
 
-plot(aver, diff, xlim = c(-2, -.5), ylim = c(-0.6, 0.5))
-abline(h = mean(diff), col = "red")
-abline(h = llim, lty = 2, lwd=2)
-abline(h = ulim, lty = 2, lwd=2)
+dworth_gha <- 
+  ggplot(comp,
+       aes(x = aver, y = diff, label = item)) +
+  geom_point() +
+  geom_text(hjust = 0, nudge_x = 0.02, size = 2.5, col = "grey20") +
+  geom_hline(yintercept = llim, linetype = "dashed", col = "grey30") +
+  geom_hline(yintercept = ulim, linetype = "dashed", col = "grey30") +
+  geom_hline(yintercept = mean(comp$diff), col = "red") +
+  theme_bw() +
+  scale_x_continuous(limits = c(-3.7, -1.7)) + 
+  theme(panel.grid = element_blank(),
+        axis.text = element_text(size = 11, color = "grey20", face = 2),
+        axis.title = element_text(size = 10, color = "grey20", face = 2)) +
+  labs(x = "Average worth", 
+       y = "Difference in worth (centralised - home)")
+
+dworth_gha
 
 # get the exponential of the limits so we know
 # the proportion of difference in measuring 
 # in centralised and in home trials
-1 - (10 ^ llim)
-(10 ^ ulim) - 1
+1 - exp(llim)
+exp(ulim) - 1
 
 # ..........................................
 # ..........................................
 # Plot coefficients by country and trial ####
 multpl <- list()
-multpl[[1]] <- multcompPL(PLm[[1]], ref = "Naspot 8")
-multpl[[2]] <- multcompPL(PLm[[2]], ref = "Naspot 8")
-multpl[[3]] <- multcompPL(PLm[[3]], ref = "Apomuden")
-multpl[[4]] <- multcompPL(PLm[[4]], ref = "Apomuden")
+multpl[[1]] <- multcompPL(PLm[[1]], ref = refuga)
+multpl[[2]] <- multcompPL(PLm[[2]], ref = refuga)
+multpl[[3]] <- multcompPL(PLm[[3]], ref = refgha)
+multpl[[4]] <- multcompPL(PLm[[4]], ref = refgha)
 
 # this is to get the lims for each plot by country
 u <- rbind(multpl[[1]], multpl[[2]])
@@ -482,28 +531,24 @@ for (i in seq_along(multpl)){
              label = group, 
              xmax = estimate + qnorm(1 - (1 - 0.95) / 2) * quasiSE,
              xmin = estimate - qnorm(1 - (1 - 0.95) / 2) * quasiSE)) +
-    
     geom_vline(xintercept = 0, 
                colour = "#E5E7E9", size = 0.8) +
     geom_errorbar(width = 0.1, col = "grey30") +
     geom_point(col = "grey20") +
-    labs(x = "", y = "") +
+    labs(x = "Estimate", y = "Genotype") +
     geom_text(vjust = -0.5, col = "grey20") +
     scale_x_continuous(limits = c(pmin, pmax)) +
     theme_bw() +
     theme(panel.grid = element_blank(),
           axis.text = element_text(size = 11, color = "grey20", face = 2),
-          axis.title = element_text(size = 12, color = "grey20", face = 2))
+          axis.title = element_text(size = 10, color = "grey20", face = 2))
   
 }
 
-plots[[3]] <- 
-  plots[[3]] +
-  labs(x = "Estimate", y = "Genotype")
-
 p <- 
-  plots[[1]] + plots[[2]] +  plots[[3]] + plots[[4]] +
-  plot_layout(heights = c(1,2)) +
+  plots[[1]] + plots[[2]] + dworth_uga +
+  plots[[3]] + plots[[4]] + dworth_gha +
+  plot_layout(heights = c(1, 2), widths = c(1,1,2)) +
   plot_annotation(tag_levels = "A")
 
 p
@@ -513,19 +558,9 @@ dir.create(output, showWarnings = FALSE, recursive = TRUE)
 
 ggsave(paste0(output, "model_estimates.png"),
        p, 
-       width = 10,
+       width = 15,
        height = 10,
-       dpi = 500)
-
-# compute the correlation between estimates
-# order the items so it will be the same 
-multpl <- lapply(multpl, function(x){
-  x$term <- as.character(x$term)
-  x[order(x$term),]
-})
-
-cor(multpl[[1]]$estimate, multpl[[2]]$estimate)
-cor(multpl[[3]]$estimate, multpl[[4]]$estimate)
+       dpi = 800)
 
 # ..........................................
 # ..........................................
@@ -562,9 +597,6 @@ ggsave(paste0(output, "/favourability_score.png"),
        height = 7,
        dpi = 800)
 
-# ..........................................
-# ..........................................
-# Text analysis #####
 
 
 
