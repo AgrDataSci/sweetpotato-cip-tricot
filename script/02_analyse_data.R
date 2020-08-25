@@ -277,7 +277,7 @@ PLm
 g <- dt[dt$country == "Ghana", ]
 
 # abbreviate the name of districts
-g$district <- abbreviate(g$district, 8)
+#g$district <- abbreviate(g$district, 8)
 
 R <- rank_tricot(g, 
                  items = paste0("item_", LETTERS[1:3]),
@@ -596,8 +596,4 @@ ggsave(paste0(output, "/favourability_score.png"),
        width = 7,
        height = 7,
        dpi = 800)
-
-
-
-
 
