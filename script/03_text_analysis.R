@@ -111,7 +111,7 @@ best <-
   tibble(text = dt2$best_describe,
          geno = dt2$best_overall) %>%
   unnest_tokens(word, text) %>%
-  inner_join(get_sentiments("bing"))
+  inner_join(get_sentiments("nrc"))
 
 sort(unique(best$word))
 
@@ -121,11 +121,15 @@ best$word[best$word == "odor"] <- "aroma"
 best$word[best$word == "smells"] <- "aroma"
 best$word[best$word == "smelling"] <- "aroma"
 best$word[best$word == "goof"] <- "good"
+best$word[best$word == "god"] <- "good"
 best$word[best$word == "hard"] <- "firm"
 best$word[best$word == "sweetness"] <- "sweet"
+best$word[best$word == "sweat"] <- "sweet"
 
 # remove some words that are not related to positive sentiment
-rmv <- c("pale","bad","enough","upset","best","worth","better","like")
+rmv <- c("pale","bad","enough","upset","better","like",
+         "growth","hood","increase","lesser","rest",
+         "surgery")
 
 best <- best[!best$word %in% rmv, ]
 
@@ -139,21 +143,24 @@ worst <-
   tibble(text = dt2$worst_describe,
          geno = dt2$worst_overall) %>%
   unnest_tokens(word, text) %>%
-  inner_join(get_sentiments("bing"))
+  inner_join(get_sentiments("nrc"))
 
 sort(unique(worst$word))
-
 
 worst$word[worst$word == "sweetness"] <- "sweet"
 worst$word[worst$word == "smells"] <- "smelly"
 worst$word[worst$word == "smell"] <- "smelly"
 worst$word[worst$word == "odor"] <- "smelly"
+worst$word[worst$word == "sweat"] <- "sweet"
+worst$word[worst$word == "sweets"] <- "sweet"
 
 rmv <- c("best", "delicious","enough","favorite",
          "fresh","good","like","nice","pleasing",
          "ready","rich","satisfying","smooth","well",
-         "lacks","rotten","worst","abundance","infested",
-         "pest","stimulating")
+         "lacks","abundance","infested",
+         "pest","stimulating","cover","fill",
+         "full","green","lines","long","pill",
+         "tasty")
 
 worst <- worst[!worst$word %in% rmv, ]
 
@@ -229,6 +236,8 @@ ggplot(bw) +
         legend.position = "bottom",
         legend.text = element_text(size = 9, colour = "grey20"))
 
+
+p2
 
 ggsave(paste0(output, "sentiment_geno.png"),
        plot = p2,
