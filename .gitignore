@@ -38,3 +38,5 @@ vignettes/*.pdf
 
 manuscript/
 data/raw/
+gadm/ 
+
