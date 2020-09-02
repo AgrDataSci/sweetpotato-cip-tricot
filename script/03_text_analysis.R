@@ -6,6 +6,7 @@ library("tidytext")
 library("magrittr")
 library("readxl")
 library("janitor")
+library("patchwork")
 
 # write session info
 sessioninfo::session_info()
@@ -68,15 +69,6 @@ count_dt %>%
                                         colour = "#FFFFFF"),
         axis.text = element_text(size = 10),
         axis.title = element_text(size = 11))
-
-p1
-
-ggsave(paste0(output, "classification_drivers.png"),
-       plot = p1,
-       width = 20,
-       height = 10,
-       dpi = 500,
-       units = "cm")
 
 # # ..........................................
 # # ..........................................
@@ -236,12 +228,14 @@ ggplot(bw) +
         legend.position = "bottom",
         legend.text = element_text(size = 9, colour = "grey20"))
 
+p <- 
+(p1 / p2) +
+  plot_layout(heights = c(1, 1.5)) +
+  plot_annotation(tag_levels = "A")
 
-p2
+ggsave(paste0(output, "drivers.png"),
+       p, 
+       width = 9,
+       height = 10,
+       dpi = 800)
 
-ggsave(paste0(output, "sentiment_geno.png"),
-       plot = p2,
-       width = 17,
-       height = 15,
-       dpi = 500,
-       units = "cm")

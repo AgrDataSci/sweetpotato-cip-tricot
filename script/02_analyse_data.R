@@ -545,21 +545,46 @@ for (i in seq_along(multpl)){
   
 }
 
-p <- 
-  plots[[1]] + plots[[2]] + dworth_uga +
-  plots[[3]] + plots[[4]] + dworth_gha +
-  plot_layout(heights = c(1, 2), widths = c(1,1,2)) +
+# p <-
+#   plots[[1]] + plots[[2]] + dworth_uga +
+#   plots[[3]] + plots[[4]] + dworth_gha +
+#   plot_layout(heights = c(1, 2), widths = c(1,1,2)) +
+#   plot_annotation(tag_levels = "A")
+
+# plot results from Uganda
+
+plots[[2]] <- 
+  plots[[2]] +
+  labs(y = "")
+
+pu <-
+  (plots[[1]] | plots[[2]]) / dworth_uga +
   plot_annotation(tag_levels = "A")
 
-p
 
 output <- "output/model_estimates/"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
 
-ggsave(paste0(output, "model_estimates.png"),
-       p, 
-       width = 15,
-       height = 10,
+ggsave(paste0(output, "model_estimates_uganda.png"),
+       pu, 
+       width = 9,
+       height = 8,
+       dpi = 800)
+
+plots[[4]] <- 
+  plots[[4]] +
+  labs(y = "")
+
+pg <-
+  (plots[[3]] | plots[[4]]) / dworth_gha +
+  plot_annotation(tag_levels = "A")
+
+pg
+
+ggsave(paste0(output, "model_estimates_ghana.png"),
+       pg, 
+       width = 10,
+       height = 13,
        dpi = 800)
 
 # ..........................................
