@@ -559,6 +559,7 @@ plots[[2]] <-
 
 pu <-
   (plots[[1]] | plots[[2]]) / dworth_uga +
+  plot_layout(heights = c(1, 1.5))
   plot_annotation(tag_levels = "A")
 
 
@@ -568,7 +569,7 @@ dir.create(output, showWarnings = FALSE, recursive = TRUE)
 ggsave(paste0(output, "model_estimates_uganda.png"),
        pu, 
        width = 9,
-       height = 8,
+       height = 9,
        dpi = 800)
 
 plots[[4]] <- 
