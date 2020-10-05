@@ -345,26 +345,22 @@ summary(as.factor(dt$community))
 summary(as.factor(dt$district))
 
 # Standardize the names of varieties
-
 vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
 
-vars 
+# get the right names from the new database
+varnames <- read_xlsx("data/raw/2019_TRICOT_Pilot_Home tasting_Correct_names.xlsx", sheet = 2)
+varnames <- data.frame(new = unlist(c(varnames[,3], varnames[,5])), 
+                       old = unlist(c(varnames[,4], varnames[,6])))
 
-dt[, paste0("item_", LETTERS[1:3])] <- 
-  lapply(dt[, paste0("item_", LETTERS[1:3])], function(x){
-  x[x == "APOMUDEN"] <- "Apomuden"
-  x[x == "LIGRI"] <- "Ligri"
-  x[x == "NAN"] <- "Nan"
-  x[x == "OBARE"] <- "Obare"
-  x[x == "PURPLE"] <- "Tu-Purple (Diedi)"
-  x[x == "Naspot 10"] <- "Naspot 10 (Kabode)"
-  x
-})
+varnames <- varnames[!duplicated(varnames$old), ]
+
+for(i in seq_along(varnames$old)) {
+  dt[dt == varnames[i,"old"]] <- varnames[i, "new"]
+}
 
 vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
 
 vars
-
 
 dt$id <- paste0(dt$id, dt$item_A, dt$item_B, dt$item_C, dt$country, 
                 dt$district, dt$trial, dt$geno_test)
