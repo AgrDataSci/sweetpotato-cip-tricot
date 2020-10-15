@@ -85,6 +85,10 @@ sel <- c("id","country","district","gender","trial",
 
 dt2 <- dt2[,sel]
 
+# genotypes in Uganda
+ug <- unique(dt2$item_A[dt2$country=="Uganda"])
+
+
 # get the names for the best and worst overall
 dt2$best_overall <- ifelse(dt2$best_overall == "A", dt2$item_A,
                            ifelse(dt2$best_overall == "B", dt2$item_B,
@@ -199,16 +203,51 @@ bw$geno <- factor(bw$geno, levels = c("PGN16203-18", rev(lev$geno)))
 
 bw$sentiment <- factor(bw$sentiment, levels = c("Worst","Best"))
 
+# Ghana
+bwg <- bw[!bw$geno %in% ug, ]
+bwu <- bw[bw$geno %in% ug, ]
+
 p2 <- 
-ggplot(bw) +
+ggplot(bwg) +
   geom_bar(aes(x = p, y = geno, fill = sentiment), 
-           stat = "identity",  show.legend = TRUE) +
-  geom_text(data = bw[bw$sentiment == "Best", ],
+           stat = "identity",  show.legend = FALSE) +
+  geom_text(data = bwg[bwg$sentiment == "Best", ],
             aes(x = 0, y = geno, label = s),
             hjust = 1,
             col = "grey20", 
             size = 2) +
-  geom_text(data = bw[bw$sentiment == "Worst", ],
+  geom_text(data = bwg[bwg$sentiment == "Worst", ],
+            aes(x = 1, y = geno, label = s),
+            hjust = 0, 
+            col = "grey20",
+            size = 2) +
+  scale_fill_manual(values = c("#d73027", "#92c5de"), name = "") +
+  geom_vline(aes(xintercept = 0.5), col = "grey50") +
+  labs(x = "", y = "Genotype") +
+  scale_x_continuous(expand = expansion(mult = c(0.5, 0.5)),
+                     labels = c("","0%","50%","100%", " ")) +
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        strip.text.x = element_text(size = 10, colour = "grey20"),
+        strip.background = element_rect(fill="#FFFFFF", 
+                                        colour = "#FFFFFF"),
+        axis.text = element_text(size = 10, colour = "grey20"),
+        axis.title = element_text(size = 10, colour = "grey20"),
+        legend.position = "bottom",
+        legend.text = element_text(size = 9, colour = "grey20"))
+
+p2
+
+p3 <- 
+  ggplot(bwu) +
+  geom_bar(aes(x = p, y = geno, fill = sentiment), 
+           stat = "identity",  show.legend = TRUE) +
+  geom_text(data = bwu[bwu$sentiment == "Best", ],
+            aes(x = 0, y = geno, label = s),
+            hjust = 1,
+            col = "grey20", 
+            size = 2) +
+  geom_text(data = bwu[bwu$sentiment == "Worst", ],
             aes(x = 1, y = geno, label = s),
             hjust = 0, 
             col = "grey20",
@@ -228,14 +267,18 @@ ggplot(bw) +
         legend.position = "bottom",
         legend.text = element_text(size = 9, colour = "grey20"))
 
+p3
+
 p <- 
-(p1 / p2) +
-  plot_layout(heights = c(1, 1.5)) +
+(p1 / p2 / p3) +
+  plot_layout(heights = c(1, 1.5, 0.5)) +
   plot_annotation(tag_levels = "A")
 
-ggsave(paste0(output, "drivers.png"),
+p
+
+ggsave(paste0(output, "drivers_sentiment_analysis.png"),
        p, 
-       width = 9,
-       height = 10,
+       width = 8,
+       height = 11,
        dpi = 800)
 
