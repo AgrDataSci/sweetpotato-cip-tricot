@@ -27,7 +27,7 @@ head(dt)
 
 # select the reference variety for each country
 refuga <- "Naspot 8"
-refgha <- "Obare"
+refgha <- "SARI-Nyumingre (Obare)"
 
 # ..........................................
 # ..........................................
@@ -42,6 +42,8 @@ dimnames(tb)[[2]] <- c("Centralised", "Home")
 # export the table
 output <- "output/summary_tables"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+tb
 
 write.csv(tb, paste0(output, "/summary_trials_per_country.csv"))
 
@@ -192,26 +194,34 @@ names(pld)[-1] <- ClimMobTools:::.title_case(names(pld)[-1])
 
 head(pld)
 
-plt <- pltree(G ~ ., data = pld, alpha = 0.1)
+table(pld$Trial)
 
-plot(plt)
+plt_c <- pltree(G ~ ., data = pld[pld$Trial == "community",], alpha = 0.1, minsize = 10)
+p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refuga)
+p_c <- p_c + plot_annotation(title = "A")
 
-p <- gosset:::plot_tree(plt, add.letters = TRUE, threshold = 0.1, ref = refuga)
 
+plt_h <- pltree(G ~ ., data = pld[pld$Trial == "home",], alpha = 0.1, minsize = 10)
+p_h <- gosset:::plot_tree(plt_h, add.letters = TRUE, threshold = 0.1, ref = refuga)
+p_h <- p_h + plot_annotation(title = "B")
+
+p <- p_c | p_h 
 p
 
 output <- "output/pltree"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
 
-ggsave(paste0(output, "/pltree_uganda.png"),
+ggsave(paste0(output, "/pltree_community_home_uganda.png"),
        plot = p, 
-       width = 7,
+       width = 12,
        height = 6,
        dpi = 500)
 
 # Compute the worst regret
 output <- "output/worst_regret/"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+plt <- pltree(G ~ ., data = pld, alpha = 0.1, minsize = 10)
 
 wr <- worst_regret(plt)
 
@@ -304,30 +314,39 @@ names(pld)[-1] <- ClimMobTools:::.title_case(names(pld)[-1])
 
 head(pld)
 
-# fit the model
-plt <- pltree(G ~ District + Age, data = pld, alpha = 0.1, minsize = 50)
-  
-plot(plt)
+table(pld$Trial)
 
-p <- gosset:::plot_tree(plt, add.letters = TRUE, threshold = 0.1)
+plt_c <- pltree(G ~ District + Age + Gender, data = pld[pld$Trial == "community",], alpha = 0.1, minsize = 5)
+p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refgha)
+p_c
 
-p
+plt_h <- pltree(G ~ District + Age + Gender, data = pld[pld$Trial == "home",], alpha = 0.1, minsize = 5)
+p_h <- gosset:::plot_tree(plt_h, add.letters = TRUE, threshold = 0.1, ref = refgha)
+p_h
 
-plt
+p <- p_c | (wrap_elements(grid::textGrob('')) / p_h)
 
-# export the plot
+p <- p +
+  plot_layout(widths = c(1,0.5))
+
+p <- p + plot_annotation(tag_prefix = "A")
+
+
 output <- "output/pltree"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
 
-ggsave(paste0(output, "/pltree_ghana.png"),
+ggsave(paste0(output, "/pltree_community_home_ghana.png"),
        plot = p, 
-       width = 14,
+       width = 17,
        height = 10,
        dpi = 900)
 
 # Compute the worst regret
 output <- "output/worst_regret/"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
+
+# fit the model
+plt <- pltree(G ~ District + Age + Gender, data = pld, alpha = 0.1, minsize = 10)
 
 wr <- worst_regret(plt)
 
@@ -414,8 +433,8 @@ dworth_uga <-
   theme(panel.grid = element_blank(),
         axis.text = element_text(size = 11, color = "grey20", face = 2),
         axis.title = element_text(size = 10, color = "grey20", face = 2)) +
-  labs(x = "Average worth", 
-       y = "Difference in worth (centralised - home)")
+  labs(x = "Average log-worth", 
+       y = "Difference in log-worth (centralised - home)")
 
 dworth_uga
 
@@ -463,8 +482,8 @@ dworth_gha <-
   theme(panel.grid = element_blank(),
         axis.text = element_text(size = 11, color = "grey20", face = 2),
         axis.title = element_text(size = 10, color = "grey20", face = 2)) +
-  labs(x = "Average worth", 
-       y = "Difference in worth (centralised - home)")
+  labs(x = "Average log-worth", 
+       y = "Difference in log-worth (centralised - home)")
 
 dworth_gha
 
@@ -559,9 +578,10 @@ plots[[2]] <-
 
 pu <-
   (plots[[1]] | plots[[2]]) / dworth_uga +
-  plot_layout(heights = c(1, 1.5))
+  plot_layout(heights = c(1, 1.5)) +
   plot_annotation(tag_levels = "A")
 
+pu
 
 output <- "output/model_estimates/"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
@@ -596,21 +616,47 @@ ggsave(paste0(output, "model_estimates_ghana.png"),
 # given by participants for the best and worst samples
 
 # put all together and plot the favourability score
-R <- rank_tricot(dt, 
+R <- rank_tricot(dt[dt$country == "Ghana",], 
                  items = paste0("item_", LETTERS[1:3]),
                  input = c("best_overall","worst_overall"))
 
 f <- summarise_favorite(R)
 
-p <- 
+p_g <- 
   plot(f, abbreviate = FALSE) +
   theme_bw() +
-  labs(x = "Genotype", y="Favourability score") +
+  labs(x = "", y="") +
   theme(legend.position = "none",
         panel.background = element_blank(),
         panel.grid.major = element_blank(),
         axis.text = element_text(size = 12, color = "grey30"),
         axis.title = element_text(size = 12, color = "grey30"))
+
+p_g
+
+# now for uganda
+R <- rank_tricot(dt[dt$country == "Uganda",], 
+                 items = paste0("item_", LETTERS[1:3]),
+                 input = c("best_overall","worst_overall"))
+
+f <- summarise_favorite(R)
+
+p_u <- 
+  plot(f, abbreviate = FALSE) +
+  theme_bw() +
+  labs(x = "Genotype", y="Score") +
+  theme(legend.position = "none",
+        panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        axis.text = element_text(size = 12, color = "grey30"),
+        axis.title = element_text(size = 12, color = "grey30"))
+
+p_u
+
+
+p <- p_g / p_u
+
+p <- p + plot_layout(heights = c(2,0.7)) + plot_annotation(tag_levels = "A")
 
 p
 
