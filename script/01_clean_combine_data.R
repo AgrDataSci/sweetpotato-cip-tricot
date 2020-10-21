@@ -366,8 +366,11 @@ dt[, paste0("item_", LETTERS[1:3])] <-
     x[x == "OBARE"] <- "Obare"
     x[x == "PURPLE"] <- "Tu-Purple (Diedi)"
     x[x == "Naspot 10"] <- "Naspot 10 (Kabode)"
+    x <- gsub("Naspot", "NASPOT", x)
     x
   })
+
+
 
 vars <- sort(unique(unlist(dt[, paste0("item_", LETTERS[1:3])])))
 

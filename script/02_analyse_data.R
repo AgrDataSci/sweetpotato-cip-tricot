@@ -18,6 +18,8 @@ sessioninfo::session_info()
 capture.output(sessioninfo::session_info(),
                file = "script/session_info/02_analyse_data.txt")
 
+
+dir.create("output/")
 # ..........................................
 # ..........................................
 # Read data ####
@@ -26,7 +28,7 @@ dt <- read.csv("data/spotato_data.csv")
 head(dt)
 
 # select the reference variety for each country
-refuga <- "Naspot 8"
+refuga <- "NASPOT 8"
 refgha <- "SARI-Nyumingre (Obare)"
 
 # ..........................................
@@ -39,13 +41,9 @@ tb <- table(dt$country, dt$trial)
 
 dimnames(tb)[[2]] <- c("Centralised", "Home")
 
-# export the table
-output <- "output/summary_tables"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
 tb
 
-write.csv(tb, paste0(output, "/summary_trials_per_country.csv"))
+write.csv(tb, "output/Table2_summary_trials_per_country.csv")
 
 # ..........................................
 # ..........................................
@@ -103,7 +101,7 @@ it <- it[,union(c("Genotype", "Country"), names(it))]
 
 it
 
-write.csv(it, paste0(output, "/summary_tested_varieties_gender_trial.csv"), 
+write.csv(it, "output/Table3_summary_tested_varieties_gender_trial.csv", 
           row.names = FALSE)
 
 # ..........................................
@@ -158,21 +156,11 @@ p <-
 
 p
 
-output <- "output/trait_correlation"
-dir.create(output, recursive = TRUE, showWarnings = FALSE)
-
-ggsave(paste0(output, "/correlation_uganda.png"), 
-       plot = p, 
-       width = 7,
-       height = 5,
-       dpi = 500)
-
-
 # put the scale into 0-1
 a[2:4] <- lapply(a[2:4], function(x) x /100)
 
 # export the table
-write.csv(a, paste0(output, "/correlation_uganda.csv"), row.names = FALSE)
+write.csv(a, "output/Table6_correlation_uganda.csv", row.names = FALSE)
 
 # ..........................................
 # ..........................................
@@ -208,24 +196,11 @@ p_h <- p_h + plot_annotation(title = "B")
 p <- p_c | p_h 
 p
 
-output <- "output/pltree"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-ggsave(paste0(output, "/pltree_community_home_uganda.png"),
+ggsave("output/Fig8_pltree_community_home_uganda.png",
        plot = p, 
        width = 12,
        height = 6,
        dpi = 500)
-
-# Compute the worst regret
-output <- "output/worst_regret/"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-plt <- pltree(G ~ ., data = pld, alpha = 0.1, minsize = 10)
-
-wr <- worst_regret(plt)
-
-write.csv(wr, paste0(output, "worst_regret_uganda.csv"), row.names = FALSE)
 
 # ..........................................
 # ..........................................
@@ -247,7 +222,7 @@ mcomp <- mcomp[rownames(s), ]
 
 s <- cbind(s, . = mcomp$group) 
 
-write.csv(s, paste0("output/summary_tables/PL_coefficients_uganda.csv"))
+write.csv(s, "output/Table5_PL_coefficients_uganda.csv")
 
 # ..........................................
 # ..........................................
@@ -332,25 +307,11 @@ p <- p +
 p <- p + plot_annotation(tag_prefix = "A")
 
 
-output <- "output/pltree"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-ggsave(paste0(output, "/pltree_community_home_ghana.png"),
+ggsave("output/Fig7_pltree_community_home_ghana.png",
        plot = p, 
        width = 17,
        height = 10,
        dpi = 900)
-
-# Compute the worst regret
-output <- "output/worst_regret/"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-# fit the model
-plt <- pltree(G ~ District + Age + Gender, data = pld, alpha = 0.1, minsize = 10)
-
-wr <- worst_regret(plt)
-
-write.csv(wr, paste0(output, "worst_regret_ghana.csv"), row.names = FALSE)
 
 # ..........................................
 # ..........................................
@@ -376,7 +337,7 @@ s <- cbind(s, . = mcomp$group)
 
 s
 
-write.csv(s, paste0("output/summary_tables/PL_coefficients_ghana.csv"))
+write.csv(s, "output/Table4_PL_coefficients_ghana.csv")
 
 # ..........................................
 # ..........................................
@@ -564,12 +525,6 @@ for (i in seq_along(multpl)){
   
 }
 
-# p <-
-#   plots[[1]] + plots[[2]] + dworth_uga +
-#   plots[[3]] + plots[[4]] + dworth_gha +
-#   plot_layout(heights = c(1, 2), widths = c(1,1,2)) +
-#   plot_annotation(tag_levels = "A")
-
 # plot results from Uganda
 
 plots[[2]] <- 
@@ -583,10 +538,7 @@ pu <-
 
 pu
 
-output <- "output/model_estimates/"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-ggsave(paste0(output, "model_estimates_uganda.png"),
+ggsave("output/Fig5_model_estimates_uganda.png",
        pu, 
        width = 9,
        height = 9,
@@ -602,7 +554,7 @@ pg <-
 
 pg
 
-ggsave(paste0(output, "model_estimates_ghana.png"),
+ggsave("output/Fig4_model_estimates_ghana.png",
        pg, 
        width = 10,
        height = 13,
@@ -660,10 +612,7 @@ p <- p + plot_layout(heights = c(2,0.7)) + plot_annotation(tag_levels = "A")
 
 p
 
-output <- "output/favourability"
-dir.create(output, showWarnings = FALSE, recursive = TRUE)
-
-ggsave(paste0(output, "/favourability_score.png"),
+ggsave("output/Fig3_favourability_score.png",
        plot = p, 
        width = 7,
        height = 7,

@@ -1,422 +1,422 @@
 "id","country","district","gender","trial","item_A","item_B","item_C","best_overall","worst_overall","best_taste","worst_taste","best_color","worst_color","best_describe","worst_describe","community","age","geno_test","region"
-6,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","A","C","B","B","C","It has high dry matter content","not too sweet",NA,NA,NA,NA
-18,"Uganda","Gulu","Woman","community","Kakamega","Naspot 8","Naspot 13","B","A","B","C","C","B","nice, sweet","sweet",NA,NA,NA,NA
-24,"Uganda","Gulu","Man","community","Naspot 13","Naspot 10 (Kabode)","Kakamega","A","C","A","C","B","A","sweet","wet",NA,NA,NA,NA
-25,"Uganda","Gulu","Man","community","Naspot 12","Naspot 10 (Kabode)","Naspot 13","A","B","A","B","C","A","very sweet and nice","it is wet and not sweet",NA,NA,NA,NA
-27,"Uganda","Gulu","Man","community","Ejumula","Naspot 13","Naspot 12","A","B","A","B","C","A","it is sweet, moderately hard",NA,NA,NA,NA,NA
-56,"Uganda","Gulu","Woman","community","Kakamega","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","A","C","It is good and dry","It has a bad smell",NA,NA,NA,NA
-62,"Uganda","Gulu","Man","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","B","A","B","A","C","B","good smell and sweet","nt nice",NA,NA,NA,NA
-63,"Uganda","Gulu","Woman","community","Naspot 12","Ejumula","Naspot 8","B","A","B","A","C","B","sweetness and soft","not sweet",NA,NA,NA,NA
-73,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 13","Kakamega","C","B","C","B","A","C","sweet and moderately hard","not swet and wet",NA,NA,NA,NA
-74,"Uganda","Gulu","Woman","community","Kakamega","Ejumula","Naspot 10 (Kabode)","B","C","B","C","B","A","very good and sweet","It is sweet but so soft",NA,NA,NA,NA
-77,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Ejumula","Kakamega","B","C","B","C","B","A","sweet and nice","bad smell",NA,NA,NA,NA
-88,"Uganda","Gulu","Woman","community","Naspot 8","Naspot 10 (Kabode)","Kakamega","C","B","C","B","A","C","Its sweet and palatable","It's  fibrous and watery",NA,NA,NA,NA
-108,"Uganda","Gulu","Woman","community","Ejumula","Naspot 13","Kakamega","C","A","C","A","C","B","Has high dry matter contebt","It has a bad sme;;",NA,NA,NA,NA
-109,"Uganda","Gulu","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 8","C","B","C","B","C","A","very good and nice","so soft and has some smell",NA,NA,NA,NA
-113,"Uganda","Gulu","Woman","community","Ejumula","Kakamega","Naspot 12","A","C","A","C","A","B","so sweet and good","bad taste and has some smell",NA,NA,NA,NA
-4,"Uganda","Gulu","Man","community","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","B","C","A","B","Sweet, crunchy and suitable for breakfast with simisim paste for tea","sweet, soft, with fibres",NA,NA,NA,NA
-5,"Uganda","Gulu","Woman","community","Naspot 12","Naspot 13","Ejumula","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
-8,"Uganda","Gulu","Woman","community","Naspot 8","Ejumula","Naspot 12","B","A","B","A","C","B","Good smell and sweet","Wet",NA,NA,NA,NA
-12,"Uganda","Gulu","Woman","community","Kakamega","Naspot 8","Naspot 12","B","C","B","C","A","B","Nice","Nice and sweet",NA,NA,NA,NA
-16,"Uganda","Gulu","Woman","community","Naspot 12","Kakamega","Naspot 10 (Kabode)","A","C","B","A","B","A","Sweetand has high dry matter","Low dry matter",NA,NA,NA,NA
-19,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","A","B","A","C","A","Not wet but sweet","Very wet and not sweet",NA,NA,NA,NA
-20,"Uganda","Gulu","Woman","community","Kakamega","Naspot 12","Naspot 10 (Kabode)","B","C","B","C","A","B","It tastes nice","It's tasteless",NA,NA,NA,NA
-26,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Ejumula","Naspot 12","B","A","B","A","C","B","Sweet","It's not sweet and wet",NA,NA,NA,NA
-28,"Uganda","Gulu","Woman","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","A","B","C","B","A","C","Very good","It's not sweet",NA,NA,NA,NA
-29,"Uganda","Gulu","Woman","community","Kakamega","Naspot 12","Naspot 8","C","A","C","A","C","A","Very nice","It's not sweet an the color is not good",NA,NA,NA,NA
-32,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 13","Kakamega","B","A","B","A","B","C","Very sweet","It's so soft",NA,NA,NA,NA
-33,"Uganda","Gulu","Woman","community","Naspot 12","Naspot 8","Ejumula","A","B","C","A","A","B","Has a good smell and high dry matter content","Has a low dry matter content",NA,NA,NA,NA
-34,"Uganda","Gulu","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 13","B","C","B","C","A","B","It's sweet","It's watery",NA,NA,NA,NA
-35,"Uganda","Gulu","Woman","community","Naspot 12","Naspot 10 (Kabode)","Naspot 13","C","A","C","A","B","C","It's sweet and the smell is good","the smell",NA,NA,NA,NA
-39,"Uganda","Gulu","Woman","community","Ejumula","Naspot 8","Naspot 12","A","B","A","B","C","A","It's sweet","Bad smell and fibrous",NA,NA,NA,NA
-43,"Uganda","Gulu","Woman","community","Ejumula","Naspot 13","Naspot 8","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
-47,"Uganda","Gulu","Woman","community","Naspot 8","Naspot 13","Naspot 12","C","B","C","B","C","A","Sweet and good","Not sweet",NA,NA,NA,NA
-50,"Uganda","Gulu","Woman","community","Ejumula","Naspot 13","Kakamega","A","B","A","B","A","B","Tastes sweet and has good dry matter","Has low dry matter content",NA,NA,NA,NA
-53,"Uganda","Gulu","Man","community","Naspot 8","Ejumula","Kakamega","B","A","B","A","C","B","Sweet","Not sweet",NA,NA,NA,NA
-57,"Uganda","Gulu","Woman","community","Kakamega","Naspot 8","Naspot 10 (Kabode)","B","C","B","C","A","B","Sweet, nice","Sweet",NA,NA,NA,NA
-58,"Uganda","Gulu","Woman","community","Naspot 13","Naspot 12","Ejumula","C","A","C","A","B","C","Sweetness","Watery and not sweet",NA,NA,NA,NA
-64,"Uganda","Gulu","Woman","community","Ejumula","Naspot 12","Naspot 13","A","C","B","A","A","B","Sweet, dry matter content is good","It is wet",NA,NA,NA,NA
-65,"Uganda","Gulu","Woman","community","Naspot 12","Kakamega","Naspot 8","C","B","C","B","A","C","Sweetness","Not sweet",NA,NA,NA,NA
-66,"Uganda","Gulu","Man","community","Naspot 8","Naspot 12","Naspot 13","B","C","B","C","B","A","Very nice and sweet","So soft and wet",NA,NA,NA,NA
-67,"Uganda","Gulu","Man","community","Naspot 10 (Kabode)","Kakamega","Ejumula","B","A","B","A","C","B","Very sweet and nice","Wet and full of threads",NA,NA,NA,NA
-68,"Uganda","Gulu","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","A","C","A","B","C","It's sweet","It's watery",NA,NA,NA,NA
-69,"Uganda","Gulu","Woman","community","Naspot 8","Ejumula","Naspot 13","B","C","B","A","B","A","It's sweet and nice","It has low dry matter content",NA,NA,NA,NA
-70,"Uganda","Gulu","Woman","community","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","C","B","C","A","B","It smells good","Watery",NA,NA,NA,NA
-71,"Uganda","Gulu","Woman","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","B","C","B","C","A","B","It's sweet, smells good","It's watery and has a bad smell",NA,NA,NA,NA
-72,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 8","Naspot 13","B","C","B","C","A","B","Sweet","Too sweet",NA,NA,NA,NA
-80,"Uganda","Gulu","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 8","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
-84,"Uganda","Gulu","Woman","community","Kakamega","Ejumula","Naspot 13","A","C","A","C","B","A","Moderately hard and sweet","Not sweet and very wet",NA,NA,NA,NA
-87,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 8","Kakamega","A","B","A","B","C","A","It's sweet and nice","Too swee and wet",NA,NA,NA,NA
-90,"Uganda","Gulu","Woman","community","Naspot 12","Naspot 10 (Kabode)","Ejumula","C","B","C","B","A","C","It's sweet and palatable","It is watery",NA,NA,NA,NA
-94,"Uganda","Gulu","Woman","community","Ejumula","Naspot 13","Kakamega","A","B","A","B","A","C","So nice and good","Soft and wet",NA,NA,NA,NA
-97,"Uganda","Gulu","Woman","community","Naspot 13","Ejumula","Kakamega","B","A","B","A","C","B","Moderately hard and sweet","Very wet and not sweet",NA,NA,NA,NA
-98,"Uganda","Gulu","Woman","community","Kakamega","Naspot 8","Naspot 10 (Kabode)","B","C","B","C","A","B","Moderately dry and sweet","It's watery",NA,NA,NA,NA
-100,"Uganda","Gulu","Woman","community","Naspot 10 (Kabode)","Naspot 13","Naspot 12","C","A","C","B","C","B","Sweet nice","Sweet and nice",NA,NA,NA,NA
-104,"Uganda","Gulu","Woman","community","Kakamega","Naspot 13","Naspot 10 (Kabode)","C","A","C","A","C","B","Smells good, moderately hard, sweet","Not sweet, wet and too much fibre",NA,NA,NA,NA
-117,"Uganda","Gulu","Woman","community","Naspot 8","Naspot 12","Naspot 13","A","C","A","C","B","A","Sweet","Not sweet",NA,NA,NA,NA
-124,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 12","Naspot 13","A","B","A","C","C","B","It is sweet as sugar","not as sweet as sugar",NA,NA,NA,NA
-128,"Uganda","Soroti/Serere","Woman","community","Ejumula","Naspot 10 (Kabode)","Naspot 13","A","C","A","C","B","A","NR","NR",NA,NA,NA,NA
-129,"Uganda","Soroti/Serere","Man","community","Naspot 8","Naspot 10 (Kabode)","Naspot 13","A","B","A","B","C","A","very sweet","so watery",NA,NA,NA,NA
-135,"Uganda","Soroti/Serere","Man","community","Naspot 8","Naspot 12","Ejumula","C","B","C","B","A","C","It is very good and nice","It has no good taste",NA,NA,NA,NA
-136,"Uganda","Soroti/Serere","Man","community","Naspot 8","Naspot 10 (Kabode)","Naspot 13","B","C","B","C","A","B","the taste is very good","It is not good",NA,NA,NA,NA
-137,"Uganda","Soroti/Serere","Woman","community","Naspot 13","Naspot 8","Naspot 12","A","C","A","C","B","A","sweet and nice taste","tasteless and hard",NA,NA,NA,NA
-139,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 13","Ejumula","C","A","C","A","B","C","sweet flavor","sweet and tasty",NA,NA,NA,NA
-141,"Uganda","Soroti/Serere","Man","community","Naspot 13","Ejumula","Kakamega","A","B","A","C","C","A","it is most sugary than others","It is sweet",NA,NA,NA,NA
-147,"Uganda","Soroti/Serere","Man","community","Naspot 8","Naspot 12","Naspot 13","A","B","A","B","C","A","Very suitable in taste","It is not good in taste",NA,NA,NA,NA
-149,"Uganda","Soroti/Serere","Man","community","Naspot 13","Ejumula","Naspot 8","B","A","B","A","C","B","It was sweet","It is not sweet",NA,NA,NA,NA
-151,"Uganda","Soroti/Serere","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 12","A","C","A","C","B","A","sweet","sweet and tasty",NA,NA,NA,NA
-154,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 12","Naspot 8","A","C","A","C","B","A","it is so sweet for me","at times it is so smelly",NA,NA,NA,NA
-156,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 8","Naspot 13","C","B","C","B","A","C","This SP is so sweet without salt","It's tasteless",NA,NA,NA,NA
-158,"Uganda","Soroti/Serere","Woman","community","Ejumula","Naspot 8","Kakamega","C","B","C","B","A","C","It appetises and the odor is also good","not sweet enough, mealy",NA,NA,NA,NA
-164,"Uganda","Soroti/Serere","Man","community","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","B","C","A","B","sweet and enjoyable","It is not very sweet and the odour is not pleasing",NA,NA,NA,NA
-168,"Uganda","Soroti/Serere","Man","community","Naspot 12","Naspot 13","Ejumula","C","B","C","A","A","C","sweet","less sugar",NA,NA,NA,NA
-119,"Uganda","Soroti/Serere","Woman","community","Naspot 12","Kakamega","Naspot 13","C","A","C","A","B","C","sweetest of all","tasteless",NA,NA,NA,NA
-120,"Uganda","Soroti/Serere","Man","community","Naspot 8","Naspot 12","Naspot 13","C","A","C","A","C","B","Sweeter than others","A bit tasteless",NA,NA,NA,NA
-125,"Uganda","Soroti/Serere","Man","community","Naspot 13","Naspot 10 (Kabode)","Naspot 12","A","C","A","C","B","A","Tates sweeter than others","Almost tasteless",NA,NA,NA,NA
-126,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 12","Ejumula","A","B","C","B","A","C","Sweet","Not sweet",NA,NA,NA,NA
-127,"Uganda","Soroti/Serere","Woman","community","Naspot 8","Naspot 13","Naspot 12","B","C","B","C","A","B","Sweeter than others","It has alot of threads in it",NA,NA,NA,NA
-130,"Uganda","Soroti/Serere","Woman","community","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","A","B","A","C","B","Very sweet","No taste and has fibres",NA,NA,NA,NA
-131,"Uganda","Soroti/Serere","Woman","community","Naspot 8","Kakamega","Naspot 12","B","C","B","C","A","B","Has a good taste","Tasteless",NA,NA,NA,NA
-132,"Uganda","Soroti/Serere","Man","community","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","A","B","A","C","B","Sweet and nice","Tasteless",NA,NA,NA,NA
-133,"Uganda","Soroti/Serere","Man","community","Ejumula","Naspot 12","Naspot 8","A","C","A","C","B","A","Very sweet","Not good",NA,NA,NA,NA
-134,"Uganda","Soroti/Serere","Woman","community","Naspot 8","Naspot 13","Kakamega","A","C","A","C","B","A","Very sweet and nice","Not sweet",NA,NA,NA,NA
-138,"Uganda","Soroti/Serere","Woman","community","Naspot 8","Naspot 13","Naspot 10 (Kabode)","B","C","B","C","A","B","Too sweet and attractive in color","Watery",NA,NA,NA,NA
-140,"Uganda","Soroti/Serere","Man","community","Naspot 13","Naspot 10 (Kabode)","Ejumula","A","B","A","B","C","B","Soft and sweet","Watrey",NA,NA,NA,NA
-142,"Uganda","Soroti/Serere","Man","community","Naspot 12","Naspot 8","Kakamega","A","C","A","B","B","A","More orange and attractive","sweets",NA,NA,NA,NA
-143,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 10 (Kabode)","Naspot 8","A","B","A","B","C","A","Very sweet","Not appetizing in its taste and color",NA,NA,NA,NA
-144,"Uganda","Soroti/Serere","Man","community","Naspot 10 (Kabode)","Kakamega","Naspot 12","B","A","B","A","C","B","Sweet and appetizing","Tasteless",NA,NA,NA,NA
-145,"Uganda","Soroti/Serere","Man","community","Naspot 12","Naspot 10 (Kabode)","Ejumula","C","B","C","B","A","C","Very sweet","Tasteless",NA,NA,NA,NA
-146,"Uganda","Soroti/Serere","Man","community","Ejumula","Naspot 13","Naspot 10 (Kabode)","C","A","C","A","B","C","Sweet","Taste is worst because of color",NA,NA,NA,NA
-148,"Uganda","Soroti/Serere","Man","community","Naspot 8","Kakamega","Ejumula","C","A","C","A","B","C","Sweet","Not good",NA,NA,NA,NA
-150,"Uganda","Soroti/Serere","Man","community","Naspot 13","Kakamega","Naspot 8","B","A","B","A","C","B","Makes one drink water","Watery",NA,NA,NA,NA
-152,"Uganda","Soroti/Serere","Woman","community","Ejumula","Naspot 10 (Kabode)","Naspot 12","A","C","A","C","B","A","Sweet and nice","Sweet and tasty",NA,NA,NA,NA
-153,"Uganda","Soroti/Serere","Woman","community","Naspot 10 (Kabode)","Kakamega","Ejumula","C","A","C","A","B","C","Very nice","Tasteless",NA,NA,NA,NA
-155,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 13","Naspot 8","A","B","A","B","C","A","Sweet","It had threads",NA,NA,NA,NA
-157,"Uganda","Soroti/Serere","Man","community","Naspot 12","Kakamega","Naspot 13","B","A","B","A","C","B","Sweet and can be eaten without salt","Its mealiness needs water when eating",NA,NA,NA,NA
-159,"Uganda","Soroti/Serere","Man","community","Naspot 10 (Kabode)","Ejumula","Naspot 13","B","A","B","A","C","B","Sweet taste","Taste is not good",NA,NA,NA,NA
-160,"Uganda","Soroti/Serere","Man","community","Kakamega","Naspot 12","Naspot 13","A","B","A","B","C","A","Sweet and nice","Not tasty",NA,NA,NA,NA
-161,"Uganda","Soroti/Serere","Man","community","Ejumula","Naspot 8","Naspot 12","A","C","A","C","B","A","Tasty and looks nice","Tasteless",NA,NA,NA,NA
-173,"Uganda","Soroti/Serere","Man","community","Naspot 8","Ejumula","Naspot 12","B","A","B","C","B","A","A nce aroma, deep orange compared to the rest and shape","Sweet but relatively low dry matter",NA,NA,NA,NA
-189,"Uganda","Wakiso","Man","community","Naspot 13","Naspot 10 (Kabode)","Kakamega","A","C","B","A","B","A","Very good","Very oft",NA,NA,NA,NA
-194,"Uganda","Wakiso","Woman","community","Naspot 10 (Kabode)","Ejumula","Naspot 12","B","C","A","C","B","A","sweet, hard, mealy","not sweet, bad smell",NA,NA,NA,NA
-195,"Uganda","Wakiso","Woman","community","Ejumula","Naspot 13","Naspot 12","B","C","B","A","A","C","Has a lot of sugar","thready with a bad smell",NA,NA,NA,NA
-211,"Uganda","Wakiso","Man","community","Naspot 12","Naspot 10 (Kabode)","Naspot 13","C","B","C","B","A","C","It's sweet","no taste",NA,NA,NA,NA
-215,"Uganda","Wakiso","Man","community","Ejumula","Naspot 8","Naspot 12","A","C","B","C","A","B","very tasty, sweet","tasteless, less sweet than cassava",NA,NA,NA,NA
-221,"Uganda","Wakiso","Woman","community","Naspot 8","Naspot 13","Naspot 12","A","B","A","B","A","C","moderately sweet","too sweet, bad smell",NA,NA,NA,NA
-228,"Uganda","Wakiso","Man","community","Kakamega","Naspot 12","Naspot 10 (Kabode)","B","A","B","A","C","B","hard","too soft",NA,NA,NA,NA
-234,"Uganda","Wakiso","Woman","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","B","C","B","A","A","B","slightly sweet","NR",NA,NA,NA,NA
-239,"Uganda","Wakiso","Woman","community","Naspot 10 (Kabode)","Naspot 12","Naspot 8","C","B","C","B","A","C","sweet and tasty","bad taste, not sweet",NA,NA,NA,NA
-256,"Uganda","Wakiso","Woman","community","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","A","B","A","C","B","tastes sweet like honey","tastes like it is not boiled",NA,NA,NA,NA
-280,"Uganda","Wakiso","Man","community","Kakamega","Naspot 10 (Kabode)","Naspot 8","A","B","A","C","C","B","very tasty","sweet but soft",NA,NA,NA,NA
-296,"Uganda","Wakiso","Woman","community","Naspot 8","Naspot 10 (Kabode)","Ejumula","A","B","A","B","C","B","very good SP, mealy","not sweet, lacks aroma",NA,NA,NA,NA
-300,"Uganda","Wakiso","Woman","community","Naspot 12","Naspot 10 (Kabode)","Ejumula","C","A","B","A","C","B","very good SP","tasteless",NA,NA,NA,NA
-310,"Uganda","Wakiso","Woman","community","Naspot 13","Ejumula","Kakamega","B","C","A","B","B","C","I think it is good because it is mealy","Has too much sugar yet I dont take sugar",NA,NA,NA,NA
-177,"Uganda","Wakiso","Woman","community","Kakamega","Naspot 8","Naspot 12","B","A","B","A","C","B","Very nice","Not sweet",NA,NA,NA,NA
-179,"Uganda","Wakiso","Woman","community","Naspot 12","Kakamega","Naspot 10 (Kabode)","A","C","A","C","B","A","Sweet and mealy","Sweet and not mealy",NA,NA,NA,NA
-183,"Uganda","Wakiso","Man","community","Kakamega","Naspot 8","Naspot 13","B","C","B","C","B","A","Sweet with good smell, not hard when swallowing","looks like it stayed long for four to five days cooked",NA,NA,NA,NA
-184,"Uganda","Wakiso","Man","community","Naspot 10 (Kabode)","Naspot 12","Naspot 13","A","B","A","B","C","A","Best sweet","Not very sweet",NA,NA,NA,NA
-186,"Uganda","Wakiso","Man","community","Kakamega","Naspot 12","Naspot 10 (Kabode)","A","B","A","B","A","C","Very sweet and not too hard","Very hard and not sweet",NA,NA,NA,NA
-192,"Uganda","Wakiso","Woman","community","Naspot 12","Naspot 10 (Kabode)","Naspot 13","B","A","B","A","C","B","Very sweet","Not very sweet",NA,NA,NA,NA
-198,"Uganda","Wakiso","Woman","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","A","C","A","C","B","A","very sweet and good aroma","Not sweet",NA,NA,NA,NA
-200,"Uganda","Wakiso","Woman","community","Kakamega","Naspot 12","Naspot 8","A","C","A","B","B","C","Liittle sugar","Doesnt look nice",NA,NA,NA,NA
-203,"Uganda","Wakiso","Woman","community","Naspot 10 (Kabode)","Naspot 13","Kakamega","B","C","A","C","B","A","Sweet and hard","Not sweet and has no sugar",NA,NA,NA,NA
-205,"Uganda","Wakiso","Woman","community","Naspot 12","Naspot 8","Ejumula","C","A","C","B","B","A","Has good taste","Its not sweet",NA,NA,NA,NA
-208,"Uganda","Wakiso","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 13","A","C","A","C","B","A","Very sweet","Not sweet and bad color",NA,NA,NA,NA
-219,"Uganda","Wakiso","Man","community","Ejumula","Naspot 13","Naspot 8","A","C","A","C","B","A","Very sweet","Does not have any sugar",NA,NA,NA,NA
-223,"Uganda","Wakiso","Man","community","Ejumula","Naspot 13","Kakamega","C","B","C","A","A","C","Very nice and mealy","Doesnt have sugar and soft",NA,NA,NA,NA
-226,"Uganda","Wakiso","Woman","community","Naspot 8","Ejumula","Kakamega","B","C","B","C","A","B","Hardness is good","Bad aroma",NA,NA,NA,NA
-230,"Uganda","Wakiso","Woman","community","Kakamega","Naspot 8","Naspot 10 (Kabode)","A","B","A","B","C","A","Nice and its hardness","Bad aroma and threads and too soft",NA,NA,NA,NA
-232,"Uganda","Wakiso","Man","community","Naspot 13","Naspot 12","Ejumula","C","B","C","A","A","C","Very sweet","Not tasty",NA,NA,NA,NA
-236,"Uganda","Wakiso","Man","community","Naspot 12","Ejumula","Naspot 8","B","A","C","B","B","A","Enough sugar",NA,NA,NA,NA,NA
-243,"Uganda","Wakiso","Woman","community","Ejumula","Naspot 12","Naspot 13","A","B","A","B","A","B","Very good and sweet","It has threads",NA,NA,NA,NA
-247,"Uganda","Wakiso","Man","community","Naspot 8","Naspot 12","Naspot 13","C","B","C","B","C","A","Very sweet","Its mealy",NA,NA,NA,NA
-248,"Uganda","Wakiso","Man","community","Naspot 10 (Kabode)","Kakamega","Ejumula","B","A","B","C","C","A","Very nice because of the aroma","very soft and not a nice color",NA,NA,NA,NA
-252,"Uganda","Wakiso","Woman","community","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","A","C","A","B","C","Not not sweet","Not sweet",NA,NA,NA,NA
-254,"Uganda","Wakiso","Woman","community","Naspot 8","Ejumula","Naspot 13","B","A","B","A","B","C","Very sweet","Crunchy",NA,NA,NA,NA
-258,"Uganda","Wakiso","Woman","community","Naspot 13","Kakamega","Naspot 10 (Kabode)","C","B","C","B","A","C","Very weet and mealy","Too orange",NA,NA,NA,NA
-264,"Uganda","Wakiso","Woman","community","Naspot 10 (Kabode)","Naspot 13","Kakamega","B","C","B","C","A","B","tastes like sugar","very soft and contains no  sugar",NA,NA,NA,NA
-268,"Uganda","Wakiso","Woman","community","Kakamega","Ejumula","Naspot 10 (Kabode)","B","A","B","C","C","B","The taste is good","Too sweet",NA,NA,NA,NA
-272,"Uganda","Wakiso","Woman","community","Ejumula","Naspot 13","Kakamega","C","B","C","B","A","C","Nice pumpkin aroma","Smells like rotten jackfruit (fruity smell)",NA,NA,NA,NA
-276,"Uganda","Wakiso","Man","community","Naspot 10 (Kabode)","Ejumula","Kakamega","C","A","B","C","C","B","Sweet","Sweet",NA,NA,NA,NA
-284,"Uganda","Wakiso","Woman","community","Kakamega","Ejumula","Naspot 13","A","B","A","B","C","A","Nice aroma","Bad aroma",NA,NA,NA,NA
-288,"Uganda","Wakiso","Man","community","Naspot 8","Naspot 10 (Kabode)","Kakamega","B","A","B","A","C","B","Sweet like sugar","Low in sweetness",NA,NA,NA,NA
-292,"Uganda","Wakiso","Man","community","Naspot 10 (Kabode)","Naspot 8","Kakamega","A","B","A","B","C","A","Sweet like sugar","Less sweet and soft",NA,NA,NA,NA
-306,"Uganda","Wakiso","Woman","community","Ejumula","Naspot 13","Kakamega","A","B","A","C","A","B","Suitably sweet, and mealy","Does not taste good",NA,NA,NA,NA
-316,"Uganda","Wakiso","Woman","community","Naspot 10 (Kabode)","Naspot 13","Naspot 12","B","C","B","C","A","B","Very sweet","Not sweet",NA,NA,NA,NA
-196,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","B","C","B","C","B","It's orange and sweet in color","The Sp is yellow in color and worst",NA,NA,NA,NA
-197,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","B","C","B","C","B","It's sweet and orange in color","Sp is yellow in color and worst",NA,NA,NA,NA
-201,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 8","Naspot 13","B","C","B","C","A","B","It's so sweet","It's not so sweet",NA,NA,NA,NA
-202,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 8","Naspot 13","B","C","B","C","A","B","It's so good and very sweet","The taste is not so good",NA,NA,NA,NA
-235,"Uganda","Soroti/Serere","Man","home","Naspot 13","Kakamega","Naspot 10 (Kabode)","A","C","A","B","B","C","It's very sweet and it's not watery","It is not sweet because it is watery",NA,NA,NA,NA
-238,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Naspot 10 (Kabode)","Ejumula","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
-253,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Kakamega","Naspot 10 (Kabode)","B","A","B","A","C","B","It's very sweet","It's tasteless",NA,NA,NA,NA
-273,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Kakamega","Naspot 12","B","C","B","C","A","B","The taste of swet potato B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
-274,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Kakamega","Naspot 12","B","C","B","C","A","B","The taste of SP B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
-275,"Uganda","Soroti/Serere","Man","home","Naspot 8","Kakamega","Naspot 12","B","C","B","C","A","B","The taste of SP B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
-289,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 12","Naspot 10 (Kabode)","C","B","C","B","A","C","It was very sweet and appetising","It was not appetising in taste and appearance",NA,NA,NA,NA
-290,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 12","Naspot 10 (Kabode)","C","B","C","B","A","C","It was very sweet","According to me B was not sweet",NA,NA,NA,NA
-291,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 12","Naspot 10 (Kabode)","A","B","A","B","C","A","It was more appetising and very sweet","It was not appetising esspecially  in taste and aroma",NA,NA,NA,NA
-322,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Naspot 12","Naspot 8","A","B","A","B","C","A","It is very soft","Because it is very sweet",NA,NA,NA,NA
-323,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 8","C","B","C","B","A","C","It is very soft and sweet","Beacuse it is very sweet more than others",NA,NA,NA,NA
-324,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 8","A","B","A","C","C","B",NA,"Because it is very sweet",NA,NA,NA,NA
-162,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","A","C","B","B","C","The taste is of sugar","It has a smell and is tasteless",NA,NA,NA,NA
-163,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","A","C","B","B","C","The taste is like of sugar","It has a smell and is tasteless",NA,NA,NA,NA
-165,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Kakamega","Naspot 12","A","C","A","C","B","A","Tasteful and good in size","Tasteless and not good to be eaten",NA,NA,NA,NA
-166,"Uganda","Soroti/Serere","Man","home","Naspot 13","Kakamega","Naspot 12","B","C","B","C","A","B","so hood tasteful and sweet","Tasteless",NA,NA,NA,NA
-167,"Uganda","Soroti/Serere","Man","home","Naspot 13","Kakamega","Naspot 12","B","C","B","C","A","B","having good taste like of sugar","taste was like the SP was damaged",NA,NA,NA,NA
-169,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 8","A","B","A","B","C","A","It's sweet as sugar","It's not very sweet",NA,NA,NA,NA
-170,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","C","B","C","A","B","Very appetising","not appetising",NA,NA,NA,NA
-171,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","C","B","C","A","B","It is very appetising","not appetising",NA,NA,NA,NA
-172,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 13","Naspot 10 (Kabode)","B","C","B","C","A","B","very appetising","not appetising",NA,NA,NA,NA
-174,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 13","Naspot 8","A","C","A","B","B","C","The sweetpotato taste is like of sugar","sugar tasting",NA,NA,NA,NA
-175,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 13","Naspot 8","A","C","A","B","B","A","so sweet","it's so sugary",NA,NA,NA,NA
-176,"Uganda","Soroti/Serere","Woman","home","Ejumula","Naspot 13","Naspot 8","A","C","A","B","B","C","sugary sweetness","It's taste is not good",NA,NA,NA,NA
-178,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","B","C","B","C","B","soft and sweet to eat","not as sweet as others A and C and apperance is not good",NA,NA,NA,NA
-182,"Uganda","Soroti/Serere","Man","home","Naspot 8","Naspot 12","Kakamega","B","C","B","A","A","B","it is sweet and attractive","it is bitter",NA,NA,NA,NA
-181,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Naspot 12","Kakamega","B","C","B","A","A","B","The Sp is sweet and attractive","the SP is bitter",NA,NA,NA,NA
-180,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Naspot 12","Kakamega","B","C","B","A","A","B","It's sweet and attractive","bitter",NA,NA,NA,NA
-185,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Ejumula","Naspot 8","B","C","A","B","B","C",NA,NA,NA,NA,NA,NA
-190,"Uganda","Soroti/Serere","Man","home","Naspot 8","Kakamega","Ejumula","C","A","C","A","B","C","It is very appetising, makes you want to eat more","It is not appetising",NA,NA,NA,NA
-191,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Kakamega","Ejumula","C","A","C","A","B","C","very appetising","It is not appetising",NA,NA,NA,NA
-193,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 10 (Kabode)","Kakamega","A","C","B","C","A","B","is very good","very sweetpotato",NA,NA,NA,NA
-199,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 10 (Kabode)","Naspot 8","A","B","C","A","A","C",NA,NA,NA,NA,NA,NA
-204,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","B","C","A","B",NA,NA,NA,NA,NA,NA
-206,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","C","A","C","A","C","A","It is sweet and orange in color","It is the worst and red in color",NA,NA,NA,NA
-207,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","C","A","C","A","C","A","It is sweet and orange in color",NA,NA,NA,NA,NA
-209,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 13","Kakamega","B","C","B","C","A","B","Tasteful and good in size",NA,NA,NA,NA,NA
-210,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 13","Kakamega","B","C","B","C","A","B","so good and tasteful, sweet","Tasteless",NA,NA,NA,NA
-214,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 12","A","C","A","C","A","C","The SP is irange in color and sweet",NA,NA,NA,NA,NA
-216,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
-217,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
-218,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
-220,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
-222,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Ejumula","Kakamega","C","B","C","A","A","C","It was very sweet",NA,NA,NA,NA,NA
-224,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 8","Naspot 12","A","C","A","C","B","A","Looks like honey and has you can eat it without peeling","tasteless a",NA,NA,NA,NA
-225,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 8","Naspot 12","A","C","A","C","B","A","soft and sweet, easy to peel","tasteless and has a bad smell, outer covering is so hard",NA,NA,NA,NA
-227,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","C","has a very good smell; has enough sugar in it","does not have a good smell as fresh potato; has less sugar in it",NA,NA,NA,NA
-229,"Uganda","Soroti/Serere","Man","home","Naspot 8","Naspot 10 (Kabode)","Naspot 13","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
-231,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","A","B","C","C","A","It has good taste","It had overstayed and watery",NA,NA,NA,NA
-233,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 8","Kakamega","B","C","B","A","A","C","It is very sweet","It had a lot of water",NA,NA,NA,NA
-240,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 12","Ejumula","C","A","B","A","C","B","Sweet falvor","Nice smell and sticky starch",NA,NA,NA,NA
-241,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 12","Ejumula","C","A","B","A","C","B","sweet flavor","nice smell and sticky starch",NA,NA,NA,NA
-242,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 12","Ejumula","C","A","B","A","C","B","sweet flavor","nice smell and sticky starch",NA,NA,NA,NA
-244,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 13","A","B","A","B","C","A","sweetness","not sweet and looks tasteless",NA,NA,NA,NA
-245,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 13","A","B","A","B","C","A","sweetness","not sweet and looks tasteless",NA,NA,NA,NA
-246,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 13","A","C","A","C","B","A","sweetness","not sweet and tasteless",NA,NA,NA,NA
-249,"Uganda","Soroti/Serere","Man","home","Naspot 13","Ejumula","Naspot 8","B","C","B","C","A","B","sweet","tasteless",NA,NA,NA,NA
-250,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Ejumula","Naspot 8","A","C","A","C","B","A","sweet","tasteless",NA,NA,NA,NA
-251,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Ejumula","Naspot 8","B","C","B","C","A","B","sweet","tasteless",NA,NA,NA,NA
-255,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","A","B","A","B","C","A","It tastes sweet","It tastes watery",NA,NA,NA,NA
-257,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 12","Kakamega","A","C","A","C","B","A","sweet, soft","tasteless, watery",NA,NA,NA,NA
-259,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","A","C","A","C","B","A","A is sweeter than others","B is not sweet as others",NA,NA,NA,NA
-260,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","B","A","C","A","C","B","It's better than others","It has no taste",NA,NA,NA,NA
-261,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","A","C","A","B","C","It's sweet than others","It's tasteless",NA,NA,NA,NA
-265,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","Naspot 13","C","A","C","A","B","C","SP is tasty, not watery when boiled","watery, spongy, tasteless",NA,NA,NA,NA
-266,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","Naspot 13","C","A","C","A","B","C","sweet, satisfying","tasteless, watery, spongy",NA,NA,NA,NA
-267,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","Naspot 13","C","A","C","A","B","C","The Sp is sweet tasting, satisfying, nice to eat","spongy, watery, tasteless, not nice to eat",NA,NA,NA,NA
-269,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 12","Naspot 10 (Kabode)","B","C","B","C","A","B","It is sweet","B is sweeter",NA,NA,NA,NA
-270,"Uganda","Soroti/Serere","Man","home","Ejumula","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","Taste of SP A is sweet","A is really sweet",NA,NA,NA,NA
-271,"Uganda","Soroti/Serere","Woman","home","Ejumula","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","sweet","A is very sweet",NA,NA,NA,NA
-277,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 10 (Kabode)","Kakamega","A","B","A","B","C","A","A is the best","Taste B is the sweetpotato",NA,NA,NA,NA
-278,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 10 (Kabode)","Kakamega","B","C","B","C","A","B","B is the best sweetpotato","Taste B is bad sweetpotato",NA,NA,NA,NA
-279,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 10 (Kabode)","Kakamega","A","C","A","C","B","A","Because it is like sweetpotato","The taste of A is the taste of sweetpotato",NA,NA,NA,NA
-281,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","B","A","B","A","C","B","It is sweet","not sweet",NA,NA,NA,NA
-282,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","B","C","B","C","A","B","very nice","not nice",NA,NA,NA,NA
-283,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","B","C","B","C","A","B","It is sweet","It is not sweet in taste",NA,NA,NA,NA
-285,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 8","Ejumula","C","B","C","B","A","C","It was sweet","B is not sweet",NA,NA,NA,NA
-286,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Naspot 8","Ejumula","C","A","C","A","B","C","C was very sweet","A is not sweet",NA,NA,NA,NA
-287,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 8","Ejumula","B","A","B","A","C","B","It was very sweet","A is not sweet",NA,NA,NA,NA
-293,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 13","A","C","A","C","B","A","The taste is good","The taste is not nice",NA,NA,NA,NA
-294,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 13","A","C","A","C","B","C","This sweetpotato is sweet and tasteful","Its appearance and taste is not good",NA,NA,NA,NA
-295,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 13","A","B","A","B","C","A","This sweetpotato is sweet like sugar","tasteless",NA,NA,NA,NA
-297,"Uganda","Soroti/Serere","Man","home","Naspot 8","Ejumula","Kakamega","C","A","C","A","C","A","It is sweet","Appearance and taste is not good",NA,NA,NA,NA
-298,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Ejumula","Kakamega","B","C","B","C","B","A","Color and taste is fine","The taste is not bad",NA,NA,NA,NA
-299,"Uganda","Soroti/Serere","Woman","home","Naspot 8","Ejumula","Kakamega","B","A","B","A","B","A","This sweetpotato is sweet and looks nice","Appearane and taste is not good",NA,NA,NA,NA
-304,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","C","B","C","A","B","It is very sweet","The taste of B is sweeter",NA,NA,NA,NA
-305,"Uganda","Soroti/Serere","Man","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","A","B","A","C","B","It is very sweet","It is very sweet",NA,NA,NA,NA
-303,"Uganda","Soroti/Serere","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","A","B","A","B","C","A","It is very sweet","A is sweeter",NA,NA,NA,NA
-307,"Uganda","Soroti/Serere","Woman","home","Naspot 12","Naspot 10 (Kabode)","Naspot 8","C","A","C","A","B","C","It was very sweet and enjoyable","The sweetpotato was tasteless to eat",NA,NA,NA,NA
-308,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 10 (Kabode)","Naspot 8","B","C","B","C","A","B","The sweetpotato was very sweet","The sweetpotato was tasteless",NA,NA,NA,NA
-309,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 10 (Kabode)","Naspot 8","A","B","A","B","C","A","It was very sweet and enjoyable","The sweetpotato was tasteless",NA,NA,NA,NA
-311,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 8","Ejumula","B","A","B","A","C","B","It was very appetising with a nice aroma","It did not have an aroma and not appetising",NA,NA,NA,NA
-312,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Naspot 8","Ejumula","A","C","A","C","B","A","It was very sweet and appetising","It was not appetising in taste and aroma",NA,NA,NA,NA
-313,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Naspot 8","Ejumula","C","A","C","A","B","C","It was sweet","The taste was not good and lavked aroma",NA,NA,NA,NA
-315,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 13","Naspot 12","A","B","A","B","C","A","A is sweet","A is sweeter",NA,NA,NA,NA
-314,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 13","Naspot 12","C","B","C","B","A","C","A is sweet","sweetpotato c is sweeter",NA,NA,NA,NA
-317,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","B","A","B","A","C","B","Appetising","Not appetising",NA,NA,NA,NA
-318,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","C","A","C","A","B","C","It was sweet","Not appetising esspecially in taste",NA,NA,NA,NA
-319,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","C","A","C","B","C","Very sweet and more appetising than others","Not stimulating an dappetising in appearance and tatse",NA,NA,NA,NA
-320,"Uganda","Soroti/Serere","Man","home","Naspot 8","Ejumula","Kakamega","B","C","B","C","A","B","It is very sweet","It is tasty",NA,NA,NA,NA
-321,"Uganda","Soroti/Serere","Man","home","Naspot 8","Ejumula","Kakamega","B","C","B","C","A","B","It is very sweet","It is not sweet",NA,NA,NA,NA
-325,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 8","Naspot 13","C","A","C","A","B","C","It's very sweet","It's not sweet",NA,NA,NA,NA
-326,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 8","Naspot 13","B","A","B","A","C","B","It is tasty","It is not tasty",NA,NA,NA,NA
-327,"Uganda","Soroti/Serere","Man","home","Naspot 12","Naspot 8","Naspot 13","C","A","C","A","B","C","It's very sweet","It's not sweet",NA,NA,NA,NA
-330,"Uganda","Soroti/Serere","Woman","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","B","A","B","A","C","B","It was sweet with good aroma","Not appetising in taste",NA,NA,NA,NA
-329,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","A","C","A","C","A","C","More appetising in taste and appearance","Not appetising in taste and color",NA,NA,NA,NA
-328,"Uganda","Soroti/Serere","Man","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","C","B","C","B","A","C","It was very sweet","It was appetising in taste",NA,NA,NA,NA
-331,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","A","B","not fibrous, cooks easily, needs little water to cook","fibrous, not sweet, takes long to cook",NA,NA,NA,NA
-332,"Uganda","Soroti/Serere","Woman","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","A","B","sweet and uses little water to cook","tasteless, not sweet and uses more firewood to cook",NA,NA,NA,NA
-333,"Uganda","Soroti/Serere","Man","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","A","B","very sweet, uses little water, color is admirable, not fibrous, cooks easily","not sweet, tasteless, fibrous, chokes when eating, hard to peel",NA,NA,NA,NA
-336,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","C","A","C","A","C","color and appearance is good, even heavy in weight; tastes good without salt","color and appearance not good, not smooth",NA,NA,NA,NA
-337,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","B","C","B","C","B","C","It is sweet and looks nice","Tatseless and rough",NA,NA,NA,NA
-85,"Uganda","Gulu","Woman","home","Kakamega","Naspot 12","Naspot 10 (Kabode)","B","C","B","C","B","A","So nice and good","So soft",NA,NA,NA,NA
-95,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 10 (Kabode)","Naspot 8","A","C","A","C","B","A","So sweet","Not favorite sweetpotato",NA,NA,NA,NA
-96,"Uganda","Gulu","Man","home","Naspot 12","Naspot 10 (Kabode)","Naspot 8","A","C","A","C","B","A","So sweet","No favourite",NA,NA,NA,NA
-105,"Uganda","Gulu","Man","home","Naspot 8","Ejumula","Kakamega","C","A","C","B","B","A","It tastes sweet","Tasteless",NA,NA,NA,NA
-106,"Uganda","Gulu","Man","home","Naspot 8","Ejumula","Kakamega","C","A","C","A","B","C","Sweet","Tasteless",NA,NA,NA,NA
-107,"Uganda","Gulu","Woman","home","Naspot 8","Ejumula","Kakamega","B","A","B","C","C","A","Sweet","Tasteless",NA,NA,NA,NA
-121,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 13","Ejumula","A","C","A","C","B","A","Sp is good to at, and is tatsy and has a good smell","Not tasty: mit kur ngwece pe",NA,NA,NA,NA
-122,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 13","Ejumula","A","C","A","C","B","A","Sp is the best and god to be eaten and has a good smell","kur lim mit ngwece pe",NA,NA,NA,NA
-123,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 13","Ejumula","C","A","C","A","C","B","Very good","Nice but watery",NA,NA,NA,NA
-118,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","C","B","C","B","C","A","Sweet and good","Not very sweet",NA,NA,NA,NA
-116,"Uganda","Gulu","Man","home","Kakamega","Naspot 13","Naspot 12","B","A","B","A","C","B","Good","Not sweet",NA,NA,NA,NA
-114,"Uganda","Gulu","Woman","home","Kakamega","Naspot 13","Naspot 12","B","A","B","A","C","B","Very good","Not good",NA,NA,NA,NA
-115,"Uganda","Gulu","Man","home","Kakamega","Naspot 13","Naspot 12","B","A","B","A","C","B","Sweet","Not good",NA,NA,NA,NA
-110,"Uganda","Gulu","Man","home","Naspot 12","Naspot 8","Naspot 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
-112,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 8","Naspot 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
-111,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 8","Naspot 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
-101,"Uganda","Gulu","Man","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","B","Sweet taste","Not very sweet",NA,NA,NA,NA
-102,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","B","Very sweet taste","Not very sweet",NA,NA,NA,NA
-103,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","B","Sweet taste","Liittle sweet taste",NA,NA,NA,NA
-99,"Uganda","Gulu","Man","home","Kakamega","Naspot 13","Naspot 12","A","B","A","B","A","C","Nice and smells good","B not nice",NA,NA,NA,NA
-93,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","C","B","C","A","B","Not watery, good smell, just nice","Bad smell, watery and a little sweet",NA,NA,NA,NA
-91,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","C","B","C","A","B","watery when cooked, but sweet and has a bad smell","Watery when cooked and has a bad smell",NA,NA,NA,NA
-92,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","B","C","B","C","A","B","Not watery when cooked, has a good smell","Has a bad smell, a little sweet,watery when cooked",NA,NA,NA,NA
-89,"Uganda","Gulu","Woman","home","Naspot 8","Ejumula","Kakamega","B","C","B","C","B","A","So nice","Taste is not good",NA,NA,NA,NA
-81,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","A","C","B","C","A","B","CONTAINS TOO MUCH SUGAR","It is Watery",NA,NA,NA,NA
-82,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","A","C","A","C","B","A","sweet","Not sweet",NA,NA,NA,NA
-83,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","A","C","A","C","B","A","Soft and sweet","Hard when cooked",NA,NA,NA,NA
-78,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 10 (Kabode)","Kakamega","A","B","A","B","A","C","Sweet and hard","when cooked it gets wet and has no taste",NA,NA,NA,NA
-79,"Uganda","Gulu","Man","home","Naspot 12","Naspot 10 (Kabode)","Kakamega","A","B","A","B","A","C","Sweet and hard","Cooked get wet and has no taste",NA,NA,NA,NA
-75,"Uganda","Gulu","Woman","home","Naspot 8","Kakamega","Naspot 12","C","A","C","A","C","B","Sweet, Easily chewed","Not sweet and has a little bitter taste",NA,NA,NA,NA
-76,"Uganda","Gulu","Man","home","Naspot 8","Kakamega","Naspot 12","C","A","C","A","C","A","Palatable , sweet, and soft to be easily chewed","Not sweet",NA,NA,NA,NA
-59,"Uganda","Gulu","Woman","home","Ejumula","Naspot 8","Kakamega","B","C","B","C","B","A","so sweet and nice","not sweet with a little smell",NA,NA,NA,NA
-60,"Uganda","Gulu","Man","home","Ejumula","Naspot 8","Kakamega","B","C","B","C","B","A","nice and good","has some smell",NA,NA,NA,NA
-61,"Uganda","Gulu","Man","home","Ejumula","Naspot 8","Kakamega","B","C","B","C","B","A","very good and sweet","taste not good, has some smell",NA,NA,NA,NA
-54,"Uganda","Gulu","Man","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","C","so sweet","sweet ,good smell",NA,NA,NA,NA
-55,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","C","so sweet","sweet, good smell",NA,NA,NA,NA
-51,"Uganda","Gulu","Woman","home","Kakamega","Naspot 8","Naspot 12","B","C","B","C","A","B","sweet","nice",NA,NA,NA,NA
-52,"Uganda","Gulu","Woman","home","Kakamega","Naspot 8","Naspot 12","C","A","C","A","B","C","sweet","waterly",NA,NA,NA,NA
-48,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Ejumula","Kakamega","A","C","A","C","B","A","sweet","somehow salty, too waterly",NA,NA,NA,NA
-49,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Ejumula","Kakamega","A","C","A","C","B","A","sweet taste","alot of water, somehow salty",NA,NA,NA,NA
-44,"Uganda","Gulu","Man","home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","B","A","B","A","C","B","very soft, delicious","bad smell",NA,NA,NA,NA
-45,"Uganda","Gulu","Woman","home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","B","A","B","A","C","B","very soft nice taste","smell is bad",NA,NA,NA,NA
-46,"Uganda","Gulu","Man","home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","B","A","B","A","C","B","very soft tasted good","smell is bad",NA,NA,NA,NA
-40,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 8","B","A","C","B","C","B","good taste, good smell","bad taste, bad smell",NA,NA,NA,NA
-41,"Uganda","Gulu","Man","home","Ejumula","Kakamega","Naspot 8","B","A","C","B","C","B","tasted delicious","bad smell too soft",NA,NA,NA,NA
-42,"Uganda","Gulu","Man","home","Ejumula","Kakamega","Naspot 8","B","A","C","B","C","B","delicipus, good appearance","smells bad, taste not good",NA,NA,NA,NA
-36,"Uganda","Gulu","Man","home","Ejumula","Kakamega","Naspot 12","A","B","A","B","A","C","so sweet","has bad smell",NA,NA,NA,NA
-37,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 12","B","A","B","A","B","C","it is nice","it has bad smell",NA,NA,NA,NA
-38,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","Naspot 12","A","B","A","B","A","C","so sweet","it has a bad smell",NA,NA,NA,NA
-30,"Uganda","Gulu","Man","home","Kakamega","Naspot 8","Naspot 13","A","C","B","A","B","A","nice and sweet","sweet potato with code c is wet and not nice",NA,NA,NA,NA
-31,"Uganda","Gulu","Man","home","Kakamega","Naspot 8","Naspot 13","C","B","A","C","C","A","it is sweet smell","it has abundance of starch",NA,NA,NA,NA
-21,"Uganda","Gulu",NA,"home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","sweet","not sweet as others",NA,NA,NA,NA
-22,"Uganda","Gulu",NA,"home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","sweet","not sweet as others",NA,NA,NA,NA
-23,"Uganda","Gulu",NA,"home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","sweet","not as sweet as others",NA,NA,NA,NA
-17,"Uganda","Gulu","Woman","home","Naspot 8","Naspot 12","Kakamega","B","C","A","C","B","C","sweet and palatable","not sweet, somehow bitter",NA,NA,NA,NA
-13,"Uganda","Gulu","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","B","C","A","A","C","sweet and hard","when cooked gets wet, no taste",NA,NA,NA,NA
-14,"Uganda","Gulu","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","B","A","B","A","C","sweet and hard","wet not tasty",NA,NA,NA,NA
-15,"Uganda","Gulu","Man","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","B","A","C","A","C","sweet and hard","wet and has no taste",NA,NA,NA,NA
-9,"Uganda","Gulu","Woman","home","Ejumula","Naspot 13","Naspot 8","A","B","A","C","C","A","very nice and sweet","watery",NA,NA,NA,NA
-10,"Uganda","Gulu","Man","home","Ejumula","Naspot 13","Naspot 8","A","B","A","B","C","A","aroma makes it taste worth","soft and watery",NA,NA,NA,NA
-11,"Uganda","Gulu","Woman","home","Ejumula","Naspot 13","Naspot 8","A","C","A","C","B","A","swet, nice, not watery","tastless, watery",NA,NA,NA,NA
-7,"Uganda","Gulu","Woman","home","Naspot 12","Naspot 13","Naspot 10 (Kabode)","A","B","A","B","C","A","sweet and hard","wet and has no taste",NA,NA,NA,NA
-1,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","A","C","A","C","B","sweet","watery and fibrous",NA,NA,NA,NA
-2,"Uganda","Gulu","Man","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","B","C","B","C","A","B","so sweet, nice smell","rotten and it changes the smell",NA,NA,NA,NA
-3,"Uganda","Gulu","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","B","A","B","A","B","C","sweet, nice","watery, wet",NA,NA,NA,NA
-346,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","B","A","B","A","C","A","pale color","unattractive orange color, bad green smell",NA,NA,NA,NA
-354,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 12","Kakamega","C","B","C","B","A","C","sweet like ripe bananas","bad taste",NA,NA,NA,NA
-364,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 12","Naspot 10 (Kabode)","C","B","C","B","A","C","hard and sweet","no aroma",NA,NA,NA,NA
-365,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 10 (Kabode)","Naspot 8","C","B","C","B","A","C","sweet and hard","not sweet, bad odor",NA,NA,NA,NA
-366,"Uganda","Wakiso","Man","home","Ejumula","Naspot 10 (Kabode)","Naspot 8","A","B","C","B","A","C","It is soft on shewing and has a good taste","It's less tasty and has a bad odor",NA,NA,NA,NA
-375,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 12","A","C","A","C","A","B","It's very delicious","It's sweet buit not than A and B",NA,NA,NA,NA
-376,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 12","A","C","A","C","A","B","good in every way","It's sweet but not more than A and B",NA,NA,NA,NA
-377,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","Naspot 12","A","C","A","C","A","C","it's sweet","sweet but so hard",NA,NA,NA,NA
-379,"Uganda","Wakiso","Man","home","Naspot 13","Naspot 12","Naspot 10 (Kabode)","A","B","A","C","A","C","It is sweet as sugar","sweet and i like it",NA,NA,NA,NA
-389,"Uganda","Wakiso","Woman","home","Naspot 13","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","A","it is very sweet","it is not sweet like A",NA,NA,NA,NA
-390,"Uganda","Wakiso","Man","home","Naspot 13","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","A","it is very sweet","it is not sweet like  A",NA,NA,NA,NA
-399,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Naspot 8","Naspot 12","A","B","A","B","A","C","very sweetand i like it","SP A is the sweet one",NA,NA,NA,NA
-400,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 8","Naspot 12","A","B","C","B","A","C","SP A is nice, attractive, it is extremely nice","It's just that SP A is just extremely good",NA,NA,NA,NA
-423,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","Naspot 13","A","C","A","C","A","C","Has a good taste like sugar in the mpouth, it is not hard when you are eating","sweet like sugar but has a hard body, stained appearance",NA,NA,NA,NA
-424,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 13","A","C","A","C","A","C","sweet, soft","too sweet, too hard",NA,NA,NA,NA
-428,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 12","Naspot 13","A","B","A","B","C","A","This type A is very sweet and also the appearanece is good but it has enough sugar","This type is tasteless, when you're eating, it's li",NA,NA,NA,NA
-347,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","Naspot 8","A","C","A","C","A","B","Sweet enough, nice aroma","Not as sweet as others",NA,NA,NA,NA
-348,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 8","A","C","A","C","A","B","Sweetenough, enough aroma","Not sweet enough",NA,NA,NA,NA
-349,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Naspot 10 (Kabode)","C","A","C","A","B","A","Sweet and smells like yam","Not sweet, no aroma",NA,NA,NA,NA
-351,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","B","A","C","C","B","very sweet, not fibrous and not sapy","not sweet, fibrous and very soft",NA,NA,NA,NA
-352,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","A","B","A","C","C","B","sweeter than other varieties","sweet, hard and not fibrous",NA,NA,NA,NA
-353,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","B","C","B","C","A","B","hard, mealy, nice aroma","soft",NA,NA,NA,NA
-355,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 8","Naspot 13","C","A","B","C","C","B","sweet and hard","sweet but soft and fibrous",NA,NA,NA,NA
-356,"Uganda","Wakiso","Man","home","Naspot 12","Ejumula","Naspot 8","B","C","B","A","A","B","not fibrous, sweet","not tasty",NA,NA,NA,NA
-357,"Uganda","Wakiso","Man","home","Naspot 12","Ejumula","Naspot 8","B","A","B","A","C","A","soft and delicious","less delicious and fibrous",NA,NA,NA,NA
-359,"Uganda","Wakiso","Man","home","Naspot 8","Kakamega","Ejumula","C","A","C","A","B","C","tasty, nice flavor","lacks flavor",NA,NA,NA,NA
-360,"Uganda","Wakiso","Man","home","Naspot 8","Kakamega","Ejumula","C","A","B","C","B","C","good taste","bad taste",NA,NA,NA,NA
-361,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 10 (Kabode)","Kakamega","A","C","A","C","B","A","a bit hard and smooth","too soft and not tasty",NA,NA,NA,NA
-362,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","B","C","A","C","B","sweet","sweet",NA,NA,NA,NA
-363,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","B","A","C","B","B","A","tastes like pumpkin","tastless",NA,NA,NA,NA
-367,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 8","Naspot 13","B","A","C","B","B","C","sweet with good smell","tasteless, crunchy",NA,NA,NA,NA
-368,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","A","B","A","B","very sweet","very sweet",NA,NA,NA,NA
-369,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","B","C","A","B","very nice","very sweet according to B",NA,NA,NA,NA
-370,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","C","B","A","C","A","C","very nice","very sweet",NA,NA,NA,NA
-371,"Uganda","Wakiso","Woman","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","C","B","C","A","A","B","sweet like honey","tastes like not well boiled",NA,NA,NA,NA
-372,"Uganda","Wakiso","Woman","home","Naspot 13","Naspot 10 (Kabode)","Ejumula","A","B","A","C","C","B","tastes good ,sweet","tastes like not well cooked",NA,NA,NA,NA
-373,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Kakamega","C","A","C","B","B","C","nice aroma, sweet","under whelming color",NA,NA,NA,NA
-378,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 8","B","A","B","A","C","B","hard, delicious","not sweet",NA,NA,NA,NA
-380,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Ejumula","Kakamega","B","A","B","A","C","B","sweet","crunchy like yam",NA,NA,NA,NA
-381,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","C","good scent","not sweet",NA,NA,NA,NA
-382,"Uganda","Wakiso","Man","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","C","sweeter than others","less sugar, bad smell",NA,NA,NA,NA
-383,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Ejumula","C","A","C","A","B","A","sweet","not sweet, bad appearance",NA,NA,NA,NA
-384,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 10 (Kabode)","Naspot 13","A","C","A","C","A","C","sweet, soft, smooth","fibrous, bad colr",NA,NA,NA,NA
-385,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 10 (Kabode)","Naspot 13","B","A","C","B","C","B","some how sweet","not sweet",NA,NA,NA,NA
-444,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 10 (Kabode)","Naspot 13","C","A","B","C","B","C","sweet, hard, not fibrous","not too sweet",NA,NA,NA,NA
-386,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Ejumula","Naspot 8","B","C","B","C","B","C","shinny skin, sweet","not very sweet",NA,NA,NA,NA
-387,"Uganda","Wakiso","Man","home","Ejumula","Naspot 8","Kakamega","A","B","A","B","C","A","smooth","too soft",NA,NA,NA,NA
-388,"Uganda","Wakiso","Man","home","Ejumula","Naspot 8","Kakamega","C","B","C","B","A","C","mealy, not watery, sweeter than A and B","watery, not as sweet as A and C",NA,NA,NA,NA
-392,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 10 (Kabode)","Ejumula","C","B","C","B","A","C","sweet","less sweet",NA,NA,NA,NA
-393,"Uganda","Wakiso","Man","home","Naspot 8","Naspot 10 (Kabode)","Ejumula","C","B","A","B","A","C","mealy, hard","too sweet, too soft, bad color",NA,NA,NA,NA
-394,"Uganda","Wakiso","Woman","home","Naspot 8","Naspot 10 (Kabode)","Ejumula","C","B","A","C","A","C","sweeter","tastless",NA,NA,NA,NA
-395,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 12","Ejumula","C","B","C","A","A","C","C is very sweet","C is very good but not very swwet",NA,NA,NA,NA
-396,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","Naspot 13","C","B","C","B","C","A","hard enough, moderately sweet","too sweet, soft",NA,NA,NA,NA
-397,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 13","A","B","A","B","A","C","hard, not very sweet","too sweet, very soft",NA,NA,NA,NA
-398,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 13","A","B","A","B","A","C","mealy, not very sweet","too soft",NA,NA,NA,NA
-401,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Kakamega","B","C","B","C","A","B","taste is good","taste is not good",NA,NA,NA,NA
-402,"Uganda","Wakiso","Man","home","Naspot 13","Ejumula","Naspot 8","B","A","B","A","C","B","not very sweet, moderately sweet","too sweet",NA,NA,NA,NA
-403,"Uganda","Wakiso","Woman","home","Naspot 13","Ejumula","Naspot 8","B","A","B","C","C","A","not too much sugar","contains too much sugar",NA,NA,NA,NA
-404,"Uganda","Wakiso","Man","home","Naspot 8","Kakamega","Naspot 10 (Kabode)","C","A","C","A","C","B","good for flour","moderate sugar",NA,NA,NA,NA
-405,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 10 (Kabode)","Naspot 13","C","A","C","A","C","A","moderately seet",NA,NA,NA,NA,NA
-406,"Uganda","Wakiso","Man","home","Ejumula","Naspot 12","Kakamega","A","B","C","B","A","C","not too much sugar but sweet","less sugar",NA,NA,NA,NA
-407,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 12","Kakamega","A","B","A","B","C","A","sugary","less tasty",NA,NA,NA,NA
-408,"Uganda","Wakiso","Man","home","Ejumula","Naspot 12","Kakamega","B","C","B","C","A","C","soft and mealy","not sweet",NA,NA,NA,NA
-350,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 13","Naspot 8","B","C","B","C","A","B","mealy","too soft",NA,NA,NA,NA
-441,"Uganda","Wakiso","Man","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","B","A","It is very nice and so sweet, with a good smell","It is not sweet, has some threads",NA,NA,NA,NA
-442,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","B","A","B is very sweet, smelling like a pumpkin","It is not sweet, it is like water",NA,NA,NA,NA
-440,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 8","Naspot 13","B","A","B","A","C","B","It is sweet like sugarcane","There isn't enough sugar",NA,NA,NA,NA
-438,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Naspot 12","Naspot 8","A","B","A","B","C","A","According to my taste, it is sweeter","Not sweet at all",NA,NA,NA,NA
-439,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 12","Naspot 8","B","C","B","A","A","B","It is very sweet and has a rich aroma","Not sweet at all",NA,NA,NA,NA
-436,"Uganda","Wakiso","Man","home","Naspot 8","Ejumula","Kakamega","B","C","B","A","A","C","B is the sweetes","A is hard but was ot sweet",NA,NA,NA,NA
-437,"Uganda","Wakiso","Woman","home","Naspot 8","Ejumula","Kakamega","A","B","A","B","C","A","sweet and hard","B has a bad smell",NA,NA,NA,NA
-434,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","C","A","C","B","A","A had a heavier taste than C and B","C has little sugar",NA,NA,NA,NA
-435,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","Naspot 10 (Kabode)","A","B","A","B","C","A","not watery, mealy, very sweet","Not rich in aroma, not very sweet",NA,NA,NA,NA
-431,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 13","Naspot 12","A","C","B","C","A","B","very sweet, hard peel, marketable","not sweet",NA,NA,NA,NA
-432,"Uganda","Wakiso","Man","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","B","A","It is good in color and tastes better when eaten","It us salty and has a bad smell",NA,NA,NA,NA
-433,"Uganda","Wakiso","Woman","home","Kakamega","Naspot 13","Naspot 12","B","C","B","C","B","C","sweet, rich aroma, mealy, attractive peel","not very sweet, not mealy, bad peel",NA,NA,NA,NA
-429,"Uganda","Wakiso","Man","home","Naspot 13","Naspot 8","Ejumula","C","B","A","B","C","B","According to my taste it is the sweetest","According to me, the appearance and the taste",NA,NA,NA,NA
-430,"Uganda","Wakiso","Woman","home","Naspot 13","Naspot 8","Ejumula","A","B","A","B","A","B","A is sweeter than B and C",NA,NA,NA,NA,NA
-425,"Uganda","Wakiso","Woman","home","Naspot 8","Ejumula","Kakamega","B","A","B","A","C","B","Tastes sweet","It iastes very nice",NA,NA,NA,NA
-426,"Uganda","Wakiso","Man","home","Naspot 8","Ejumula","Kakamega","B","C","B","C","A","B","It was so soft","It was too sweet",NA,NA,NA,NA
-421,"Uganda","Wakiso","Woman","home","Naspot 13","Naspot 8","Ejumula","A","C","B","A","B","A","sweet, mealy","too soft when cooked",NA,NA,NA,NA
-422,"Uganda","Wakiso","Man","home","Naspot 13","Naspot 8","Ejumula","A","C","B","A","B","A","It is sweet and mealy","It is sweet but too soft",NA,NA,NA,NA
-420,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","C","B","C","B","A","C","Moderately moist so it is solid when cooked","It is sticky and has a bad smell",NA,NA,NA,NA
-419,"Uganda","Wakiso","Man","home","Naspot 10 (Kabode)","Naspot 13","Naspot 8","B","A","B","A","C","B","sweet","tasteless",NA,NA,NA,NA
-418,"Uganda","Wakiso","Woman","home","Naspot 8","Kakamega","Naspot 12","B","C","B","A","A","B",NA,"maly, noe color, big size",NA,NA,NA,NA
-416,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","It is very sweet, good in color","No sugar, has no taste",NA,NA,NA,NA
-417,"Uganda","Wakiso","Woman","home","Ejumula","Naspot 12","Naspot 10 (Kabode)","A","C","A","C","B","A","It has good taste, goof in color, has flavor","Has no taste, takes long to get ready",NA,NA,NA,NA
-414,"Uganda","Wakiso","Man","home","Kakamega","Ejumula","Naspot 13","C","A","C","A","C","A","moderately sweet, no lingering taste","bad appearance,",NA,NA,NA,NA
-415,"Uganda","Wakiso","Man","home","Kakamega","Ejumula","Naspot 13","B","A","B","A","B","A","moderately sweet","Not as sweet as sweetpotato usually is",NA,NA,NA,NA
-411,"Uganda","Wakiso","Woman","home","Naspot 12","Naspot 13","Naspot 8","B","C","B","C","B","C","sweet, nice aroma, mealy","Not sweet",NA,NA,NA,NA
-412,"Uganda","Wakiso","Man","home","Naspot 12","Naspot 13","Naspot 8","B","C","B","C","B","A","Tastes sweet like something with sugar","Does not taste sweet",NA,NA,NA,NA
-413,"Uganda","Wakiso","Man","home","Naspot 12","Naspot 13","Naspot 8","B","C","B","C","B","A","It is sweet","Not sweet",NA,NA,NA,NA
-409,"Uganda","Wakiso","Woman","home","Naspot 10 (Kabode)","Naspot 8","Ejumula","C","B","C","B","A","C","sweet smell, swet","not sweet enough",NA,NA,NA,NA
+6,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","A","C","B","B","C","It has high dry matter content","not too sweet",NA,NA,NA,NA
+18,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 8","NASPOT 13","B","A","B","C","C","B","nice, sweet","sweet",NA,NA,NA,NA
+24,"Uganda","Gulu","Man","community","NASPOT 13","NASPOT 10 (Kabode)","Kakamega","A","C","A","C","B","A","sweet","wet",NA,NA,NA,NA
+25,"Uganda","Gulu","Man","community","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 13","A","B","A","B","C","A","very sweet and nice","it is wet and not sweet",NA,NA,NA,NA
+27,"Uganda","Gulu","Man","community","Ejumula","NASPOT 13","NASPOT 12","A","B","A","B","C","A","it is sweet, moderately hard",NA,NA,NA,NA,NA
+56,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","A","C","It is good and dry","It has a bad smell",NA,NA,NA,NA
+62,"Uganda","Gulu","Man","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","B","A","B","A","C","B","good smell and sweet","nt nice",NA,NA,NA,NA
+63,"Uganda","Gulu","Woman","community","NASPOT 12","Ejumula","NASPOT 8","B","A","B","A","C","B","sweetness and soft","not sweet",NA,NA,NA,NA
+73,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","Kakamega","C","B","C","B","A","C","sweet and moderately hard","not swet and wet",NA,NA,NA,NA
+74,"Uganda","Gulu","Woman","community","Kakamega","Ejumula","NASPOT 10 (Kabode)","B","C","B","C","B","A","very good and sweet","It is sweet but so soft",NA,NA,NA,NA
+77,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","Ejumula","Kakamega","B","C","B","C","B","A","sweet and nice","bad smell",NA,NA,NA,NA
+88,"Uganda","Gulu","Woman","community","NASPOT 8","NASPOT 10 (Kabode)","Kakamega","C","B","C","B","A","C","Its sweet and palatable","It's  fibrous and watery",NA,NA,NA,NA
+108,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 13","Kakamega","C","A","C","A","C","B","Has high dry matter contebt","It has a bad sme;;",NA,NA,NA,NA
+109,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 8","C","B","C","B","C","A","very good and nice","so soft and has some smell",NA,NA,NA,NA
+113,"Uganda","Gulu","Woman","community","Ejumula","Kakamega","NASPOT 12","A","C","A","C","A","B","so sweet and good","bad taste and has some smell",NA,NA,NA,NA
+4,"Uganda","Gulu","Man","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","B","C","A","B","Sweet, crunchy and suitable for breakfast with simisim paste for tea","sweet, soft, with fibres",NA,NA,NA,NA
+5,"Uganda","Gulu","Woman","community","NASPOT 12","NASPOT 13","Ejumula","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
+8,"Uganda","Gulu","Woman","community","NASPOT 8","Ejumula","NASPOT 12","B","A","B","A","C","B","Good smell and sweet","Wet",NA,NA,NA,NA
+12,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 8","NASPOT 12","B","C","B","C","A","B","Nice","Nice and sweet",NA,NA,NA,NA
+16,"Uganda","Gulu","Woman","community","NASPOT 12","Kakamega","NASPOT 10 (Kabode)","A","C","B","A","B","A","Sweetand has high dry matter","Low dry matter",NA,NA,NA,NA
+19,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","A","B","A","C","A","Not wet but sweet","Very wet and not sweet",NA,NA,NA,NA
+20,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","B","C","B","C","A","B","It tastes nice","It's tasteless",NA,NA,NA,NA
+26,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 12","B","A","B","A","C","B","Sweet","It's not sweet and wet",NA,NA,NA,NA
+28,"Uganda","Gulu","Woman","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","A","B","C","B","A","C","Very good","It's not sweet",NA,NA,NA,NA
+29,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 12","NASPOT 8","C","A","C","A","C","A","Very nice","It's not sweet an the color is not good",NA,NA,NA,NA
+32,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","Kakamega","B","A","B","A","B","C","Very sweet","It's so soft",NA,NA,NA,NA
+33,"Uganda","Gulu","Woman","community","NASPOT 12","NASPOT 8","Ejumula","A","B","C","A","A","B","Has a good smell and high dry matter content","Has a low dry matter content",NA,NA,NA,NA
+34,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","B","C","B","C","A","B","It's sweet","It's watery",NA,NA,NA,NA
+35,"Uganda","Gulu","Woman","community","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 13","C","A","C","A","B","C","It's sweet and the smell is good","the smell",NA,NA,NA,NA
+39,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 8","NASPOT 12","A","B","A","B","C","A","It's sweet","Bad smell and fibrous",NA,NA,NA,NA
+43,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 13","NASPOT 8","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
+47,"Uganda","Gulu","Woman","community","NASPOT 8","NASPOT 13","NASPOT 12","C","B","C","B","C","A","Sweet and good","Not sweet",NA,NA,NA,NA
+50,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 13","Kakamega","A","B","A","B","A","B","Tastes sweet and has good dry matter","Has low dry matter content",NA,NA,NA,NA
+53,"Uganda","Gulu","Man","community","NASPOT 8","Ejumula","Kakamega","B","A","B","A","C","B","Sweet","Not sweet",NA,NA,NA,NA
+57,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 8","NASPOT 10 (Kabode)","B","C","B","C","A","B","Sweet, nice","Sweet",NA,NA,NA,NA
+58,"Uganda","Gulu","Woman","community","NASPOT 13","NASPOT 12","Ejumula","C","A","C","A","B","C","Sweetness","Watery and not sweet",NA,NA,NA,NA
+64,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 12","NASPOT 13","A","C","B","A","A","B","Sweet, dry matter content is good","It is wet",NA,NA,NA,NA
+65,"Uganda","Gulu","Woman","community","NASPOT 12","Kakamega","NASPOT 8","C","B","C","B","A","C","Sweetness","Not sweet",NA,NA,NA,NA
+66,"Uganda","Gulu","Man","community","NASPOT 8","NASPOT 12","NASPOT 13","B","C","B","C","B","A","Very nice and sweet","So soft and wet",NA,NA,NA,NA
+67,"Uganda","Gulu","Man","community","NASPOT 10 (Kabode)","Kakamega","Ejumula","B","A","B","A","C","B","Very sweet and nice","Wet and full of threads",NA,NA,NA,NA
+68,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","A","C","A","B","C","It's sweet","It's watery",NA,NA,NA,NA
+69,"Uganda","Gulu","Woman","community","NASPOT 8","Ejumula","NASPOT 13","B","C","B","A","B","A","It's sweet and nice","It has low dry matter content",NA,NA,NA,NA
+70,"Uganda","Gulu","Woman","community","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","C","B","C","A","B","It smells good","Watery",NA,NA,NA,NA
+71,"Uganda","Gulu","Woman","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","B","C","B","C","A","B","It's sweet, smells good","It's watery and has a bad smell",NA,NA,NA,NA
+72,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 8","NASPOT 13","B","C","B","C","A","B","Sweet","Too sweet",NA,NA,NA,NA
+80,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 8","C","B","C","B","A","C","Sweet","Watery",NA,NA,NA,NA
+84,"Uganda","Gulu","Woman","community","Kakamega","Ejumula","NASPOT 13","A","C","A","C","B","A","Moderately hard and sweet","Not sweet and very wet",NA,NA,NA,NA
+87,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 8","Kakamega","A","B","A","B","C","A","It's sweet and nice","Too swee and wet",NA,NA,NA,NA
+90,"Uganda","Gulu","Woman","community","NASPOT 12","NASPOT 10 (Kabode)","Ejumula","C","B","C","B","A","C","It's sweet and palatable","It is watery",NA,NA,NA,NA
+94,"Uganda","Gulu","Woman","community","Ejumula","NASPOT 13","Kakamega","A","B","A","B","A","C","So nice and good","Soft and wet",NA,NA,NA,NA
+97,"Uganda","Gulu","Woman","community","NASPOT 13","Ejumula","Kakamega","B","A","B","A","C","B","Moderately hard and sweet","Very wet and not sweet",NA,NA,NA,NA
+98,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 8","NASPOT 10 (Kabode)","B","C","B","C","A","B","Moderately dry and sweet","It's watery",NA,NA,NA,NA
+100,"Uganda","Gulu","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 12","C","A","C","B","C","B","Sweet nice","Sweet and nice",NA,NA,NA,NA
+104,"Uganda","Gulu","Woman","community","Kakamega","NASPOT 13","NASPOT 10 (Kabode)","C","A","C","A","C","B","Smells good, moderately hard, sweet","Not sweet, wet and too much fibre",NA,NA,NA,NA
+117,"Uganda","Gulu","Woman","community","NASPOT 8","NASPOT 12","NASPOT 13","A","C","A","C","B","A","Sweet","Not sweet",NA,NA,NA,NA
+124,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 12","NASPOT 13","A","B","A","C","C","B","It is sweet as sugar","not as sweet as sugar",NA,NA,NA,NA
+128,"Uganda","Soroti/Serere","Woman","community","Ejumula","NASPOT 10 (Kabode)","NASPOT 13","A","C","A","C","B","A","NR","NR",NA,NA,NA,NA
+129,"Uganda","Soroti/Serere","Man","community","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","A","B","A","B","C","A","very sweet","so watery",NA,NA,NA,NA
+135,"Uganda","Soroti/Serere","Man","community","NASPOT 8","NASPOT 12","Ejumula","C","B","C","B","A","C","It is very good and nice","It has no good taste",NA,NA,NA,NA
+136,"Uganda","Soroti/Serere","Man","community","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","B","C","B","C","A","B","the taste is very good","It is not good",NA,NA,NA,NA
+137,"Uganda","Soroti/Serere","Woman","community","NASPOT 13","NASPOT 8","NASPOT 12","A","C","A","C","B","A","sweet and nice taste","tasteless and hard",NA,NA,NA,NA
+139,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 13","Ejumula","C","A","C","A","B","C","sweet flavor","sweet and tasty",NA,NA,NA,NA
+141,"Uganda","Soroti/Serere","Man","community","NASPOT 13","Ejumula","Kakamega","A","B","A","C","C","A","it is most sugary than others","It is sweet",NA,NA,NA,NA
+147,"Uganda","Soroti/Serere","Man","community","NASPOT 8","NASPOT 12","NASPOT 13","A","B","A","B","C","A","Very suitable in taste","It is not good in taste",NA,NA,NA,NA
+149,"Uganda","Soroti/Serere","Man","community","NASPOT 13","Ejumula","NASPOT 8","B","A","B","A","C","B","It was sweet","It is not sweet",NA,NA,NA,NA
+151,"Uganda","Soroti/Serere","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 12","A","C","A","C","B","A","sweet","sweet and tasty",NA,NA,NA,NA
+154,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 12","NASPOT 8","A","C","A","C","B","A","it is so sweet for me","at times it is so smelly",NA,NA,NA,NA
+156,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 8","NASPOT 13","C","B","C","B","A","C","This SP is so sweet without salt","It's tasteless",NA,NA,NA,NA
+158,"Uganda","Soroti/Serere","Woman","community","Ejumula","NASPOT 8","Kakamega","C","B","C","B","A","C","It appetises and the odor is also good","not sweet enough, mealy",NA,NA,NA,NA
+164,"Uganda","Soroti/Serere","Man","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","B","C","A","B","sweet and enjoyable","It is not very sweet and the odour is not pleasing",NA,NA,NA,NA
+168,"Uganda","Soroti/Serere","Man","community","NASPOT 12","NASPOT 13","Ejumula","C","B","C","A","A","C","sweet","less sugar",NA,NA,NA,NA
+119,"Uganda","Soroti/Serere","Woman","community","NASPOT 12","Kakamega","NASPOT 13","C","A","C","A","B","C","sweetest of all","tasteless",NA,NA,NA,NA
+120,"Uganda","Soroti/Serere","Man","community","NASPOT 8","NASPOT 12","NASPOT 13","C","A","C","A","C","B","Sweeter than others","A bit tasteless",NA,NA,NA,NA
+125,"Uganda","Soroti/Serere","Man","community","NASPOT 13","NASPOT 10 (Kabode)","NASPOT 12","A","C","A","C","B","A","Tates sweeter than others","Almost tasteless",NA,NA,NA,NA
+126,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 12","Ejumula","A","B","C","B","A","C","Sweet","Not sweet",NA,NA,NA,NA
+127,"Uganda","Soroti/Serere","Woman","community","NASPOT 8","NASPOT 13","NASPOT 12","B","C","B","C","A","B","Sweeter than others","It has alot of threads in it",NA,NA,NA,NA
+130,"Uganda","Soroti/Serere","Woman","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","A","B","A","C","B","Very sweet","No taste and has fibres",NA,NA,NA,NA
+131,"Uganda","Soroti/Serere","Woman","community","NASPOT 8","Kakamega","NASPOT 12","B","C","B","C","A","B","Has a good taste","Tasteless",NA,NA,NA,NA
+132,"Uganda","Soroti/Serere","Man","community","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","A","B","A","C","B","Sweet and nice","Tasteless",NA,NA,NA,NA
+133,"Uganda","Soroti/Serere","Man","community","Ejumula","NASPOT 12","NASPOT 8","A","C","A","C","B","A","Very sweet","Not good",NA,NA,NA,NA
+134,"Uganda","Soroti/Serere","Woman","community","NASPOT 8","NASPOT 13","Kakamega","A","C","A","C","B","A","Very sweet and nice","Not sweet",NA,NA,NA,NA
+138,"Uganda","Soroti/Serere","Woman","community","NASPOT 8","NASPOT 13","NASPOT 10 (Kabode)","B","C","B","C","A","B","Too sweet and attractive in color","Watery",NA,NA,NA,NA
+140,"Uganda","Soroti/Serere","Man","community","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","A","B","A","B","C","B","Soft and sweet","Watrey",NA,NA,NA,NA
+142,"Uganda","Soroti/Serere","Man","community","NASPOT 12","NASPOT 8","Kakamega","A","C","A","B","B","A","More orange and attractive","sweets",NA,NA,NA,NA
+143,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 8","A","B","A","B","C","A","Very sweet","Not appetizing in its taste and color",NA,NA,NA,NA
+144,"Uganda","Soroti/Serere","Man","community","NASPOT 10 (Kabode)","Kakamega","NASPOT 12","B","A","B","A","C","B","Sweet and appetizing","Tasteless",NA,NA,NA,NA
+145,"Uganda","Soroti/Serere","Man","community","NASPOT 12","NASPOT 10 (Kabode)","Ejumula","C","B","C","B","A","C","Very sweet","Tasteless",NA,NA,NA,NA
+146,"Uganda","Soroti/Serere","Man","community","Ejumula","NASPOT 13","NASPOT 10 (Kabode)","C","A","C","A","B","C","Sweet","Taste is worst because of color",NA,NA,NA,NA
+148,"Uganda","Soroti/Serere","Man","community","NASPOT 8","Kakamega","Ejumula","C","A","C","A","B","C","Sweet","Not good",NA,NA,NA,NA
+150,"Uganda","Soroti/Serere","Man","community","NASPOT 13","Kakamega","NASPOT 8","B","A","B","A","C","B","Makes one drink water","Watery",NA,NA,NA,NA
+152,"Uganda","Soroti/Serere","Woman","community","Ejumula","NASPOT 10 (Kabode)","NASPOT 12","A","C","A","C","B","A","Sweet and nice","Sweet and tasty",NA,NA,NA,NA
+153,"Uganda","Soroti/Serere","Woman","community","NASPOT 10 (Kabode)","Kakamega","Ejumula","C","A","C","A","B","C","Very nice","Tasteless",NA,NA,NA,NA
+155,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 13","NASPOT 8","A","B","A","B","C","A","Sweet","It had threads",NA,NA,NA,NA
+157,"Uganda","Soroti/Serere","Man","community","NASPOT 12","Kakamega","NASPOT 13","B","A","B","A","C","B","Sweet and can be eaten without salt","Its mealiness needs water when eating",NA,NA,NA,NA
+159,"Uganda","Soroti/Serere","Man","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 13","B","A","B","A","C","B","Sweet taste","Taste is not good",NA,NA,NA,NA
+160,"Uganda","Soroti/Serere","Man","community","Kakamega","NASPOT 12","NASPOT 13","A","B","A","B","C","A","Sweet and nice","Not tasty",NA,NA,NA,NA
+161,"Uganda","Soroti/Serere","Man","community","Ejumula","NASPOT 8","NASPOT 12","A","C","A","C","B","A","Tasty and looks nice","Tasteless",NA,NA,NA,NA
+173,"Uganda","Soroti/Serere","Man","community","NASPOT 8","Ejumula","NASPOT 12","B","A","B","C","B","A","A nce aroma, deep orange compared to the rest and shape","Sweet but relatively low dry matter",NA,NA,NA,NA
+189,"Uganda","Wakiso","Man","community","NASPOT 13","NASPOT 10 (Kabode)","Kakamega","A","C","B","A","B","A","Very good","Very oft",NA,NA,NA,NA
+194,"Uganda","Wakiso","Woman","community","NASPOT 10 (Kabode)","Ejumula","NASPOT 12","B","C","A","C","B","A","sweet, hard, mealy","not sweet, bad smell",NA,NA,NA,NA
+195,"Uganda","Wakiso","Woman","community","Ejumula","NASPOT 13","NASPOT 12","B","C","B","A","A","C","Has a lot of sugar","thready with a bad smell",NA,NA,NA,NA
+211,"Uganda","Wakiso","Man","community","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 13","C","B","C","B","A","C","It's sweet","no taste",NA,NA,NA,NA
+215,"Uganda","Wakiso","Man","community","Ejumula","NASPOT 8","NASPOT 12","A","C","B","C","A","B","very tasty, sweet","tasteless, less sweet than cassava",NA,NA,NA,NA
+221,"Uganda","Wakiso","Woman","community","NASPOT 8","NASPOT 13","NASPOT 12","A","B","A","B","A","C","moderately sweet","too sweet, bad smell",NA,NA,NA,NA
+228,"Uganda","Wakiso","Man","community","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","B","A","B","A","C","B","hard","too soft",NA,NA,NA,NA
+234,"Uganda","Wakiso","Woman","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","B","C","B","A","A","B","slightly sweet","NR",NA,NA,NA,NA
+239,"Uganda","Wakiso","Woman","community","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","C","B","C","B","A","C","sweet and tasty","bad taste, not sweet",NA,NA,NA,NA
+256,"Uganda","Wakiso","Woman","community","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","A","B","A","C","B","tastes sweet like honey","tastes like it is not boiled",NA,NA,NA,NA
+280,"Uganda","Wakiso","Man","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 8","A","B","A","C","C","B","very tasty","sweet but soft",NA,NA,NA,NA
+296,"Uganda","Wakiso","Woman","community","NASPOT 8","NASPOT 10 (Kabode)","Ejumula","A","B","A","B","C","B","very good SP, mealy","not sweet, lacks aroma",NA,NA,NA,NA
+300,"Uganda","Wakiso","Woman","community","NASPOT 12","NASPOT 10 (Kabode)","Ejumula","C","A","B","A","C","B","very good SP","tasteless",NA,NA,NA,NA
+310,"Uganda","Wakiso","Woman","community","NASPOT 13","Ejumula","Kakamega","B","C","A","B","B","C","I think it is good because it is mealy","Has too much sugar yet I dont take sugar",NA,NA,NA,NA
+177,"Uganda","Wakiso","Woman","community","Kakamega","NASPOT 8","NASPOT 12","B","A","B","A","C","B","Very nice","Not sweet",NA,NA,NA,NA
+179,"Uganda","Wakiso","Woman","community","NASPOT 12","Kakamega","NASPOT 10 (Kabode)","A","C","A","C","B","A","Sweet and mealy","Sweet and not mealy",NA,NA,NA,NA
+183,"Uganda","Wakiso","Man","community","Kakamega","NASPOT 8","NASPOT 13","B","C","B","C","B","A","Sweet with good smell, not hard when swallowing","looks like it stayed long for four to five days cooked",NA,NA,NA,NA
+184,"Uganda","Wakiso","Man","community","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","A","B","A","B","C","A","Best sweet","Not very sweet",NA,NA,NA,NA
+186,"Uganda","Wakiso","Man","community","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","A","B","A","B","A","C","Very sweet and not too hard","Very hard and not sweet",NA,NA,NA,NA
+192,"Uganda","Wakiso","Woman","community","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 13","B","A","B","A","C","B","Very sweet","Not very sweet",NA,NA,NA,NA
+198,"Uganda","Wakiso","Woman","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","A","C","A","C","B","A","very sweet and good aroma","Not sweet",NA,NA,NA,NA
+200,"Uganda","Wakiso","Woman","community","Kakamega","NASPOT 12","NASPOT 8","A","C","A","B","B","C","Liittle sugar","Doesnt look nice",NA,NA,NA,NA
+203,"Uganda","Wakiso","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","Kakamega","B","C","A","C","B","A","Sweet and hard","Not sweet and has no sugar",NA,NA,NA,NA
+205,"Uganda","Wakiso","Woman","community","NASPOT 12","NASPOT 8","Ejumula","C","A","C","B","B","A","Has good taste","Its not sweet",NA,NA,NA,NA
+208,"Uganda","Wakiso","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","A","C","A","C","B","A","Very sweet","Not sweet and bad color",NA,NA,NA,NA
+219,"Uganda","Wakiso","Man","community","Ejumula","NASPOT 13","NASPOT 8","A","C","A","C","B","A","Very sweet","Does not have any sugar",NA,NA,NA,NA
+223,"Uganda","Wakiso","Man","community","Ejumula","NASPOT 13","Kakamega","C","B","C","A","A","C","Very nice and mealy","Doesnt have sugar and soft",NA,NA,NA,NA
+226,"Uganda","Wakiso","Woman","community","NASPOT 8","Ejumula","Kakamega","B","C","B","C","A","B","Hardness is good","Bad aroma",NA,NA,NA,NA
+230,"Uganda","Wakiso","Woman","community","Kakamega","NASPOT 8","NASPOT 10 (Kabode)","A","B","A","B","C","A","Nice and its hardness","Bad aroma and threads and too soft",NA,NA,NA,NA
+232,"Uganda","Wakiso","Man","community","NASPOT 13","NASPOT 12","Ejumula","C","B","C","A","A","C","Very sweet","Not tasty",NA,NA,NA,NA
+236,"Uganda","Wakiso","Man","community","NASPOT 12","Ejumula","NASPOT 8","B","A","C","B","B","A","Enough sugar",NA,NA,NA,NA,NA
+243,"Uganda","Wakiso","Woman","community","Ejumula","NASPOT 12","NASPOT 13","A","B","A","B","A","B","Very good and sweet","It has threads",NA,NA,NA,NA
+247,"Uganda","Wakiso","Man","community","NASPOT 8","NASPOT 12","NASPOT 13","C","B","C","B","C","A","Very sweet","Its mealy",NA,NA,NA,NA
+248,"Uganda","Wakiso","Man","community","NASPOT 10 (Kabode)","Kakamega","Ejumula","B","A","B","C","C","A","Very nice because of the aroma","very soft and not a nice color",NA,NA,NA,NA
+252,"Uganda","Wakiso","Woman","community","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","A","C","A","B","C","Not not sweet","Not sweet",NA,NA,NA,NA
+254,"Uganda","Wakiso","Woman","community","NASPOT 8","Ejumula","NASPOT 13","B","A","B","A","B","C","Very sweet","Crunchy",NA,NA,NA,NA
+258,"Uganda","Wakiso","Woman","community","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","C","B","C","B","A","C","Very weet and mealy","Too orange",NA,NA,NA,NA
+264,"Uganda","Wakiso","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","Kakamega","B","C","B","C","A","B","tastes like sugar","very soft and contains no  sugar",NA,NA,NA,NA
+268,"Uganda","Wakiso","Woman","community","Kakamega","Ejumula","NASPOT 10 (Kabode)","B","A","B","C","C","B","The taste is good","Too sweet",NA,NA,NA,NA
+272,"Uganda","Wakiso","Woman","community","Ejumula","NASPOT 13","Kakamega","C","B","C","B","A","C","Nice pumpkin aroma","Smells like rotten jackfruit (fruity smell)",NA,NA,NA,NA
+276,"Uganda","Wakiso","Man","community","NASPOT 10 (Kabode)","Ejumula","Kakamega","C","A","B","C","C","B","Sweet","Sweet",NA,NA,NA,NA
+284,"Uganda","Wakiso","Woman","community","Kakamega","Ejumula","NASPOT 13","A","B","A","B","C","A","Nice aroma","Bad aroma",NA,NA,NA,NA
+288,"Uganda","Wakiso","Man","community","NASPOT 8","NASPOT 10 (Kabode)","Kakamega","B","A","B","A","C","B","Sweet like sugar","Low in sweetness",NA,NA,NA,NA
+292,"Uganda","Wakiso","Man","community","NASPOT 10 (Kabode)","NASPOT 8","Kakamega","A","B","A","B","C","A","Sweet like sugar","Less sweet and soft",NA,NA,NA,NA
+306,"Uganda","Wakiso","Woman","community","Ejumula","NASPOT 13","Kakamega","A","B","A","C","A","B","Suitably sweet, and mealy","Does not taste good",NA,NA,NA,NA
+316,"Uganda","Wakiso","Woman","community","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 12","B","C","B","C","A","B","Very sweet","Not sweet",NA,NA,NA,NA
+196,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","B","C","B","C","B","It's orange and sweet in color","The Sp is yellow in color and worst",NA,NA,NA,NA
+197,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","B","C","B","C","B","It's sweet and orange in color","Sp is yellow in color and worst",NA,NA,NA,NA
+201,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 8","NASPOT 13","B","C","B","C","A","B","It's so sweet","It's not so sweet",NA,NA,NA,NA
+202,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 8","NASPOT 13","B","C","B","C","A","B","It's so good and very sweet","The taste is not so good",NA,NA,NA,NA
+235,"Uganda","Soroti/Serere","Man","home","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","A","C","A","B","B","C","It's very sweet and it's not watery","It is not sweet because it is watery",NA,NA,NA,NA
+238,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","Ejumula","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
+253,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Kakamega","NASPOT 10 (Kabode)","B","A","B","A","C","B","It's very sweet","It's tasteless",NA,NA,NA,NA
+273,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Kakamega","NASPOT 12","B","C","B","C","A","B","The taste of swet potato B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
+274,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Kakamega","NASPOT 12","B","C","B","C","A","B","The taste of SP B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
+275,"Uganda","Soroti/Serere","Man","home","NASPOT 8","Kakamega","NASPOT 12","B","C","B","C","A","B","The taste of SP B is sweet","The taste of SP B is sweeter",NA,NA,NA,NA
+289,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","C","B","C","B","A","C","It was very sweet and appetising","It was not appetising in taste and appearance",NA,NA,NA,NA
+290,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","C","B","C","B","A","C","It was very sweet","According to me B was not sweet",NA,NA,NA,NA
+291,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","A","B","A","B","C","A","It was more appetising and very sweet","It was not appetising esspecially  in taste and aroma",NA,NA,NA,NA
+322,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","A","B","A","B","C","A","It is very soft","Because it is very sweet",NA,NA,NA,NA
+323,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","C","B","C","B","A","C","It is very soft and sweet","Beacuse it is very sweet more than others",NA,NA,NA,NA
+324,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","A","B","A","C","C","B",NA,"Because it is very sweet",NA,NA,NA,NA
+162,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","A","C","B","B","C","The taste is of sugar","It has a smell and is tasteless",NA,NA,NA,NA
+163,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","A","C","B","B","C","The taste is like of sugar","It has a smell and is tasteless",NA,NA,NA,NA
+165,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","Kakamega","NASPOT 12","A","C","A","C","B","A","Tasteful and good in size","Tasteless and not good to be eaten",NA,NA,NA,NA
+166,"Uganda","Soroti/Serere","Man","home","NASPOT 13","Kakamega","NASPOT 12","B","C","B","C","A","B","so hood tasteful and sweet","Tasteless",NA,NA,NA,NA
+167,"Uganda","Soroti/Serere","Man","home","NASPOT 13","Kakamega","NASPOT 12","B","C","B","C","A","B","having good taste like of sugar","taste was like the SP was damaged",NA,NA,NA,NA
+169,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 8","A","B","A","B","C","A","It's sweet as sugar","It's not very sweet",NA,NA,NA,NA
+170,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","C","B","C","A","B","Very appetising","not appetising",NA,NA,NA,NA
+171,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","C","B","C","A","B","It is very appetising","not appetising",NA,NA,NA,NA
+172,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","B","C","B","C","A","B","very appetising","not appetising",NA,NA,NA,NA
+174,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 13","NASPOT 8","A","C","A","B","B","C","The sweetpotato taste is like of sugar","sugar tasting",NA,NA,NA,NA
+175,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 13","NASPOT 8","A","C","A","B","B","A","so sweet","it's so sugary",NA,NA,NA,NA
+176,"Uganda","Soroti/Serere","Woman","home","Ejumula","NASPOT 13","NASPOT 8","A","C","A","B","B","C","sugary sweetness","It's taste is not good",NA,NA,NA,NA
+178,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","B","C","B","C","B","soft and sweet to eat","not as sweet as others A and C and apperance is not good",NA,NA,NA,NA
+182,"Uganda","Soroti/Serere","Man","home","NASPOT 8","NASPOT 12","Kakamega","B","C","B","A","A","B","it is sweet and attractive","it is bitter",NA,NA,NA,NA
+181,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","NASPOT 12","Kakamega","B","C","B","A","A","B","The Sp is sweet and attractive","the SP is bitter",NA,NA,NA,NA
+180,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","NASPOT 12","Kakamega","B","C","B","A","A","B","It's sweet and attractive","bitter",NA,NA,NA,NA
+185,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","Ejumula","NASPOT 8","B","C","A","B","B","C",NA,NA,NA,NA,NA,NA
+190,"Uganda","Soroti/Serere","Man","home","NASPOT 8","Kakamega","Ejumula","C","A","C","A","B","C","It is very appetising, makes you want to eat more","It is not appetising",NA,NA,NA,NA
+191,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Kakamega","Ejumula","C","A","C","A","B","C","very appetising","It is not appetising",NA,NA,NA,NA
+193,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 10 (Kabode)","Kakamega","A","C","B","C","A","B","is very good","very sweetpotato",NA,NA,NA,NA
+199,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 10 (Kabode)","NASPOT 8","A","B","C","A","A","C",NA,NA,NA,NA,NA,NA
+204,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","B","C","A","B",NA,NA,NA,NA,NA,NA
+206,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","C","A","C","A","C","A","It is sweet and orange in color","It is the worst and red in color",NA,NA,NA,NA
+207,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","C","A","C","A","C","A","It is sweet and orange in color",NA,NA,NA,NA,NA
+209,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 13","Kakamega","B","C","B","C","A","B","Tasteful and good in size",NA,NA,NA,NA,NA
+210,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 13","Kakamega","B","C","B","C","A","B","so good and tasteful, sweet","Tasteless",NA,NA,NA,NA
+214,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 12","A","C","A","C","A","C","The SP is irange in color and sweet",NA,NA,NA,NA,NA
+216,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
+217,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
+218,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 8","A","C","A","C","A","C",NA,NA,NA,NA,NA,NA
+220,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
+222,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","Ejumula","Kakamega","C","B","C","A","A","C","It was very sweet",NA,NA,NA,NA,NA
+224,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 8","NASPOT 12","A","C","A","C","B","A","Looks like honey and has you can eat it without peeling","tasteless a",NA,NA,NA,NA
+225,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 8","NASPOT 12","A","C","A","C","B","A","soft and sweet, easy to peel","tasteless and has a bad smell, outer covering is so hard",NA,NA,NA,NA
+227,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","C","has a very good smell; has enough sugar in it","does not have a good smell as fresh potato; has less sugar in it",NA,NA,NA,NA
+229,"Uganda","Soroti/Serere","Man","home","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","C","A","C","B","B","A","It was sweet","It had overstayed",NA,NA,NA,NA
+231,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","A","B","C","C","A","It has good taste","It had overstayed and watery",NA,NA,NA,NA
+233,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 8","Kakamega","B","C","B","A","A","C","It is very sweet","It had a lot of water",NA,NA,NA,NA
+240,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 12","Ejumula","C","A","B","A","C","B","Sweet falvor","Nice smell and sticky starch",NA,NA,NA,NA
+241,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 12","Ejumula","C","A","B","A","C","B","sweet flavor","nice smell and sticky starch",NA,NA,NA,NA
+242,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 12","Ejumula","C","A","B","A","C","B","sweet flavor","nice smell and sticky starch",NA,NA,NA,NA
+244,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 13","A","B","A","B","C","A","sweetness","not sweet and looks tasteless",NA,NA,NA,NA
+245,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 13","A","B","A","B","C","A","sweetness","not sweet and looks tasteless",NA,NA,NA,NA
+246,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 13","A","C","A","C","B","A","sweetness","not sweet and tasteless",NA,NA,NA,NA
+249,"Uganda","Soroti/Serere","Man","home","NASPOT 13","Ejumula","NASPOT 8","B","C","B","C","A","B","sweet","tasteless",NA,NA,NA,NA
+250,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","Ejumula","NASPOT 8","A","C","A","C","B","A","sweet","tasteless",NA,NA,NA,NA
+251,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","Ejumula","NASPOT 8","B","C","B","C","A","B","sweet","tasteless",NA,NA,NA,NA
+255,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","A","B","A","B","C","A","It tastes sweet","It tastes watery",NA,NA,NA,NA
+257,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 12","Kakamega","A","C","A","C","B","A","sweet, soft","tasteless, watery",NA,NA,NA,NA
+259,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","A","C","A","C","B","A","A is sweeter than others","B is not sweet as others",NA,NA,NA,NA
+260,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","B","A","C","A","C","B","It's better than others","It has no taste",NA,NA,NA,NA
+261,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","A","C","A","B","C","It's sweet than others","It's tasteless",NA,NA,NA,NA
+265,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","NASPOT 13","C","A","C","A","B","C","SP is tasty, not watery when boiled","watery, spongy, tasteless",NA,NA,NA,NA
+266,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","NASPOT 13","C","A","C","A","B","C","sweet, satisfying","tasteless, watery, spongy",NA,NA,NA,NA
+267,"Uganda","Soroti/Serere","Woman","home","Kakamega","Ejumula","NASPOT 13","C","A","C","A","B","C","The Sp is sweet tasting, satisfying, nice to eat","spongy, watery, tasteless, not nice to eat",NA,NA,NA,NA
+269,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 12","NASPOT 10 (Kabode)","B","C","B","C","A","B","It is sweet","B is sweeter",NA,NA,NA,NA
+270,"Uganda","Soroti/Serere","Man","home","Ejumula","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","Taste of SP A is sweet","A is really sweet",NA,NA,NA,NA
+271,"Uganda","Soroti/Serere","Woman","home","Ejumula","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","sweet","A is very sweet",NA,NA,NA,NA
+277,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 10 (Kabode)","Kakamega","A","B","A","B","C","A","A is the best","Taste B is the sweetpotato",NA,NA,NA,NA
+278,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 10 (Kabode)","Kakamega","B","C","B","C","A","B","B is the best sweetpotato","Taste B is bad sweetpotato",NA,NA,NA,NA
+279,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 10 (Kabode)","Kakamega","A","C","A","C","B","A","Because it is like sweetpotato","The taste of A is the taste of sweetpotato",NA,NA,NA,NA
+281,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","B","A","B","A","C","B","It is sweet","not sweet",NA,NA,NA,NA
+282,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","B","C","B","C","A","B","very nice","not nice",NA,NA,NA,NA
+283,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","B","C","B","C","A","B","It is sweet","It is not sweet in taste",NA,NA,NA,NA
+285,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 8","Ejumula","C","B","C","B","A","C","It was sweet","B is not sweet",NA,NA,NA,NA
+286,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","NASPOT 8","Ejumula","C","A","C","A","B","C","C was very sweet","A is not sweet",NA,NA,NA,NA
+287,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 8","Ejumula","B","A","B","A","C","B","It was very sweet","A is not sweet",NA,NA,NA,NA
+293,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 13","A","C","A","C","B","A","The taste is good","The taste is not nice",NA,NA,NA,NA
+294,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 13","A","C","A","C","B","C","This sweetpotato is sweet and tasteful","Its appearance and taste is not good",NA,NA,NA,NA
+295,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 13","A","B","A","B","C","A","This sweetpotato is sweet like sugar","tasteless",NA,NA,NA,NA
+297,"Uganda","Soroti/Serere","Man","home","NASPOT 8","Ejumula","Kakamega","C","A","C","A","C","A","It is sweet","Appearance and taste is not good",NA,NA,NA,NA
+298,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Ejumula","Kakamega","B","C","B","C","B","A","Color and taste is fine","The taste is not bad",NA,NA,NA,NA
+299,"Uganda","Soroti/Serere","Woman","home","NASPOT 8","Ejumula","Kakamega","B","A","B","A","B","A","This sweetpotato is sweet and looks nice","Appearane and taste is not good",NA,NA,NA,NA
+304,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","C","B","C","A","B","It is very sweet","The taste of B is sweeter",NA,NA,NA,NA
+305,"Uganda","Soroti/Serere","Man","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","A","B","A","C","B","It is very sweet","It is very sweet",NA,NA,NA,NA
+303,"Uganda","Soroti/Serere","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","A","B","A","B","C","A","It is very sweet","A is sweeter",NA,NA,NA,NA
+307,"Uganda","Soroti/Serere","Woman","home","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 8","C","A","C","A","B","C","It was very sweet and enjoyable","The sweetpotato was tasteless to eat",NA,NA,NA,NA
+308,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 8","B","C","B","C","A","B","The sweetpotato was very sweet","The sweetpotato was tasteless",NA,NA,NA,NA
+309,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 8","A","B","A","B","C","A","It was very sweet and enjoyable","The sweetpotato was tasteless",NA,NA,NA,NA
+311,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 8","Ejumula","B","A","B","A","C","B","It was very appetising with a nice aroma","It did not have an aroma and not appetising",NA,NA,NA,NA
+312,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","NASPOT 8","Ejumula","A","C","A","C","B","A","It was very sweet and appetising","It was not appetising in taste and aroma",NA,NA,NA,NA
+313,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","NASPOT 8","Ejumula","C","A","C","A","B","C","It was sweet","The taste was not good and lavked aroma",NA,NA,NA,NA
+315,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 13","NASPOT 12","A","B","A","B","C","A","A is sweet","A is sweeter",NA,NA,NA,NA
+314,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 13","NASPOT 12","C","B","C","B","A","C","A is sweet","sweetpotato c is sweeter",NA,NA,NA,NA
+317,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","B","A","B","A","C","B","Appetising","Not appetising",NA,NA,NA,NA
+318,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","C","A","C","A","B","C","It was sweet","Not appetising esspecially in taste",NA,NA,NA,NA
+319,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","C","A","C","B","C","Very sweet and more appetising than others","Not stimulating an dappetising in appearance and tatse",NA,NA,NA,NA
+320,"Uganda","Soroti/Serere","Man","home","NASPOT 8","Ejumula","Kakamega","B","C","B","C","A","B","It is very sweet","It is tasty",NA,NA,NA,NA
+321,"Uganda","Soroti/Serere","Man","home","NASPOT 8","Ejumula","Kakamega","B","C","B","C","A","B","It is very sweet","It is not sweet",NA,NA,NA,NA
+325,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 8","NASPOT 13","C","A","C","A","B","C","It's very sweet","It's not sweet",NA,NA,NA,NA
+326,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 8","NASPOT 13","B","A","B","A","C","B","It is tasty","It is not tasty",NA,NA,NA,NA
+327,"Uganda","Soroti/Serere","Man","home","NASPOT 12","NASPOT 8","NASPOT 13","C","A","C","A","B","C","It's very sweet","It's not sweet",NA,NA,NA,NA
+330,"Uganda","Soroti/Serere","Woman","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","B","A","B","A","C","B","It was sweet with good aroma","Not appetising in taste",NA,NA,NA,NA
+329,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","A","C","A","C","A","C","More appetising in taste and appearance","Not appetising in taste and color",NA,NA,NA,NA
+328,"Uganda","Soroti/Serere","Man","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","C","B","C","B","A","C","It was very sweet","It was appetising in taste",NA,NA,NA,NA
+331,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","A","B","not fibrous, cooks easily, needs little water to cook","fibrous, not sweet, takes long to cook",NA,NA,NA,NA
+332,"Uganda","Soroti/Serere","Woman","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","A","B","sweet and uses little water to cook","tasteless, not sweet and uses more firewood to cook",NA,NA,NA,NA
+333,"Uganda","Soroti/Serere","Man","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","A","B","very sweet, uses little water, color is admirable, not fibrous, cooks easily","not sweet, tasteless, fibrous, chokes when eating, hard to peel",NA,NA,NA,NA
+336,"Uganda","Soroti/Serere","Man","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","C","A","C","A","C","color and appearance is good, even heavy in weight; tastes good without salt","color and appearance not good, not smooth",NA,NA,NA,NA
+337,"Uganda","Soroti/Serere","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","B","C","B","C","B","C","It is sweet and looks nice","Tatseless and rough",NA,NA,NA,NA
+85,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 12","NASPOT 10 (Kabode)","B","C","B","C","B","A","So nice and good","So soft",NA,NA,NA,NA
+95,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 8","A","C","A","C","B","A","So sweet","Not favorite sweetpotato",NA,NA,NA,NA
+96,"Uganda","Gulu","Man","home","NASPOT 12","NASPOT 10 (Kabode)","NASPOT 8","A","C","A","C","B","A","So sweet","No favourite",NA,NA,NA,NA
+105,"Uganda","Gulu","Man","home","NASPOT 8","Ejumula","Kakamega","C","A","C","B","B","A","It tastes sweet","Tasteless",NA,NA,NA,NA
+106,"Uganda","Gulu","Man","home","NASPOT 8","Ejumula","Kakamega","C","A","C","A","B","C","Sweet","Tasteless",NA,NA,NA,NA
+107,"Uganda","Gulu","Woman","home","NASPOT 8","Ejumula","Kakamega","B","A","B","C","C","A","Sweet","Tasteless",NA,NA,NA,NA
+121,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","Ejumula","A","C","A","C","B","A","Sp is good to at, and is tatsy and has a good smell","Not tasty: mit kur ngwece pe",NA,NA,NA,NA
+122,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","Ejumula","A","C","A","C","B","A","Sp is the best and god to be eaten and has a good smell","kur lim mit ngwece pe",NA,NA,NA,NA
+123,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","Ejumula","C","A","C","A","C","B","Very good","Nice but watery",NA,NA,NA,NA
+118,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","C","B","C","B","C","A","Sweet and good","Not very sweet",NA,NA,NA,NA
+116,"Uganda","Gulu","Man","home","Kakamega","NASPOT 13","NASPOT 12","B","A","B","A","C","B","Good","Not sweet",NA,NA,NA,NA
+114,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 13","NASPOT 12","B","A","B","A","C","B","Very good","Not good",NA,NA,NA,NA
+115,"Uganda","Gulu","Man","home","Kakamega","NASPOT 13","NASPOT 12","B","A","B","A","C","B","Sweet","Not good",NA,NA,NA,NA
+110,"Uganda","Gulu","Man","home","NASPOT 12","NASPOT 8","NASPOT 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
+112,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 8","NASPOT 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
+111,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 8","NASPOT 13","A","B","A","B","C","A","Sweet and soft","C is not sweet",NA,NA,NA,NA
+101,"Uganda","Gulu","Man","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","B","Sweet taste","Not very sweet",NA,NA,NA,NA
+102,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","B","Very sweet taste","Not very sweet",NA,NA,NA,NA
+103,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","B","Sweet taste","Liittle sweet taste",NA,NA,NA,NA
+99,"Uganda","Gulu","Man","home","Kakamega","NASPOT 13","NASPOT 12","A","B","A","B","A","C","Nice and smells good","B not nice",NA,NA,NA,NA
+93,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","C","B","C","A","B","Not watery, good smell, just nice","Bad smell, watery and a little sweet",NA,NA,NA,NA
+91,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","C","B","C","A","B","watery when cooked, but sweet and has a bad smell","Watery when cooked and has a bad smell",NA,NA,NA,NA
+92,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","B","C","B","C","A","B","Not watery when cooked, has a good smell","Has a bad smell, a little sweet,watery when cooked",NA,NA,NA,NA
+89,"Uganda","Gulu","Woman","home","NASPOT 8","Ejumula","Kakamega","B","C","B","C","B","A","So nice","Taste is not good",NA,NA,NA,NA
+81,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","A","C","B","C","A","B","CONTAINS TOO MUCH SUGAR","It is Watery",NA,NA,NA,NA
+82,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","A","C","A","C","B","A","sweet","Not sweet",NA,NA,NA,NA
+83,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","A","C","A","C","B","A","Soft and sweet","Hard when cooked",NA,NA,NA,NA
+78,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 10 (Kabode)","Kakamega","A","B","A","B","A","C","Sweet and hard","when cooked it gets wet and has no taste",NA,NA,NA,NA
+79,"Uganda","Gulu","Man","home","NASPOT 12","NASPOT 10 (Kabode)","Kakamega","A","B","A","B","A","C","Sweet and hard","Cooked get wet and has no taste",NA,NA,NA,NA
+75,"Uganda","Gulu","Woman","home","NASPOT 8","Kakamega","NASPOT 12","C","A","C","A","C","B","Sweet, Easily chewed","Not sweet and has a little bitter taste",NA,NA,NA,NA
+76,"Uganda","Gulu","Man","home","NASPOT 8","Kakamega","NASPOT 12","C","A","C","A","C","A","Palatable , sweet, and soft to be easily chewed","Not sweet",NA,NA,NA,NA
+59,"Uganda","Gulu","Woman","home","Ejumula","NASPOT 8","Kakamega","B","C","B","C","B","A","so sweet and nice","not sweet with a little smell",NA,NA,NA,NA
+60,"Uganda","Gulu","Man","home","Ejumula","NASPOT 8","Kakamega","B","C","B","C","B","A","nice and good","has some smell",NA,NA,NA,NA
+61,"Uganda","Gulu","Man","home","Ejumula","NASPOT 8","Kakamega","B","C","B","C","B","A","very good and sweet","taste not good, has some smell",NA,NA,NA,NA
+54,"Uganda","Gulu","Man","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","C","so sweet","sweet ,good smell",NA,NA,NA,NA
+55,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","C","so sweet","sweet, good smell",NA,NA,NA,NA
+51,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 8","NASPOT 12","B","C","B","C","A","B","sweet","nice",NA,NA,NA,NA
+52,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 8","NASPOT 12","C","A","C","A","B","C","sweet","waterly",NA,NA,NA,NA
+48,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","Ejumula","Kakamega","A","C","A","C","B","A","sweet","somehow salty, too waterly",NA,NA,NA,NA
+49,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","Ejumula","Kakamega","A","C","A","C","B","A","sweet taste","alot of water, somehow salty",NA,NA,NA,NA
+44,"Uganda","Gulu","Man","home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","B","A","B","A","C","B","very soft, delicious","bad smell",NA,NA,NA,NA
+45,"Uganda","Gulu","Woman","home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","B","A","B","A","C","B","very soft nice taste","smell is bad",NA,NA,NA,NA
+46,"Uganda","Gulu","Man","home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","B","A","B","A","C","B","very soft tasted good","smell is bad",NA,NA,NA,NA
+40,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 8","B","A","C","B","C","B","good taste, good smell","bad taste, bad smell",NA,NA,NA,NA
+41,"Uganda","Gulu","Man","home","Ejumula","Kakamega","NASPOT 8","B","A","C","B","C","B","tasted delicious","bad smell too soft",NA,NA,NA,NA
+42,"Uganda","Gulu","Man","home","Ejumula","Kakamega","NASPOT 8","B","A","C","B","C","B","delicipus, good appearance","smells bad, taste not good",NA,NA,NA,NA
+36,"Uganda","Gulu","Man","home","Ejumula","Kakamega","NASPOT 12","A","B","A","B","A","C","so sweet","has bad smell",NA,NA,NA,NA
+37,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 12","B","A","B","A","B","C","it is nice","it has bad smell",NA,NA,NA,NA
+38,"Uganda","Gulu","Woman","home","Ejumula","Kakamega","NASPOT 12","A","B","A","B","A","C","so sweet","it has a bad smell",NA,NA,NA,NA
+30,"Uganda","Gulu","Man","home","Kakamega","NASPOT 8","NASPOT 13","A","C","B","A","B","A","nice and sweet","sweet potato with code c is wet and not nice",NA,NA,NA,NA
+31,"Uganda","Gulu","Man","home","Kakamega","NASPOT 8","NASPOT 13","C","B","A","C","C","A","it is sweet smell","it has abundance of starch",NA,NA,NA,NA
+21,"Uganda","Gulu",NA,"home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","sweet","not sweet as others",NA,NA,NA,NA
+22,"Uganda","Gulu",NA,"home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","sweet","not sweet as others",NA,NA,NA,NA
+23,"Uganda","Gulu",NA,"home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","sweet","not as sweet as others",NA,NA,NA,NA
+17,"Uganda","Gulu","Woman","home","NASPOT 8","NASPOT 12","Kakamega","B","C","A","C","B","C","sweet and palatable","not sweet, somehow bitter",NA,NA,NA,NA
+13,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","B","C","A","A","C","sweet and hard","when cooked gets wet, no taste",NA,NA,NA,NA
+14,"Uganda","Gulu","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","B","A","B","A","C","sweet and hard","wet not tasty",NA,NA,NA,NA
+15,"Uganda","Gulu","Man","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","B","A","C","A","C","sweet and hard","wet and has no taste",NA,NA,NA,NA
+9,"Uganda","Gulu","Woman","home","Ejumula","NASPOT 13","NASPOT 8","A","B","A","C","C","A","very nice and sweet","watery",NA,NA,NA,NA
+10,"Uganda","Gulu","Man","home","Ejumula","NASPOT 13","NASPOT 8","A","B","A","B","C","A","aroma makes it taste worth","soft and watery",NA,NA,NA,NA
+11,"Uganda","Gulu","Woman","home","Ejumula","NASPOT 13","NASPOT 8","A","C","A","C","B","A","swet, nice, not watery","tastless, watery",NA,NA,NA,NA
+7,"Uganda","Gulu","Woman","home","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","A","B","A","B","C","A","sweet and hard","wet and has no taste",NA,NA,NA,NA
+1,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","A","C","A","C","B","sweet","watery and fibrous",NA,NA,NA,NA
+2,"Uganda","Gulu","Man","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","B","C","B","C","A","B","so sweet, nice smell","rotten and it changes the smell",NA,NA,NA,NA
+3,"Uganda","Gulu","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","B","A","B","A","B","C","sweet, nice","watery, wet",NA,NA,NA,NA
+346,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","B","A","B","A","C","A","pale color","unattractive orange color, bad green smell",NA,NA,NA,NA
+354,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 12","Kakamega","C","B","C","B","A","C","sweet like ripe bananas","bad taste",NA,NA,NA,NA
+364,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 12","NASPOT 10 (Kabode)","C","B","C","B","A","C","hard and sweet","no aroma",NA,NA,NA,NA
+365,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 10 (Kabode)","NASPOT 8","C","B","C","B","A","C","sweet and hard","not sweet, bad odor",NA,NA,NA,NA
+366,"Uganda","Wakiso","Man","home","Ejumula","NASPOT 10 (Kabode)","NASPOT 8","A","B","C","B","A","C","It is soft on shewing and has a good taste","It's less tasty and has a bad odor",NA,NA,NA,NA
+375,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 12","A","C","A","C","A","B","It's very delicious","It's sweet buit not than A and B",NA,NA,NA,NA
+376,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 12","A","C","A","C","A","B","good in every way","It's sweet but not more than A and B",NA,NA,NA,NA
+377,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","NASPOT 12","A","C","A","C","A","C","it's sweet","sweet but so hard",NA,NA,NA,NA
+379,"Uganda","Wakiso","Man","home","NASPOT 13","NASPOT 12","NASPOT 10 (Kabode)","A","B","A","C","A","C","It is sweet as sugar","sweet and i like it",NA,NA,NA,NA
+389,"Uganda","Wakiso","Woman","home","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","A","it is very sweet","it is not sweet like A",NA,NA,NA,NA
+390,"Uganda","Wakiso","Man","home","NASPOT 13","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","A","it is very sweet","it is not sweet like  A",NA,NA,NA,NA
+399,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","NASPOT 12","A","B","A","B","A","C","very sweetand i like it","SP A is the sweet one",NA,NA,NA,NA
+400,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 8","NASPOT 12","A","B","C","B","A","C","SP A is nice, attractive, it is extremely nice","It's just that SP A is just extremely good",NA,NA,NA,NA
+423,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","NASPOT 13","A","C","A","C","A","C","Has a good taste like sugar in the mpouth, it is not hard when you are eating","sweet like sugar but has a hard body, stained appearance",NA,NA,NA,NA
+424,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 13","A","C","A","C","A","C","sweet, soft","too sweet, too hard",NA,NA,NA,NA
+428,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 13","A","B","A","B","C","A","This type A is very sweet and also the appearanece is good but it has enough sugar","This type is tasteless, when you're eating, it's li",NA,NA,NA,NA
+347,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","NASPOT 8","A","C","A","C","A","B","Sweet enough, nice aroma","Not as sweet as others",NA,NA,NA,NA
+348,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 8","A","C","A","C","A","B","Sweetenough, enough aroma","Not sweet enough",NA,NA,NA,NA
+349,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","NASPOT 10 (Kabode)","C","A","C","A","B","A","Sweet and smells like yam","Not sweet, no aroma",NA,NA,NA,NA
+351,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","B","A","C","C","B","very sweet, not fibrous and not sapy","not sweet, fibrous and very soft",NA,NA,NA,NA
+352,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","A","B","A","C","C","B","sweeter than other varieties","sweet, hard and not fibrous",NA,NA,NA,NA
+353,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","B","C","B","C","A","B","hard, mealy, nice aroma","soft",NA,NA,NA,NA
+355,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 8","NASPOT 13","C","A","B","C","C","B","sweet and hard","sweet but soft and fibrous",NA,NA,NA,NA
+356,"Uganda","Wakiso","Man","home","NASPOT 12","Ejumula","NASPOT 8","B","C","B","A","A","B","not fibrous, sweet","not tasty",NA,NA,NA,NA
+357,"Uganda","Wakiso","Man","home","NASPOT 12","Ejumula","NASPOT 8","B","A","B","A","C","A","soft and delicious","less delicious and fibrous",NA,NA,NA,NA
+359,"Uganda","Wakiso","Man","home","NASPOT 8","Kakamega","Ejumula","C","A","C","A","B","C","tasty, nice flavor","lacks flavor",NA,NA,NA,NA
+360,"Uganda","Wakiso","Man","home","NASPOT 8","Kakamega","Ejumula","C","A","B","C","B","C","good taste","bad taste",NA,NA,NA,NA
+361,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 10 (Kabode)","Kakamega","A","C","A","C","B","A","a bit hard and smooth","too soft and not tasty",NA,NA,NA,NA
+362,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","B","C","A","C","B","sweet","sweet",NA,NA,NA,NA
+363,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","B","A","C","B","B","A","tastes like pumpkin","tastless",NA,NA,NA,NA
+367,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 8","NASPOT 13","B","A","C","B","B","C","sweet with good smell","tasteless, crunchy",NA,NA,NA,NA
+368,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","A","B","A","B","very sweet","very sweet",NA,NA,NA,NA
+369,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","B","C","A","B","very nice","very sweet according to B",NA,NA,NA,NA
+370,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","C","B","A","C","A","C","very nice","very sweet",NA,NA,NA,NA
+371,"Uganda","Wakiso","Woman","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","C","B","C","A","A","B","sweet like honey","tastes like not well boiled",NA,NA,NA,NA
+372,"Uganda","Wakiso","Woman","home","NASPOT 13","NASPOT 10 (Kabode)","Ejumula","A","B","A","C","C","B","tastes good ,sweet","tastes like not well cooked",NA,NA,NA,NA
+373,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","Kakamega","C","A","C","B","B","C","nice aroma, sweet","under whelming color",NA,NA,NA,NA
+378,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 8","B","A","B","A","C","B","hard, delicious","not sweet",NA,NA,NA,NA
+380,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","Ejumula","Kakamega","B","A","B","A","C","B","sweet","crunchy like yam",NA,NA,NA,NA
+381,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","C","good scent","not sweet",NA,NA,NA,NA
+382,"Uganda","Wakiso","Man","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","C","sweeter than others","less sugar, bad smell",NA,NA,NA,NA
+383,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","Ejumula","C","A","C","A","B","A","sweet","not sweet, bad appearance",NA,NA,NA,NA
+384,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","A","C","A","C","A","C","sweet, soft, smooth","fibrous, bad colr",NA,NA,NA,NA
+385,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","B","A","C","B","C","B","some how sweet","not sweet",NA,NA,NA,NA
+444,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","NASPOT 13","C","A","B","C","B","C","sweet, hard, not fibrous","not too sweet",NA,NA,NA,NA
+386,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","Ejumula","NASPOT 8","B","C","B","C","B","C","shinny skin, sweet","not very sweet",NA,NA,NA,NA
+387,"Uganda","Wakiso","Man","home","Ejumula","NASPOT 8","Kakamega","A","B","A","B","C","A","smooth","too soft",NA,NA,NA,NA
+388,"Uganda","Wakiso","Man","home","Ejumula","NASPOT 8","Kakamega","C","B","C","B","A","C","mealy, not watery, sweeter than A and B","watery, not as sweet as A and C",NA,NA,NA,NA
+392,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","Ejumula","C","B","C","B","A","C","sweet","less sweet",NA,NA,NA,NA
+393,"Uganda","Wakiso","Man","home","NASPOT 8","NASPOT 10 (Kabode)","Ejumula","C","B","A","B","A","C","mealy, hard","too sweet, too soft, bad color",NA,NA,NA,NA
+394,"Uganda","Wakiso","Woman","home","NASPOT 8","NASPOT 10 (Kabode)","Ejumula","C","B","A","C","A","C","sweeter","tastless",NA,NA,NA,NA
+395,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 12","Ejumula","C","B","C","A","A","C","C is very sweet","C is very good but not very swwet",NA,NA,NA,NA
+396,"Uganda","Wakiso","Man","home","Ejumula","Kakamega","NASPOT 13","C","B","C","B","C","A","hard enough, moderately sweet","too sweet, soft",NA,NA,NA,NA
+397,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 13","A","B","A","B","A","C","hard, not very sweet","too sweet, very soft",NA,NA,NA,NA
+398,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 13","A","B","A","B","A","C","mealy, not very sweet","too soft",NA,NA,NA,NA
+401,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","Kakamega","B","C","B","C","A","B","taste is good","taste is not good",NA,NA,NA,NA
+402,"Uganda","Wakiso","Man","home","NASPOT 13","Ejumula","NASPOT 8","B","A","B","A","C","B","not very sweet, moderately sweet","too sweet",NA,NA,NA,NA
+403,"Uganda","Wakiso","Woman","home","NASPOT 13","Ejumula","NASPOT 8","B","A","B","C","C","A","not too much sugar","contains too much sugar",NA,NA,NA,NA
+404,"Uganda","Wakiso","Man","home","NASPOT 8","Kakamega","NASPOT 10 (Kabode)","C","A","C","A","C","B","good for flour","moderate sugar",NA,NA,NA,NA
+405,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 10 (Kabode)","NASPOT 13","C","A","C","A","C","A","moderately seet",NA,NA,NA,NA,NA
+406,"Uganda","Wakiso","Man","home","Ejumula","NASPOT 12","Kakamega","A","B","C","B","A","C","not too much sugar but sweet","less sugar",NA,NA,NA,NA
+407,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 12","Kakamega","A","B","A","B","C","A","sugary","less tasty",NA,NA,NA,NA
+408,"Uganda","Wakiso","Man","home","Ejumula","NASPOT 12","Kakamega","B","C","B","C","A","C","soft and mealy","not sweet",NA,NA,NA,NA
+350,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 13","NASPOT 8","B","C","B","C","A","B","mealy","too soft",NA,NA,NA,NA
+441,"Uganda","Wakiso","Man","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","B","A","It is very nice and so sweet, with a good smell","It is not sweet, has some threads",NA,NA,NA,NA
+442,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","B","A","B is very sweet, smelling like a pumpkin","It is not sweet, it is like water",NA,NA,NA,NA
+440,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 8","NASPOT 13","B","A","B","A","C","B","It is sweet like sugarcane","There isn't enough sugar",NA,NA,NA,NA
+438,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","A","B","A","B","C","A","According to my taste, it is sweeter","Not sweet at all",NA,NA,NA,NA
+439,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 12","NASPOT 8","B","C","B","A","A","B","It is very sweet and has a rich aroma","Not sweet at all",NA,NA,NA,NA
+436,"Uganda","Wakiso","Man","home","NASPOT 8","Ejumula","Kakamega","B","C","B","A","A","C","B is the sweetes","A is hard but was ot sweet",NA,NA,NA,NA
+437,"Uganda","Wakiso","Woman","home","NASPOT 8","Ejumula","Kakamega","A","B","A","B","C","A","sweet and hard","B has a bad smell",NA,NA,NA,NA
+434,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","C","A","C","B","A","A had a heavier taste than C and B","C has little sugar",NA,NA,NA,NA
+435,"Uganda","Wakiso","Woman","home","Ejumula","Kakamega","NASPOT 10 (Kabode)","A","B","A","B","C","A","not watery, mealy, very sweet","Not rich in aroma, not very sweet",NA,NA,NA,NA
+431,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 13","NASPOT 12","A","C","B","C","A","B","very sweet, hard peel, marketable","not sweet",NA,NA,NA,NA
+432,"Uganda","Wakiso","Man","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","B","A","It is good in color and tastes better when eaten","It us salty and has a bad smell",NA,NA,NA,NA
+433,"Uganda","Wakiso","Woman","home","Kakamega","NASPOT 13","NASPOT 12","B","C","B","C","B","C","sweet, rich aroma, mealy, attractive peel","not very sweet, not mealy, bad peel",NA,NA,NA,NA
+429,"Uganda","Wakiso","Man","home","NASPOT 13","NASPOT 8","Ejumula","C","B","A","B","C","B","According to my taste it is the sweetest","According to me, the appearance and the taste",NA,NA,NA,NA
+430,"Uganda","Wakiso","Woman","home","NASPOT 13","NASPOT 8","Ejumula","A","B","A","B","A","B","A is sweeter than B and C",NA,NA,NA,NA,NA
+425,"Uganda","Wakiso","Woman","home","NASPOT 8","Ejumula","Kakamega","B","A","B","A","C","B","Tastes sweet","It iastes very nice",NA,NA,NA,NA
+426,"Uganda","Wakiso","Man","home","NASPOT 8","Ejumula","Kakamega","B","C","B","C","A","B","It was so soft","It was too sweet",NA,NA,NA,NA
+421,"Uganda","Wakiso","Woman","home","NASPOT 13","NASPOT 8","Ejumula","A","C","B","A","B","A","sweet, mealy","too soft when cooked",NA,NA,NA,NA
+422,"Uganda","Wakiso","Man","home","NASPOT 13","NASPOT 8","Ejumula","A","C","B","A","B","A","It is sweet and mealy","It is sweet but too soft",NA,NA,NA,NA
+420,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","C","B","C","B","A","C","Moderately moist so it is solid when cooked","It is sticky and has a bad smell",NA,NA,NA,NA
+419,"Uganda","Wakiso","Man","home","NASPOT 10 (Kabode)","NASPOT 13","NASPOT 8","B","A","B","A","C","B","sweet","tasteless",NA,NA,NA,NA
+418,"Uganda","Wakiso","Woman","home","NASPOT 8","Kakamega","NASPOT 12","B","C","B","A","A","B",NA,"maly, noe color, big size",NA,NA,NA,NA
+416,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","It is very sweet, good in color","No sugar, has no taste",NA,NA,NA,NA
+417,"Uganda","Wakiso","Woman","home","Ejumula","NASPOT 12","NASPOT 10 (Kabode)","A","C","A","C","B","A","It has good taste, goof in color, has flavor","Has no taste, takes long to get ready",NA,NA,NA,NA
+414,"Uganda","Wakiso","Man","home","Kakamega","Ejumula","NASPOT 13","C","A","C","A","C","A","moderately sweet, no lingering taste","bad appearance,",NA,NA,NA,NA
+415,"Uganda","Wakiso","Man","home","Kakamega","Ejumula","NASPOT 13","B","A","B","A","B","A","moderately sweet","Not as sweet as sweetpotato usually is",NA,NA,NA,NA
+411,"Uganda","Wakiso","Woman","home","NASPOT 12","NASPOT 13","NASPOT 8","B","C","B","C","B","C","sweet, nice aroma, mealy","Not sweet",NA,NA,NA,NA
+412,"Uganda","Wakiso","Man","home","NASPOT 12","NASPOT 13","NASPOT 8","B","C","B","C","B","A","Tastes sweet like something with sugar","Does not taste sweet",NA,NA,NA,NA
+413,"Uganda","Wakiso","Man","home","NASPOT 12","NASPOT 13","NASPOT 8","B","C","B","C","B","A","It is sweet","Not sweet",NA,NA,NA,NA
+409,"Uganda","Wakiso","Woman","home","NASPOT 10 (Kabode)","NASPOT 8","Ejumula","C","B","C","B","A","C","sweet smell, swet","not sweet enough",NA,NA,NA,NA
 755,"Ghana","Northern","Man","community","SARI-Diedi (Tu-Purple)","SARI-Nan","PG17206-N5","B","C",NA,NA,NA,NA,NA,NA,"Waribogu","26","advanced_trial",NA
 971,"Ghana","Northern","Man","community","PG17206-N5","PG17305-N1","SARI-Diedi (Tu-Purple)","B","A",NA,NA,NA,NA,NA,NA,"Waribogu","37","advanced_trial",NA
 1191,"Ghana","Northern","Man","community","CRI-Ligri","SARI-Diedi (Tu-Purple)","PG17305-N1","B","A",NA,NA,NA,NA,NA,NA,"Waribogu","35","advanced_trial",NA

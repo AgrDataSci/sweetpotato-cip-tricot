@@ -13,7 +13,7 @@ sessioninfo::session_info()
 capture.output(sessioninfo::session_info(),
                file = "script/session_info/03_text_analysis.txt")
 
-output <- "output/sentiment_analysis/"
+output <- "output/"
 dir.create(output, showWarnings = FALSE, recursive = TRUE)
 
 # read data
@@ -276,7 +276,7 @@ p <-
 
 p
 
-ggsave(paste0(output, "drivers_sentiment_analysis.png"),
+ggsave(paste0(output, "Fig6_drivers_sentiment_analysis.png"),
        p, 
        width = 8,
        height = 11,
