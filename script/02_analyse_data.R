@@ -196,7 +196,7 @@ p_h <- p_h + plot_annotation(title = "B")
 p <- p_c | p_h 
 p
 
-ggsave("output/Fig8_pltree_community_home_uganda.png",
+ggsave("output/Fig8_pltree_community_home_uganda.jpg",
        plot = p, 
        width = 12,
        height = 6,
@@ -307,7 +307,7 @@ p <- p +
 p <- p + plot_annotation(tag_prefix = "A")
 
 
-ggsave("output/Fig7_pltree_community_home_ghana.png",
+ggsave("output/Fig7_pltree_community_home_ghana.jpg",
        plot = p, 
        width = 17,
        height = 10,
@@ -504,6 +504,11 @@ for (i in seq_along(multpl)){
     o$term <- factor(o$term, levels = gfact)
   }
   
+  label_y <- ""
+  if(i == 1 | i == 3) {
+    label_y <- "Genotype"
+  }
+  
   plots[[i]] <- 
   ggplot(data = o,
          aes(x = estimate, 
@@ -515,7 +520,7 @@ for (i in seq_along(multpl)){
                colour = "#E5E7E9", size = 0.8) +
     geom_errorbar(width = 0.1, col = "grey30") +
     geom_point(col = "grey20") +
-    labs(x = "Estimate", y = "Genotype") +
+    labs(x = "Estimate", y = label_y) +
     geom_text(vjust = -0.5, col = "grey20") +
     scale_x_continuous(limits = c(pmin, pmax)) +
     theme_bw() +
@@ -527,10 +532,6 @@ for (i in seq_along(multpl)){
 
 # plot results from Uganda
 
-plots[[2]] <- 
-  plots[[2]] +
-  labs(y = "")
-
 pu <-
   (plots[[1]] | plots[[2]]) / dworth_uga +
   plot_layout(heights = c(1, 1.5)) +
@@ -538,15 +539,13 @@ pu <-
 
 pu
 
-ggsave("output/Fig5_model_estimates_uganda.png",
+ggsave("output/Fig5_model_estimates_uganda.jpg",
        pu, 
        width = 9,
        height = 9,
        dpi = 800)
 
-plots[[4]] <- 
-  plots[[4]] +
-  labs(y = "")
+
 
 pg <-
   (plots[[3]] | plots[[4]]) / dworth_gha +
@@ -554,7 +553,7 @@ pg <-
 
 pg
 
-ggsave("output/Fig4_model_estimates_ghana.png",
+ggsave("output/Fig4_model_estimates_ghana.jpg",
        pg, 
        width = 10,
        height = 13,
@@ -612,7 +611,7 @@ p <- p + plot_layout(heights = c(2,0.7)) + plot_annotation(tag_levels = "A")
 
 p
 
-ggsave("output/Fig3_favourability_score.png",
+ggsave("output/Fig3_favourability_score.jpg",
        plot = p, 
        width = 7,
        height = 7,

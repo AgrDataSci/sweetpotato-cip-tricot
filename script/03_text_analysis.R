@@ -276,7 +276,7 @@ p <-
 
 p
 
-ggsave(paste0(output, "Fig6_drivers_sentiment_analysis.png"),
+ggsave(paste0(output, "Fig6_drivers_sentiment_analysis.jpg"),
        p, 
        width = 8,
        height = 11,
