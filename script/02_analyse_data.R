@@ -11,6 +11,7 @@ library("ggparty")
 library("patchwork")
 library("ggplot2")
 library("multcompView")
+library("ggrepel")
 
 
 # write session info
@@ -19,7 +20,7 @@ capture.output(sessioninfo::session_info(),
                file = "script/session_info/02_analyse_data.txt")
 
 
-dir.create("output/")
+dir.create("output/", showWarnings = FALSE, recursive = TRUE)
 # ..........................................
 # ..........................................
 # Read data ####
@@ -144,18 +145,6 @@ a <- summarise_agreement(R[[1]],
                          compare.to = R[-1],
                          labels = c("Taste","Colour"))
 
-p <- 
-  plot(a, scales = 1) +
-  theme_bw() +
-  theme(panel.grid.major = element_blank(),
-        panel.background = element_blank(),
-        axis.text = element_text(size = 11, face = "bold", color = "gray20"),
-        strip.text.x = element_text(size = 12, color = "gray20", face = "bold"),
-        strip.background = element_rect(fill = "#FFFFFF")) +
-  scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9")) 
-
-p
-
 # put the scale into 0-1
 a[2:4] <- lapply(a[2:4], function(x) x /100)
 
@@ -185,20 +174,31 @@ head(pld)
 table(pld$Trial)
 
 plt_c <- pltree(G ~ ., data = pld[pld$Trial == "community",], alpha = 0.1, minsize = 10)
-p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refuga)
+p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refuga,
+                          nudge.x = 0.03,
+                          nudge.y = 0.22,
+                          letter.size = 15)
+p_c
 p_c <- p_c + plot_annotation(title = "A")
 
 
 plt_h <- pltree(G ~ ., data = pld[pld$Trial == "home",], alpha = 0.1, minsize = 10)
-p_h <- gosset:::plot_tree(plt_h, add.letters = TRUE, threshold = 0.1, ref = refuga)
+p_h <- gosset:::plot_tree(plt_h, 
+                          add.letters = TRUE, 
+                          threshold = 0.1, 
+                          ref = refuga, 
+                          nudge.x = 0.03,
+                          nudge.y = 0.22,
+                          letter.size = 15)
+p_h
 p_h <- p_h + plot_annotation(title = "B")
 
 p <- p_c | p_h 
 p
 
-ggsave("output/Fig8_pltree_community_home_uganda.jpg",
+ggsave("output/Fig8_pltree_community_home_uganda.svg",
        plot = p, 
-       width = 12,
+       width = 15,
        height = 6,
        dpi = 500)
 
@@ -292,11 +292,17 @@ head(pld)
 table(pld$Trial)
 
 plt_c <- pltree(G ~ District + Age + Gender, data = pld[pld$Trial == "community",], alpha = 0.1, minsize = 5)
-p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refgha)
+p_c <- gosset:::plot_tree(plt_c, add.letters = TRUE, threshold = 0.1, ref = refgha, 
+                          nudge.x = 0.01,
+                          nudge.y = 0.4,
+                          letter.size = 15)
 p_c
 
 plt_h <- pltree(G ~ District + Age + Gender, data = pld[pld$Trial == "home",], alpha = 0.1, minsize = 5)
-p_h <- gosset:::plot_tree(plt_h, add.letters = TRUE, threshold = 0.1, ref = refgha)
+p_h <- gosset:::plot_tree(plt_h, add.letters = TRUE, threshold = 0.1, ref = refgha, 
+                          nudge.x = 0.01,
+                          nudge.y = 0.4,
+                          letter.size = 15)
 p_h
 
 p <- p_c | (wrap_elements(grid::textGrob('')) / p_h)
@@ -307,10 +313,10 @@ p <- p +
 p <- p + plot_annotation(tag_prefix = "A")
 
 
-ggsave("output/Fig7_pltree_community_home_ghana.jpg",
+ggsave("output/Fig7_pltree_community_home_ghana.svg",
        plot = p, 
-       width = 17,
-       height = 10,
+       width = 15,
+       height = 11,
        dpi = 900)
 
 # ..........................................
@@ -385,15 +391,16 @@ dworth_uga <-
   ggplot(comp,
        aes(x = aver, y = diff, label = item)) +
   geom_point() +
-    geom_text(hjust = 0, nudge_x = 0.02, size = 2.5) +
+  geom_text_repel() +
   geom_hline(yintercept = llim, linetype = "dashed", col = "grey30") +
   geom_hline(yintercept = ulim, linetype = "dashed", col = "grey30") +
   geom_hline(yintercept = mean(comp$diff), col = "red") +
   theme_bw() +
   scale_x_continuous(limits = c(-2.7, -0.5)) + 
   theme(panel.grid = element_blank(),
-        axis.text = element_text(size = 11, color = "grey20", face = 2),
-        axis.title = element_text(size = 10, color = "grey20", face = 2)) +
+        text = element_text(size = 15),
+        axis.text = element_text(size = 13, color = "grey20", face = 2),
+        axis.title = element_text(size = 12, color = "grey20", face = 2)) +
   labs(x = "Average log-worth", 
        y = "Difference in log-worth (centralised - home)")
 
@@ -434,15 +441,16 @@ dworth_gha <-
   ggplot(comp,
        aes(x = aver, y = diff, label = item)) +
   geom_point() +
-  geom_text(hjust = 0, nudge_x = 0.02, size = 2.5, col = "grey20") +
+  geom_text_repel() +
   geom_hline(yintercept = llim, linetype = "dashed", col = "grey30") +
   geom_hline(yintercept = ulim, linetype = "dashed", col = "grey30") +
   geom_hline(yintercept = mean(comp$diff), col = "red") +
   theme_bw() +
   scale_x_continuous(limits = c(-3.7, -1.7)) + 
   theme(panel.grid = element_blank(),
-        axis.text = element_text(size = 11, color = "grey20", face = 2),
-        axis.title = element_text(size = 10, color = "grey20", face = 2)) +
+        text = element_text(size = 15),
+        axis.text = element_text(size = 13, color = "grey20", face = 2),
+        axis.title = element_text(size = 12, color = "grey20", face = 2)) +
   labs(x = "Average log-worth", 
        y = "Difference in log-worth (centralised - home)")
 
@@ -525,8 +533,9 @@ for (i in seq_along(multpl)){
     scale_x_continuous(limits = c(pmin, pmax)) +
     theme_bw() +
     theme(panel.grid = element_blank(),
-          axis.text = element_text(size = 11, color = "grey20", face = 2),
-          axis.title = element_text(size = 10, color = "grey20", face = 2))
+          text = element_text(size = 15),
+          axis.text = element_text(size = 13, color = "grey20", face = 2),
+          axis.title = element_text(size = 12, color = "grey20", face = 2))
   
 }
 
@@ -539,7 +548,13 @@ pu <-
 
 pu
 
-ggsave("output/Fig5_model_estimates_uganda.jpg",
+ggsave("output/Fig5_model_estimates_uganda.eps",
+       pu, 
+       width = 9,
+       height = 9,
+       dpi = 800)
+
+ggsave("output/Fig5_model_estimates_uganda.png",
        pu, 
        width = 9,
        height = 9,
@@ -553,9 +568,15 @@ pg <-
 
 pg
 
-ggsave("output/Fig4_model_estimates_ghana.jpg",
+ggsave("output/Fig4_model_estimates_ghana.eps",
        pg, 
-       width = 10,
+       width = 13,
+       height = 13,
+       dpi = 800)
+
+ggsave("output/Fig4_model_estimates_ghana.png",
+       pg, 
+       width = 13,
        height = 13,
        dpi = 800)
 
@@ -580,7 +601,7 @@ p_g <-
   theme(legend.position = "none",
         panel.background = element_blank(),
         panel.grid.major = element_blank(),
-        axis.text = element_text(size = 12, color = "grey30"),
+        axis.text = element_text(size = 15, color = "grey30"),
         axis.title = element_text(size = 12, color = "grey30"))
 
 p_g
@@ -599,7 +620,7 @@ p_u <-
   theme(legend.position = "none",
         panel.background = element_blank(),
         panel.grid.major = element_blank(),
-        axis.text = element_text(size = 12, color = "grey30"),
+        axis.text = element_text(size = 15, color = "grey30"),
         axis.title = element_text(size = 12, color = "grey30"))
 
 p_u
@@ -611,9 +632,15 @@ p <- p + plot_layout(heights = c(2,0.7)) + plot_annotation(tag_levels = "A")
 
 p
 
-ggsave("output/Fig3_favourability_score.jpg",
+ggsave("output/Fig3_favourability_score.png",
        plot = p, 
-       width = 7,
+       width = 9,
+       height = 7,
+       dpi = 800)
+
+ggsave("output/Fig3_favourability_score.eps",
+       plot = p, 
+       width = 9,
        height = 7,
        dpi = 800)
 

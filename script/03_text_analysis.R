@@ -58,17 +58,20 @@ p1 <-
 count_dt %>% 
   ggplot(aes(x = n, y = word, fill = sentiment)) +
   geom_col(show.legend = FALSE) +
-  facet_wrap(~sentiment, scales = "free_y") +
+  facet_wrap(~ sentiment, scales = "free_y") +
   labs(x = "Frequency of sentiment",
        y = NULL) +
   scale_fill_manual(values=c("#92c5de", "#d73027")) +
   theme_bw() +
   theme(panel.grid = element_blank(),
-        strip.text.x = element_text(size = 11),
+        strip.text.x = element_text(size = 13),
         strip.background = element_rect(fill="#FFFFFF", 
                                         colour = "#FFFFFF"),
-        axis.text = element_text(size = 10),
-        axis.title = element_text(size = 11))
+        text = element_text(size = 13),
+        axis.text = element_text(size = 13),
+        axis.title = element_text(size = 12))
+
+p1
 
 # # ..........................................
 # # ..........................................
@@ -214,13 +217,11 @@ ggplot(bwg) +
   geom_text(data = bwg[bwg$sentiment == "Best", ],
             aes(x = 0, y = geno, label = s),
             hjust = 1,
-            col = "grey20", 
-            size = 2) +
+            col = "grey20") +
   geom_text(data = bwg[bwg$sentiment == "Worst", ],
             aes(x = 1, y = geno, label = s),
             hjust = 0, 
-            col = "grey20",
-            size = 2) +
+            col = "grey20") +
   scale_fill_manual(values = c("#d73027", "#92c5de"), name = "") +
   geom_vline(aes(xintercept = 0.5), col = "grey50") +
   labs(x = "", y = "Genotype") +
@@ -228,13 +229,14 @@ ggplot(bwg) +
                      labels = c("","0%","50%","100%", " ")) +
   theme_bw() +
   theme(panel.grid = element_blank(),
+        text = element_text(size = 13),
         strip.text.x = element_text(size = 10, colour = "grey20"),
         strip.background = element_rect(fill="#FFFFFF", 
                                         colour = "#FFFFFF"),
-        axis.text = element_text(size = 10, colour = "grey20"),
-        axis.title = element_text(size = 10, colour = "grey20"),
+        axis.text = element_text(size = 13, colour = "grey20"),
+        axis.title = element_text(size = 12, colour = "grey20"),
         legend.position = "bottom",
-        legend.text = element_text(size = 9, colour = "grey20"))
+        legend.text = element_text(size = 11, colour = "grey20"))
 
 p2
 
@@ -245,13 +247,11 @@ p3 <-
   geom_text(data = bwu[bwu$sentiment == "Best", ],
             aes(x = 0, y = geno, label = s),
             hjust = 1,
-            col = "grey20", 
-            size = 2) +
+            col = "grey20") +
   geom_text(data = bwu[bwu$sentiment == "Worst", ],
             aes(x = 1, y = geno, label = s),
             hjust = 0, 
-            col = "grey20",
-            size = 2) +
+            col = "grey20") +
   scale_fill_manual(values = c("#d73027", "#92c5de"), name = "") +
   geom_vline(aes(xintercept = 0.5), col = "grey50") +
   labs(x = "Share of sentiment", y = "Genotype") +
@@ -259,13 +259,14 @@ p3 <-
                      labels = c("","0%","50%","100%", " ")) +
   theme_bw() +
   theme(panel.grid = element_blank(),
+        text = element_text(size = 13),
         strip.text.x = element_text(size = 10, colour = "grey20"),
         strip.background = element_rect(fill="#FFFFFF", 
                                         colour = "#FFFFFF"),
-        axis.text = element_text(size = 10, colour = "grey20"),
-        axis.title = element_text(size = 10, colour = "grey20"),
+        axis.text = element_text(size = 13, colour = "grey20"),
+        axis.title = element_text(size = 12, colour = "grey20"),
         legend.position = "bottom",
-        legend.text = element_text(size = 9, colour = "grey20"))
+        legend.text = element_text(size = 11, colour = "grey20"))
 
 p3
 
@@ -276,7 +277,7 @@ p <-
 
 p
 
-ggsave(paste0(output, "Fig6_drivers_sentiment_analysis.jpg"),
+ggsave(paste0(output, "Fig6_drivers_sentiment_analysis.eps"),
        p, 
        width = 8,
        height = 11,
